@@ -1,0 +1,43 @@
+id: template_chat_flow
+name: Template Chat Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  question:
+    type: string
+    is_chat_input: true
+    default: ""
+  chat_history:
+    type: list
+outputs:
+  response:
+    type: string
+    reference: ${getSummary.output}
+    is_chat_output: true
+nodes:
+- name: chat
+  type: llm
+  source:
+    type: code
+    path: chat.jinja2
+  inputs:
+    max_tokens: 256
+    temperature: 0
+    model: gpt-3.5-turbo
+    question: ${inputs.question}
+    context: ${getEmails.output}
+  connection: con_openAI
+  api: chat
+- name: getEmails
+  type: python
+  source:
+    type: code
+    path: getEmails.py
+  inputs: {}
+- name: getSummary
+  type: prompt
+  source:
+    type: code
+    path: getSummary.jinja2
+  inputs:
+    text: ${getEmails.output}
