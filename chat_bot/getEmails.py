@@ -50,7 +50,7 @@ def chat_bot(input_text):
         summary = generate_email_summary()
         return summary
     else:
-        return "I'm sorry, I cannot provide information on that topic"
+        return "I'm sorry, I cannot provide information"
 
 input_text = "How is my emails today?"
 response = chat_bot(input_text)
