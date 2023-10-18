@@ -19,6 +19,8 @@ def generate_email_summary():
         if isinstance(item, dict)
     ]
 
+    # email_contents = [item.get("body", "") for item in data if isinstance(item, dict)]
+
     plain_text_contents = []
     for content in email_contents:
         soup = BeautifulSoup(content, "html.parser")
