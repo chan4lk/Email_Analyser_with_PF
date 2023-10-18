@@ -1,42 +1,42 @@
 {
   "flow_runs": [
     {
-      "run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a_0",
+      "run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9_0",
       "status": "Completed",
       "error": null,
       "inputs": {
         "chat_history": [
           {
             "inputs": {
-              "question": "How is my emails today"
+              "question": "how is my emails today"
             },
             "outputs": {
-              "response": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.\n\n\n"
+              "response": "\n\n\n"
             }
           }
         ],
-        "question": "How is my emails today"
+        "question": "how is my emails today"
       },
       "output": {
-        "response": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.\n\n\n"
+        "response": "\n\n\n"
       },
       "metrics": null,
       "request": null,
-      "parent_run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a",
-      "root_run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a",
+      "parent_run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9",
+      "root_run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9",
       "source_run_id": null,
       "flow_id": "template_chat_flow",
-      "start_time": "2023-10-17T06:11:17.010271Z",
-      "end_time": "2023-10-17T06:11:22.933715Z",
+      "start_time": "2023-10-17T19:28:01.092817Z",
+      "end_time": "2023-10-17T19:28:08.521079Z",
       "index": 0,
       "api_calls": [
         {
           "name": "generate_email_summary",
           "type": "Tool",
           "inputs": {},
-          "output": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.",
-          "start_time": 1697503277.010704,
-          "end_time": 1697503277.011354,
+          "output": "",
+          "start_time": 1697551081.093231,
+          "end_time": 1697551081.09355,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -46,15 +46,15 @@
           "type": "Tool",
           "inputs": {
             "prompt": "system:\nYou are an assistant to help to analyse the given context give an idea to user..\n{{context}}\nHuman: {{question}}\nBot:",
-            "context": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.",
+            "context": "",
             "max_tokens": 256,
             "model": "gpt-3.5-turbo",
-            "question": "How is my emails today",
+            "question": "how is my emails today",
             "temperature": 0.0
           },
-          "output": "I'm sorry, but I am not able to access your emails. I am an AI assistant here to help with any questions or tasks you may have. Is there something specific you would like assistance with?",
-          "start_time": 1697503277.012094,
-          "end_time": 1697503282.924778,
+          "output": "I'm sorry, but as an AI language model, I don't have access to personal data about your emails. However, you can check your email inbox to see how many emails you have received today and review their content. If you have any specific questions or need assistance with a particular email, feel free to ask!",
+          "start_time": 1697551081.094253,
+          "end_time": 1697551088.512689,
           "error": null,
           "children": [
             {
@@ -66,7 +66,7 @@
                 "messages": [
                   {
                     "role": "system",
-                    "content": "You are an assistant to help to analyse the given context give an idea to user..\nExplore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.\nHuman: How is my emails today\nBot:"
+                    "content": "You are an assistant to help to analyse the given context give an idea to user..\n\nHuman: how is my emails today\nBot:"
                   }
                 ],
                 "temperature": 0.0,
@@ -81,28 +81,28 @@
                 "user": ""
               },
               "output": {
-                "id": "chatcmpl-8AXaPnm2tS6l0SqRtT1DUeJRkdVPE",
+                "id": "chatcmpl-8Ak1SOnaYzuWbsB3xaBlD1tAFTS5d",
                 "object": "chat.completion",
-                "created": 1697523077,
+                "created": 1697570882,
                 "model": "gpt-3.5-turbo-0613",
                 "choices": [
                   {
                     "index": 0,
                     "message": {
                       "role": "assistant",
-                      "content": "I'm sorry, but I am not able to access your emails. I am an AI assistant here to help with any questions or tasks you may have. Is there something specific you would like assistance with?"
+                      "content": "I'm sorry, but as an AI language model, I don't have access to personal data about your emails. However, you can check your email inbox to see how many emails you have received today and review their content. If you have any specific questions or need assistance with a particular email, feel free to ask!"
                     },
                     "finish_reason": "stop"
                   }
                 ],
                 "usage": {
-                  "prompt_tokens": 143,
-                  "completion_tokens": 41,
-                  "total_tokens": 184
+                  "prompt_tokens": 34,
+                  "completion_tokens": 64,
+                  "total_tokens": 98
                 }
               },
-              "start_time": 1697503277.013874,
-              "end_time": 1697503282.924446,
+              "start_time": 1697551081.095411,
+              "end_time": 1697551088.512304,
               "error": null,
               "children": null,
               "node_name": null
@@ -115,11 +115,11 @@
           "type": "Tool",
           "inputs": {
             "template": "{{text}}\n\n\n",
-            "text": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition."
+            "text": ""
           },
-          "output": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.\n\n\n",
-          "start_time": 1697503277.012188,
-          "end_time": 1697503277.01319,
+          "output": "\n\n\n",
+          "start_time": 1697551081.094335,
+          "end_time": 1697551081.09698,
           "error": null,
           "children": null,
           "node_name": "getSummary"
@@ -130,11 +130,11 @@
       "description": "",
       "tags": null,
       "system_metrics": {
-        "duration": 5.923444,
-        "total_tokens": 184
+        "duration": 7.428262,
+        "total_tokens": 98
       },
       "result": {
-        "response": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.\n\n\n"
+        "response": "\n\n\n"
       },
       "upload_metrics": false
     }
@@ -142,25 +142,25 @@
   "node_runs": [
     {
       "node": "getEmails",
-      "flow_run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a",
-      "run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a_getEmails_0",
+      "flow_run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9",
+      "run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9_getEmails_0",
       "status": "Completed",
       "inputs": {},
-      "output": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.",
+      "output": "",
       "metrics": null,
       "error": null,
-      "parent_run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a_0",
-      "start_time": "2023-10-17T06:11:17.010650Z",
-      "end_time": "2023-10-17T06:11:17.011712Z",
+      "parent_run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9_0",
+      "start_time": "2023-10-17T19:28:01.093204Z",
+      "end_time": "2023-10-17T19:28:01.093905Z",
       "index": 0,
       "api_calls": [
         {
           "name": "generate_email_summary",
           "type": "Tool",
           "inputs": {},
-          "output": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.",
-          "start_time": 1697503277.010704,
-          "end_time": 1697503277.011354,
+          "output": "",
+          "start_time": 1697551081.093231,
+          "end_time": 1697551081.09355,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -174,29 +174,29 @@
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 0.001062
+        "duration": 0.000701
       },
-      "result": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition."
+      "result": ""
     },
     {
       "node": "chat",
-      "flow_run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a",
-      "run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a_chat_0",
+      "flow_run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9",
+      "run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9_chat_0",
       "status": "Completed",
       "inputs": {
         "prompt": "system:\nYou are an assistant to help to analyse the given context give an idea to user..\n{{context}}\nHuman: {{question}}\nBot:",
-        "context": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.",
+        "context": "",
         "max_tokens": 256,
         "model": "gpt-3.5-turbo",
-        "question": "How is my emails today",
+        "question": "how is my emails today",
         "temperature": 0.0
       },
-      "output": "I'm sorry, but I am not able to access your emails. I am an AI assistant here to help with any questions or tasks you may have. Is there something specific you would like assistance with?",
+      "output": "I'm sorry, but as an AI language model, I don't have access to personal data about your emails. However, you can check your email inbox to see how many emails you have received today and review their content. If you have any specific questions or need assistance with a particular email, feel free to ask!",
       "metrics": null,
       "error": null,
-      "parent_run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a_0",
-      "start_time": "2023-10-17T06:11:17.012042Z",
-      "end_time": "2023-10-17T06:11:22.931140Z",
+      "parent_run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9_0",
+      "start_time": "2023-10-17T19:28:01.094211Z",
+      "end_time": "2023-10-17T19:28:08.518369Z",
       "index": 0,
       "api_calls": [
         {
@@ -204,15 +204,15 @@
           "type": "Tool",
           "inputs": {
             "prompt": "system:\nYou are an assistant to help to analyse the given context give an idea to user..\n{{context}}\nHuman: {{question}}\nBot:",
-            "context": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.",
+            "context": "",
             "max_tokens": 256,
             "model": "gpt-3.5-turbo",
-            "question": "How is my emails today",
+            "question": "how is my emails today",
             "temperature": 0.0
           },
-          "output": "I'm sorry, but I am not able to access your emails. I am an AI assistant here to help with any questions or tasks you may have. Is there something specific you would like assistance with?",
-          "start_time": 1697503277.012094,
-          "end_time": 1697503282.924778,
+          "output": "I'm sorry, but as an AI language model, I don't have access to personal data about your emails. However, you can check your email inbox to see how many emails you have received today and review their content. If you have any specific questions or need assistance with a particular email, feel free to ask!",
+          "start_time": 1697551081.094253,
+          "end_time": 1697551088.512689,
           "error": null,
           "children": [
             {
@@ -224,7 +224,7 @@
                 "messages": [
                   {
                     "role": "system",
-                    "content": "You are an assistant to help to analyse the given context give an idea to user..\nExplore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.\nHuman: How is my emails today\nBot:"
+                    "content": "You are an assistant to help to analyse the given context give an idea to user..\n\nHuman: how is my emails today\nBot:"
                   }
                 ],
                 "temperature": 0.0,
@@ -239,28 +239,28 @@
                 "user": ""
               },
               "output": {
-                "id": "chatcmpl-8AXaPnm2tS6l0SqRtT1DUeJRkdVPE",
+                "id": "chatcmpl-8Ak1SOnaYzuWbsB3xaBlD1tAFTS5d",
                 "object": "chat.completion",
-                "created": 1697523077,
+                "created": 1697570882,
                 "model": "gpt-3.5-turbo-0613",
                 "choices": [
                   {
                     "index": 0,
                     "message": {
                       "role": "assistant",
-                      "content": "I'm sorry, but I am not able to access your emails. I am an AI assistant here to help with any questions or tasks you may have. Is there something specific you would like assistance with?"
+                      "content": "I'm sorry, but as an AI language model, I don't have access to personal data about your emails. However, you can check your email inbox to see how many emails you have received today and review their content. If you have any specific questions or need assistance with a particular email, feel free to ask!"
                     },
                     "finish_reason": "stop"
                   }
                 ],
                 "usage": {
-                  "prompt_tokens": 143,
-                  "completion_tokens": 41,
-                  "total_tokens": 184
+                  "prompt_tokens": 34,
+                  "completion_tokens": 64,
+                  "total_tokens": 98
                 }
               },
-              "start_time": 1697503277.013874,
-              "end_time": 1697503282.924446,
+              "start_time": 1697551081.095411,
+              "end_time": 1697551088.512304,
               "error": null,
               "children": null,
               "node_name": null
@@ -277,28 +277,28 @@
         "stderr": ""
       },
       "system_metrics": {
-        "prompt_tokens": 143,
-        "completion_tokens": 41,
-        "total_tokens": 184,
-        "duration": 5.919098
+        "prompt_tokens": 34,
+        "completion_tokens": 64,
+        "total_tokens": 98,
+        "duration": 7.424158
       },
-      "result": "I'm sorry, but I am not able to access your emails. I am an AI assistant here to help with any questions or tasks you may have. Is there something specific you would like assistance with?"
+      "result": "I'm sorry, but as an AI language model, I don't have access to personal data about your emails. However, you can check your email inbox to see how many emails you have received today and review their content. If you have any specific questions or need assistance with a particular email, feel free to ask!"
     },
     {
       "node": "getSummary",
-      "flow_run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a",
-      "run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a_getSummary_0",
+      "flow_run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9",
+      "run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9_getSummary_0",
       "status": "Completed",
       "inputs": {
         "template": "{{text}}\n\n\n",
-        "text": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition."
+        "text": ""
       },
-      "output": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.\n\n\n",
+      "output": "\n\n\n",
       "metrics": null,
       "error": null,
-      "parent_run_id": "08ccf8ba-abad-4ac6-9299-dc65fb6be96a_0",
-      "start_time": "2023-10-17T06:11:17.012165Z",
-      "end_time": "2023-10-17T06:11:17.014520Z",
+      "parent_run_id": "d281c8d7-d503-4447-9192-eb4cdb7507e9_0",
+      "start_time": "2023-10-17T19:28:01.094315Z",
+      "end_time": "2023-10-17T19:28:01.097457Z",
       "index": 0,
       "api_calls": [
         {
@@ -306,11 +306,11 @@
           "type": "Tool",
           "inputs": {
             "template": "{{text}}\n\n\n",
-            "text": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition."
+            "text": ""
           },
-          "output": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.\n\n\n",
-          "start_time": 1697503277.012188,
-          "end_time": 1697503277.01319,
+          "output": "\n\n\n",
+          "start_time": 1697551081.094335,
+          "end_time": 1697551081.09698,
           "error": null,
           "children": null,
           "node_name": "getSummary"
@@ -324,9 +324,9 @@
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 0.002355
+        "duration": 0.003142
       },
-      "result": "Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Date: 5th December (Monday) Discover the wonders of nature with our guided eco-tour. Date: 15th January (Saturday) Embark on a culinary adventure with our gourmet food festival. Date: 20th February (Sunday) Unleash your creativity at our art exhibition.\n\n\n"
+      "result": "\n\n\n"
     }
   ]
 }
