@@ -1,14 +1,111 @@
-[
-  {
-    "body": "We're thrilled to announce our upcoming product launch event! Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Don't miss this opportunity to be part of the future of technology. Date: 5th December (Monday)"
-  },
-  {
-    "body": "Discover the wonders of nature with our guided eco-tour. Experience the breathtaking beauty of untouched landscapes, encounter diverse wildlife, and learn about conservation efforts. Get ready for a journey of a lifetime! Date: 15th January (Saturday)"
-  },
-  {
-    "body": "Embark on a culinary adventure with our gourmet food festival. Indulge in delectable dishes from around the world, savor unique flavors, and enjoy live cooking demonstrations. Foodies, this is an event you won't want to miss! Date: 20th February (Sunday)"
-  },
-  {
-    "body": "Unleash your creativity at our art exhibition. Explore stunning works of art from talented artists, engage in interactive art installations, and even try your hand at creating your own masterpiece. Join us for a day of artistic inspiration! Date: 10th March (Thursday)"
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('48d31887-5fad-4d73-a9f5-3c356e68a038')/messages",
+  "value": [
+      {
+          "@odata.etag": "W/\"CQAAABYAAAAiIsqMbYjsT5e/T7KzowPTAAXRkDBC\"",
+          "id": "AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAWrr9YYAAAiIsqMbYjsT5e-T7KzowPTAAXS20y5AAA=",
+          "createdDateTime": "2023-10-17T17:32:27Z",
+          "lastModifiedDateTime": "2023-10-17T17:32:27Z",
+          "changeKey": "CQAAABYAAAAiIsqMbYjsT5e/T7KzowPTAAXRkDBC",
+          "categories": [],
+          "receivedDateTime": "2023-10-17T17:32:27Z",
+          "sentDateTime": "2023-10-17T17:32:27Z",
+          "hasAttachments": false,
+          "internetMessageId": "<MW4PR15MB45568EBB185FDDB89783B85ACDD6A@MW4PR15MB4556.namprd15.prod.outlook.com>",
+          "subject": null,
+          "bodyPreview": "",
+          "importance": "normal",
+          "parentFolderId": "AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OAAuAAAAAAAiQ8W967B7TKBjgx9rVEURAQAiIsqMbYjsT5e-T7KzowPTAAWrr9YYAAA=",
+          "conversationId": "AAQkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OAAQAO0zSBHSsPtMtgmRVc_EnuM=",
+          "conversationIndex": "AQHaAR/l7TNIEdKw+0y2CZFVz4Se4w==",
+          "isDeliveryReceiptRequested": null,
+          "isReadReceiptRequested": false,
+          "isRead": true,
+          "isDraft": true,
+          "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e%2FT7KzowPTAAWrr9YYAAAiIsqMbYjsT5e%2FT7KzowPTAAXS20y5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+          "inferenceClassification": "focused",
+          "body": {
+              "contentType": "text",
+              "content": "We're thrilled to announce our upcoming product launch event! Join us for an exclusive sneak peek at our latest innovations, where you'll witness cutting-edge technology in action. Don't miss this opportunity to be part of the future of technology. Date: 5th December (Monday)"
+          },
+          "toRecipients": [],
+          "ccRecipients": [],
+          "bccRecipients": [],
+          "replyTo": [],
+          "flag": {
+              "flagStatus": "notFlagged"
+          }
+      },
+      {
+        "@odata.etag": "W/\"CQAAABYAAAAiIsqMbYjsT5e/T7KzowPTAAXRkDBC\"",
+        "id": "AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAWrr9YYAAAiIsqMbYjsT5e-T7KzowPTAAXS20y5AAA=",
+        "createdDateTime": "2023-10-17T17:32:27Z",
+        "lastModifiedDateTime": "2023-10-17T17:32:27Z",
+        "changeKey": "CQAAABYAAAAiIsqMbYjsT5e/T7KzowPTAAXRkDBC",
+        "categories": [],
+        "receivedDateTime": "2023-10-17T17:32:27Z",
+        "sentDateTime": "2023-10-17T17:32:27Z",
+        "hasAttachments": false,
+        "internetMessageId": "<MW4PR15MB45568EBB185FDDB89783B85ACDD6A@MW4PR15MB4556.namprd15.prod.outlook.com>",
+        "subject": null,
+        "bodyPreview": "",
+        "importance": "normal",
+        "parentFolderId": "AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OAAuAAAAAAAiQ8W967B7TKBjgx9rVEURAQAiIsqMbYjsT5e-T7KzowPTAAWrr9YYAAA=",
+        "conversationId": "AAQkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OAAQAO0zSBHSsPtMtgmRVc_EnuM=",
+        "conversationIndex": "AQHaAR/l7TNIEdKw+0y2CZFVz4Se4w==",
+        "isDeliveryReceiptRequested": null,
+        "isReadReceiptRequested": false,
+        "isRead": true,
+        "isDraft": true,
+        "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e%2FT7KzowPTAAWrr9YYAAAiIsqMbYjsT5e%2FT7KzowPTAAXS20y5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+        "inferenceClassification": "focused",
+        "body": {
+            "contentType": "text",
+            "content": "Discover the wonders of nature with our guided eco-tour. Experience the breathtaking beauty of untouched landscapes, encounter diverse wildlife, and learn about conservation efforts. Get ready for a journey of a lifetime! Date: 15th January (Saturday)"
+        },
+        "toRecipients": [],
+        "ccRecipients": [],
+        "bccRecipients": [],
+        "replyTo": [],
+        "flag": {
+            "flagStatus": "notFlagged"
+        }
+    },
+    {
+      "@odata.etag": "W/\"CQAAABYAAAAiIsqMbYjsT5e/T7KzowPTAAXRkDBC\"",
+      "id": "AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e-T7KzowPTAAWrr9YYAAAiIsqMbYjsT5e-T7KzowPTAAXS20y5AAA=",
+      "createdDateTime": "2023-10-17T17:32:27Z",
+      "lastModifiedDateTime": "2023-10-17T17:32:27Z",
+      "changeKey": "CQAAABYAAAAiIsqMbYjsT5e/T7KzowPTAAXRkDBC",
+      "categories": [],
+      "receivedDateTime": "2023-10-17T17:32:27Z",
+      "sentDateTime": "2023-10-17T17:32:27Z",
+      "hasAttachments": false,
+      "internetMessageId": "<MW4PR15MB45568EBB185FDDB89783B85ACDD6A@MW4PR15MB4556.namprd15.prod.outlook.com>",
+      "subject": null,
+      "bodyPreview": "",
+      "importance": "normal",
+      "parentFolderId": "AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OAAuAAAAAAAiQ8W967B7TKBjgx9rVEURAQAiIsqMbYjsT5e-T7KzowPTAAWrr9YYAAA=",
+      "conversationId": "AAQkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OAAQAO0zSBHSsPtMtgmRVc_EnuM=",
+      "conversationIndex": "AQHaAR/l7TNIEdKw+0y2CZFVz4Se4w==",
+      "isDeliveryReceiptRequested": null,
+      "isReadReceiptRequested": false,
+      "isRead": true,
+      "isDraft": true,
+      "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGVmMDEzMTM4LTZmYWUtNDdkNC1hMDZiLTU1OGY5OTZhYmY4OABGAAAAAAAiQ8W967B7TKBjgx9rVEURBwAiIsqMbYjsT5e%2FT7KzowPTAAWrr9YYAAAiIsqMbYjsT5e%2FT7KzowPTAAXS20y5AAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+      "inferenceClassification": "focused",
+      "body": {
+          "contentType": "text",
+          "content": "Embark on a culinary adventure with our gourmet food festival. Indulge in delectable dishes from around the world, savor unique flavors, and enjoy live cooking demonstrations. Foodies, this is an event you won't want to miss! Date: 20th February (Sunday)"
+      },
+      "toRecipients": [],
+      "ccRecipients": [],
+      "bccRecipients": [],
+      "replyTo": [],
+      "flag": {
+          "flagStatus": "notFlagged"
+      }
   }
-]
+  ],
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/messages?%24top=10&%24skip=10"
+}

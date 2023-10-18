@@ -9,6 +9,7 @@ inputs:
     default: ""
   chat_history:
     type: list
+    default: how is my emails today
 outputs:
   response:
     type: string
