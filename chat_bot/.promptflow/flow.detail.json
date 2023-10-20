@@ -1,33 +1,67 @@
 {
   "flow_runs": [
     {
-      "run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7_0",
+      "run_id": "ddb089c9-1468-4f7c-8fd7-56bab16f07ab_0",
       "status": "Completed",
       "error": null,
       "inputs": {
         "chat_history": [],
-        "question": ""
+        "question": "how is my emails today"
       },
       "output": {
-        "response": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.\n\n\n"
+        "summaries": [
+          [
+            "At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.",
+            "Not Important"
+          ],
+          [
+            "You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.",
+            "Not Important"
+          ],
+          [
+            "Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.",
+            "Not Important"
+          ],
+          [
+            "Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.",
+            "Not Important"
+          ]
+        ]
       },
       "metrics": null,
       "request": null,
-      "parent_run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7",
-      "root_run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7",
+      "parent_run_id": "ddb089c9-1468-4f7c-8fd7-56bab16f07ab",
+      "root_run_id": "ddb089c9-1468-4f7c-8fd7-56bab16f07ab",
       "source_run_id": null,
       "flow_id": "template_chat_flow",
-      "start_time": "2023-10-18T03:19:37.252572Z",
-      "end_time": "2023-10-18T03:19:50.687872Z",
+      "start_time": "2023-10-20T05:37:47.874917Z",
+      "end_time": "2023-10-20T05:37:53.392086Z",
       "index": 0,
       "api_calls": [
         {
           "name": "generate_email_summary",
           "type": "Tool",
           "inputs": {},
-          "output": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.",
-          "start_time": 1697579377.253073,
-          "end_time": 1697579377.254014,
+          "output": [
+            [
+              "At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.",
+              "Not Important"
+            ],
+            [
+              "You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.",
+              "Not Important"
+            ],
+            [
+              "Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.",
+              "Not Important"
+            ],
+            [
+              "Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.",
+              "Not Important"
+            ]
+          ],
+          "start_time": 1697760467.875424,
+          "end_time": 1697760467.877656,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -37,15 +71,32 @@
           "type": "Tool",
           "inputs": {
             "prompt": "system:\nYou are an assistant to help to analyse the given context give an idea to user..\n{{context}}\nHuman: {{question}}\nBot:",
-            "context": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.",
+            "context": [
+              [
+                "At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.",
+                "Not Important"
+              ],
+              [
+                "You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.",
+                "Not Important"
+              ],
+              [
+                "Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.",
+                "Not Important"
+              ],
+              [
+                "Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.",
+                "Not Important"
+              ]
+            ],
             "max_tokens": 256,
             "model": "gpt-3.5-turbo",
-            "question": "",
+            "question": "how is my emails today",
             "temperature": 0.0
           },
-          "output": "This event sounds like a fantastic opportunity for art lovers and enthusiasts to immerse themselves in the world of art. You'll have the chance to explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. It's a great way to let your creativity flourish and be inspired by the artistic atmosphere. Additionally, you'll also have the opportunity to experience the beauty of pristine landscapes, encounter wildlife, and learn about important conservation efforts. And to top it all off, you can indulge your taste buds with delicious dishes from around the world. It's a truly immersive and enriching experience for anyone who appreciates art, nature, and culinary delights.",
-          "start_time": 1697579377.254878,
-          "end_time": 1697579390.679157,
+          "output": "Based on the given context, it seems like your emails today are not important. The context includes descriptions of various events and experiences, such as a product launch event, an eco-tour, a gourmet food festival, and an art exhibition. These descriptions do not indicate any specific emails or communication that would be relevant to your inbox.",
+          "start_time": 1697760467.87849,
+          "end_time": 1697760473.381931,
           "error": null,
           "children": [
             {
@@ -57,7 +108,7 @@
                 "messages": [
                   {
                     "role": "system",
-                    "content": "You are an assistant to help to analyse the given context give an idea to user..\nThis event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.\nHuman: \nBot:"
+                    "content": "You are an assistant to help to analyse the given context give an idea to user..\n[(\"At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.\", 'Not Important'), (\"You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.\", 'Not Important'), ('Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.', 'Not Important'), ('Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.', 'Not Important')]\nHuman: how is my emails today\nBot:"
                   }
                 ],
                 "temperature": 0.0,
@@ -72,48 +123,34 @@
                 "user": ""
               },
               "output": {
-                "id": "chatcmpl-8ArNqgDFWveAkiYEQSmQhwz0XQcxM",
+                "id": "chatcmpl-8BcUeFwvMUo7i4v5s0QkrlviiKse5",
                 "object": "chat.completion",
-                "created": 1697599178,
+                "created": 1697780268,
                 "model": "gpt-3.5-turbo-0613",
                 "choices": [
                   {
                     "index": 0,
                     "message": {
                       "role": "assistant",
-                      "content": "This event sounds like a fantastic opportunity for art lovers and enthusiasts to immerse themselves in the world of art. You'll have the chance to explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. It's a great way to let your creativity flourish and be inspired by the artistic atmosphere. Additionally, you'll also have the opportunity to experience the beauty of pristine landscapes, encounter wildlife, and learn about important conservation efforts. And to top it all off, you can indulge your taste buds with delicious dishes from around the world. It's a truly immersive and enriching experience for anyone who appreciates art, nature, and culinary delights."
+                      "content": "Based on the given context, it seems like your emails today are not important. The context includes descriptions of various events and experiences, such as a product launch event, an eco-tour, a gourmet food festival, and an art exhibition. These descriptions do not indicate any specific emails or communication that would be relevant to your inbox."
                     },
                     "finish_reason": "stop"
                   }
                 ],
                 "usage": {
-                  "prompt_tokens": 150,
-                  "completion_tokens": 142,
-                  "total_tokens": 292
+                  "prompt_tokens": 321,
+                  "completion_tokens": 66,
+                  "total_tokens": 387
                 }
               },
-              "start_time": 1697579377.256862,
-              "end_time": 1697579390.678723,
+              "start_time": 1697760467.879843,
+              "end_time": 1697760473.381389,
               "error": null,
               "children": null,
               "node_name": null
             }
           ],
           "node_name": "chat"
-        },
-        {
-          "name": "render_template_jinja2",
-          "type": "Tool",
-          "inputs": {
-            "template": "{{text}}\n\n\n",
-            "text": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors."
-          },
-          "output": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.\n\n\n",
-          "start_time": 1697579377.254973,
-          "end_time": 1697579377.256062,
-          "error": null,
-          "children": null,
-          "node_name": "getSummary"
         }
       ],
       "variant_id": "",
@@ -121,11 +158,28 @@
       "description": "",
       "tags": null,
       "system_metrics": {
-        "duration": 13.4353,
-        "total_tokens": 292
+        "duration": 5.517169,
+        "total_tokens": 387
       },
       "result": {
-        "response": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.\n\n\n"
+        "summaries": [
+          [
+            "At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.",
+            "Not Important"
+          ],
+          [
+            "You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.",
+            "Not Important"
+          ],
+          [
+            "Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.",
+            "Not Important"
+          ],
+          [
+            "Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.",
+            "Not Important"
+          ]
+        ]
       },
       "upload_metrics": false
     }
@@ -133,25 +187,59 @@
   "node_runs": [
     {
       "node": "getEmails",
-      "flow_run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7",
-      "run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7_getEmails_0",
+      "flow_run_id": "ddb089c9-1468-4f7c-8fd7-56bab16f07ab",
+      "run_id": "ddb089c9-1468-4f7c-8fd7-56bab16f07ab_getEmails_0",
       "status": "Completed",
       "inputs": {},
-      "output": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.",
+      "output": [
+        [
+          "At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.",
+          "Not Important"
+        ],
+        [
+          "You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.",
+          "Not Important"
+        ],
+        [
+          "Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.",
+          "Not Important"
+        ],
+        [
+          "Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.",
+          "Not Important"
+        ]
+      ],
       "metrics": null,
       "error": null,
-      "parent_run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7_0",
-      "start_time": "2023-10-18T03:19:37.253046Z",
-      "end_time": "2023-10-18T03:19:37.254383Z",
+      "parent_run_id": "ddb089c9-1468-4f7c-8fd7-56bab16f07ab_0",
+      "start_time": "2023-10-20T05:37:47.875351Z",
+      "end_time": "2023-10-20T05:37:47.878142Z",
       "index": 0,
       "api_calls": [
         {
           "name": "generate_email_summary",
           "type": "Tool",
           "inputs": {},
-          "output": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.",
-          "start_time": 1697579377.253073,
-          "end_time": 1697579377.254014,
+          "output": [
+            [
+              "At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.",
+              "Not Important"
+            ],
+            [
+              "You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.",
+              "Not Important"
+            ],
+            [
+              "Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.",
+              "Not Important"
+            ],
+            [
+              "Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.",
+              "Not Important"
+            ]
+          ],
+          "start_time": 1697760467.875424,
+          "end_time": 1697760467.877656,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -161,33 +249,67 @@
       "cached_run_id": null,
       "cached_flow_run_id": null,
       "logs": {
-        "stdout": "",
+        "stdout": "[2023-10-20T05:37:47+0000] Summary for Email 1:\n[2023-10-20T05:37:47+0000] At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.\n[2023-10-20T05:37:47+0000] Email 1 is: Not Important\n[2023-10-20T05:37:47+0000] Summary for Email 2:\n[2023-10-20T05:37:47+0000] You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.\n[2023-10-20T05:37:47+0000] Email 2 is: Not Important\n[2023-10-20T05:37:47+0000] Summary for Email 3:\n[2023-10-20T05:37:47+0000] Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.\n[2023-10-20T05:37:47+0000] Email 3 is: Not Important\n[2023-10-20T05:37:47+0000] Summary for Email 4:\n[2023-10-20T05:37:47+0000] Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.\n[2023-10-20T05:37:47+0000] Email 4 is: Not Important\n",
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 0.001337
+        "duration": 0.002791
       },
-      "result": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors."
+      "result": [
+        [
+          "At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.",
+          "Not Important"
+        ],
+        [
+          "You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.",
+          "Not Important"
+        ],
+        [
+          "Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.",
+          "Not Important"
+        ],
+        [
+          "Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.",
+          "Not Important"
+        ]
+      ]
     },
     {
       "node": "chat",
-      "flow_run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7",
-      "run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7_chat_0",
+      "flow_run_id": "ddb089c9-1468-4f7c-8fd7-56bab16f07ab",
+      "run_id": "ddb089c9-1468-4f7c-8fd7-56bab16f07ab_chat_0",
       "status": "Completed",
       "inputs": {
         "prompt": "system:\nYou are an assistant to help to analyse the given context give an idea to user..\n{{context}}\nHuman: {{question}}\nBot:",
-        "context": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.",
+        "context": [
+          [
+            "At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.",
+            "Not Important"
+          ],
+          [
+            "You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.",
+            "Not Important"
+          ],
+          [
+            "Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.",
+            "Not Important"
+          ],
+          [
+            "Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.",
+            "Not Important"
+          ]
+        ],
         "max_tokens": 256,
         "model": "gpt-3.5-turbo",
-        "question": "",
+        "question": "how is my emails today",
         "temperature": 0.0
       },
-      "output": "This event sounds like a fantastic opportunity for art lovers and enthusiasts to immerse themselves in the world of art. You'll have the chance to explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. It's a great way to let your creativity flourish and be inspired by the artistic atmosphere. Additionally, you'll also have the opportunity to experience the beauty of pristine landscapes, encounter wildlife, and learn about important conservation efforts. And to top it all off, you can indulge your taste buds with delicious dishes from around the world. It's a truly immersive and enriching experience for anyone who appreciates art, nature, and culinary delights.",
+      "output": "Based on the given context, it seems like your emails today are not important. The context includes descriptions of various events and experiences, such as a product launch event, an eco-tour, a gourmet food festival, and an art exhibition. These descriptions do not indicate any specific emails or communication that would be relevant to your inbox.",
       "metrics": null,
       "error": null,
-      "parent_run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7_0",
-      "start_time": "2023-10-18T03:19:37.254827Z",
-      "end_time": "2023-10-18T03:19:50.684840Z",
+      "parent_run_id": "ddb089c9-1468-4f7c-8fd7-56bab16f07ab_0",
+      "start_time": "2023-10-20T05:37:47.878443Z",
+      "end_time": "2023-10-20T05:37:53.389103Z",
       "index": 0,
       "api_calls": [
         {
@@ -195,15 +317,32 @@
           "type": "Tool",
           "inputs": {
             "prompt": "system:\nYou are an assistant to help to analyse the given context give an idea to user..\n{{context}}\nHuman: {{question}}\nBot:",
-            "context": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.",
+            "context": [
+              [
+                "At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.",
+                "Not Important"
+              ],
+              [
+                "You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.",
+                "Not Important"
+              ],
+              [
+                "Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.",
+                "Not Important"
+              ],
+              [
+                "Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.",
+                "Not Important"
+              ]
+            ],
             "max_tokens": 256,
             "model": "gpt-3.5-turbo",
-            "question": "",
+            "question": "how is my emails today",
             "temperature": 0.0
           },
-          "output": "This event sounds like a fantastic opportunity for art lovers and enthusiasts to immerse themselves in the world of art. You'll have the chance to explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. It's a great way to let your creativity flourish and be inspired by the artistic atmosphere. Additionally, you'll also have the opportunity to experience the beauty of pristine landscapes, encounter wildlife, and learn about important conservation efforts. And to top it all off, you can indulge your taste buds with delicious dishes from around the world. It's a truly immersive and enriching experience for anyone who appreciates art, nature, and culinary delights.",
-          "start_time": 1697579377.254878,
-          "end_time": 1697579390.679157,
+          "output": "Based on the given context, it seems like your emails today are not important. The context includes descriptions of various events and experiences, such as a product launch event, an eco-tour, a gourmet food festival, and an art exhibition. These descriptions do not indicate any specific emails or communication that would be relevant to your inbox.",
+          "start_time": 1697760467.87849,
+          "end_time": 1697760473.381931,
           "error": null,
           "children": [
             {
@@ -215,7 +354,7 @@
                 "messages": [
                   {
                     "role": "system",
-                    "content": "You are an assistant to help to analyse the given context give an idea to user..\nThis event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.\nHuman: \nBot:"
+                    "content": "You are an assistant to help to analyse the given context give an idea to user..\n[(\"At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.\", 'Not Important'), (\"You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.\", 'Not Important'), ('Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.', 'Not Important'), ('Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.', 'Not Important')]\nHuman: how is my emails today\nBot:"
                   }
                 ],
                 "temperature": 0.0,
@@ -230,28 +369,28 @@
                 "user": ""
               },
               "output": {
-                "id": "chatcmpl-8ArNqgDFWveAkiYEQSmQhwz0XQcxM",
+                "id": "chatcmpl-8BcUeFwvMUo7i4v5s0QkrlviiKse5",
                 "object": "chat.completion",
-                "created": 1697599178,
+                "created": 1697780268,
                 "model": "gpt-3.5-turbo-0613",
                 "choices": [
                   {
                     "index": 0,
                     "message": {
                       "role": "assistant",
-                      "content": "This event sounds like a fantastic opportunity for art lovers and enthusiasts to immerse themselves in the world of art. You'll have the chance to explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. It's a great way to let your creativity flourish and be inspired by the artistic atmosphere. Additionally, you'll also have the opportunity to experience the beauty of pristine landscapes, encounter wildlife, and learn about important conservation efforts. And to top it all off, you can indulge your taste buds with delicious dishes from around the world. It's a truly immersive and enriching experience for anyone who appreciates art, nature, and culinary delights."
+                      "content": "Based on the given context, it seems like your emails today are not important. The context includes descriptions of various events and experiences, such as a product launch event, an eco-tour, a gourmet food festival, and an art exhibition. These descriptions do not indicate any specific emails or communication that would be relevant to your inbox."
                     },
                     "finish_reason": "stop"
                   }
                 ],
                 "usage": {
-                  "prompt_tokens": 150,
-                  "completion_tokens": 142,
-                  "total_tokens": 292
+                  "prompt_tokens": 321,
+                  "completion_tokens": 66,
+                  "total_tokens": 387
                 }
               },
-              "start_time": 1697579377.256862,
-              "end_time": 1697579390.678723,
+              "start_time": 1697760467.879843,
+              "end_time": 1697760473.381389,
               "error": null,
               "children": null,
               "node_name": null
@@ -268,56 +407,12 @@
         "stderr": ""
       },
       "system_metrics": {
-        "prompt_tokens": 150,
-        "completion_tokens": 142,
-        "total_tokens": 292,
-        "duration": 13.430013
+        "prompt_tokens": 321,
+        "completion_tokens": 66,
+        "total_tokens": 387,
+        "duration": 5.51066
       },
-      "result": "This event sounds like a fantastic opportunity for art lovers and enthusiasts to immerse themselves in the world of art. You'll have the chance to explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. It's a great way to let your creativity flourish and be inspired by the artistic atmosphere. Additionally, you'll also have the opportunity to experience the beauty of pristine landscapes, encounter wildlife, and learn about important conservation efforts. And to top it all off, you can indulge your taste buds with delicious dishes from around the world. It's a truly immersive and enriching experience for anyone who appreciates art, nature, and culinary delights."
-    },
-    {
-      "node": "getSummary",
-      "flow_run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7",
-      "run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7_getSummary_0",
-      "status": "Completed",
-      "inputs": {
-        "template": "{{text}}\n\n\n",
-        "text": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors."
-      },
-      "output": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.\n\n\n",
-      "metrics": null,
-      "error": null,
-      "parent_run_id": "7c50bb62-1315-4754-abca-0b6bea9906e7_0",
-      "start_time": "2023-10-18T03:19:37.254942Z",
-      "end_time": "2023-10-18T03:19:37.257442Z",
-      "index": 0,
-      "api_calls": [
-        {
-          "name": "render_template_jinja2",
-          "type": "Tool",
-          "inputs": {
-            "template": "{{text}}\n\n\n",
-            "text": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors."
-          },
-          "output": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.\n\n\n",
-          "start_time": 1697579377.254973,
-          "end_time": 1697579377.256062,
-          "error": null,
-          "children": null,
-          "node_name": "getSummary"
-        }
-      ],
-      "variant_id": "",
-      "cached_run_id": null,
-      "cached_flow_run_id": null,
-      "logs": {
-        "stdout": "",
-        "stderr": ""
-      },
-      "system_metrics": {
-        "duration": 0.0025
-      },
-      "result": "This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors.\n\n\n"
+      "result": "Based on the given context, it seems like your emails today are not important. The context includes descriptions of various events and experiences, such as a product launch event, an eco-tour, a gourmet food festival, and an art exhibition. These descriptions do not indicate any specific emails or communication that would be relevant to your inbox."
     }
   ]
 }
