@@ -5,15 +5,15 @@ environment:
 inputs:
   question:
     type: string
-    is_chat_input: true
-    default: ""
+    is_chat_input: false
+    default: how is my emails today
   chat_history:
     type: list
-    default: how is my emails today
+    is_chat_input: true
 outputs:
-  response:
+  summaries:
     type: string
-    reference: ${getSummary.output}
+    reference: ${getEmails.output}
     is_chat_output: true
 nodes:
 - name: chat
@@ -35,10 +35,3 @@ nodes:
     type: code
     path: getEmails.py
   inputs: {}
-- name: getSummary
-  type: prompt
-  source:
-    type: code
-    path: getSummary.jinja2
-  inputs:
-    text: ${getEmails.output}

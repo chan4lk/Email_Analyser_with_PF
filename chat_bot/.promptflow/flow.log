@@ -1,7 +1,17 @@
-2023-10-18 08:49:37 +0530   78285 execution          INFO     Start to run 3 nodes with concurrency level 16.
-2023-10-18 08:49:37 +0530   78285 execution.flow     INFO     Executing node getEmails. node run id: 7c50bb62-1315-4754-abca-0b6bea9906e7_getEmails_0
-2023-10-18 08:49:37 +0530   78285 execution.flow     INFO     Node getEmails completes.
-2023-10-18 08:49:37 +0530   78285 execution.flow     INFO     Executing node chat. node run id: 7c50bb62-1315-4754-abca-0b6bea9906e7_chat_0
-2023-10-18 08:49:37 +0530   78285 execution.flow     INFO     Executing node getSummary. node run id: 7c50bb62-1315-4754-abca-0b6bea9906e7_getSummary_0
-2023-10-18 08:49:37 +0530   78285 execution.flow     INFO     Node getSummary completes.
-2023-10-18 08:49:50 +0530   78285 execution.flow     INFO     Node chat completes.
+2023-10-20 11:07:47 +0530   90570 execution          INFO     Start to run 2 nodes with concurrency level 16.
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     Executing node getEmails. node run id: ddb089c9-1468-4f7c-8fd7-56bab16f07ab_getEmails_0
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> Summary for Email 1:
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Join us for an exciting product launch event where we can't contain our enthusiasm! Don't miss this incredible chance to be a part of the future of technology. We are thrilled to share our latest innovations with you.
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> Email 1 is: Not Important
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> Summary for Email 2:
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge. Immerse yourself in the wonders of the natural world with our guided eco-tour.
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> Email 2 is: Not Important
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> Summary for Email 3:
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. Embark on a culinary adventure like no other at our gourmet food festival. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> Email 3 is: Not Important
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> Summary for Email 4:
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     [getEmails in line 0 (index starts from 0)] stdout> Email 4 is: Not Important
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     Node getEmails completes.
+2023-10-20 11:07:47 +0530   90570 execution.flow     INFO     Executing node chat. node run id: ddb089c9-1468-4f7c-8fd7-56bab16f07ab_chat_0
+2023-10-20 11:07:53 +0530   90570 execution.flow     INFO     Node chat completes.
