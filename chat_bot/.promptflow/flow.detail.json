@@ -1,7 +1,7 @@
 {
   "flow_runs": [
     {
-      "run_id": "eed822b9-400c-4ed2-8b67-c23892fbc3b6_0",
+      "run_id": "41e79965-e561-42f5-9b5f-41bdbcaf09b8_0",
       "status": "Completed",
       "error": null,
       "inputs": {
@@ -24,12 +24,12 @@
       },
       "metrics": null,
       "request": null,
-      "parent_run_id": "eed822b9-400c-4ed2-8b67-c23892fbc3b6",
-      "root_run_id": "eed822b9-400c-4ed2-8b67-c23892fbc3b6",
+      "parent_run_id": "41e79965-e561-42f5-9b5f-41bdbcaf09b8",
+      "root_run_id": "41e79965-e561-42f5-9b5f-41bdbcaf09b8",
       "source_run_id": null,
       "flow_id": "template_chat_flow",
-      "start_time": "2023-10-22T19:31:02.308811Z",
-      "end_time": "2023-10-22T19:31:05.460733Z",
+      "start_time": "2023-10-23T06:37:28.567190Z",
+      "end_time": "2023-10-23T06:37:31.807564Z",
       "index": 0,
       "api_calls": [
         {
@@ -48,8 +48,8 @@
               "Subjectivity": 0.5247899159663865
             }
           ],
-          "start_time": 1697983262.309314,
-          "end_time": 1697983262.332232,
+          "start_time": 1698023248.567658,
+          "end_time": 1698023248.590665,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -77,8 +77,8 @@
             "temperature": 0.0
           },
           "output": "I'm sorry, but I don't have access to your emails. You can check your email inbox to see the emails you have received today.",
-          "start_time": 1697983262.333262,
-          "end_time": 1697983265.450204,
+          "start_time": 1698023248.591869,
+          "end_time": 1698023251.802204,
           "error": null,
           "children": [
             {
@@ -105,9 +105,9 @@
                 "user": ""
               },
               "output": {
-                "id": "chatcmpl-8CYS7u2s9EVgL1Ke1kCNeYFpGkc3I",
+                "id": "chatcmpl-8Cir38Y1FMtSHhC1JjmOeZwy1Fqjr",
                 "object": "chat.completion",
-                "created": 1698003063,
+                "created": 1698043049,
                 "model": "gpt-3.5-turbo-0613",
                 "choices": [
                   {
@@ -125,8 +125,8 @@
                   "total_tokens": 2777
                 }
               },
-              "start_time": 1697983262.335181,
-              "end_time": 1697983265.449858,
+              "start_time": 1698023248.593847,
+              "end_time": 1698023251.801944,
               "error": null,
               "children": null,
               "node_name": null
@@ -140,7 +140,7 @@
       "description": "",
       "tags": null,
       "system_metrics": {
-        "duration": 3.151922,
+        "duration": 3.240374,
         "total_tokens": 2777
       },
       "result": {
@@ -163,8 +163,8 @@
   "node_runs": [
     {
       "node": "getEmails",
-      "flow_run_id": "eed822b9-400c-4ed2-8b67-c23892fbc3b6",
-      "run_id": "eed822b9-400c-4ed2-8b67-c23892fbc3b6_getEmails_0",
+      "flow_run_id": "41e79965-e561-42f5-9b5f-41bdbcaf09b8",
+      "run_id": "41e79965-e561-42f5-9b5f-41bdbcaf09b8_getEmails_0",
       "status": "Completed",
       "inputs": {},
       "output": [
@@ -181,9 +181,9 @@
       ],
       "metrics": null,
       "error": null,
-      "parent_run_id": "eed822b9-400c-4ed2-8b67-c23892fbc3b6_0",
-      "start_time": "2023-10-22T19:31:02.309287Z",
-      "end_time": "2023-10-22T19:31:02.332810Z",
+      "parent_run_id": "41e79965-e561-42f5-9b5f-41bdbcaf09b8_0",
+      "start_time": "2023-10-23T06:37:28.567630Z",
+      "end_time": "2023-10-23T06:37:28.591378Z",
       "index": 0,
       "api_calls": [
         {
@@ -202,8 +202,8 @@
               "Subjectivity": 0.5247899159663865
             }
           ],
-          "start_time": 1697983262.309314,
-          "end_time": 1697983262.332232,
+          "start_time": 1698023248.567658,
+          "end_time": 1698023248.590665,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -217,7 +217,7 @@
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 0.023523
+        "duration": 0.023748
       },
       "result": [
         {
@@ -234,8 +234,8 @@
     },
     {
       "node": "chat",
-      "flow_run_id": "eed822b9-400c-4ed2-8b67-c23892fbc3b6",
-      "run_id": "eed822b9-400c-4ed2-8b67-c23892fbc3b6_chat_0",
+      "flow_run_id": "41e79965-e561-42f5-9b5f-41bdbcaf09b8",
+      "run_id": "41e79965-e561-42f5-9b5f-41bdbcaf09b8_chat_0",
       "status": "Completed",
       "inputs": {
         "prompt": "system:\nyou are assistant to give a summary and also a descriptive sentiment one by one seperately to the context which is belongs to content field in provided json..\n{{json}}\n\nas an examples if the json is like this,\n\n[\n    {\n      \"content\": \"Join us for an exciting product launch event where we can't contain our enthusiasm! We are thrilled to share our latest innovations with you. At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Don't miss this incredible chance to be a part of the future of technology.\"\n    },\n    {\n      \"content\": \"Immerse yourself in the wonders of the natural world with our guided eco-tour. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge.\"\n    },\n    {\n      \"content\": \"Embark on a culinary adventure like no other at our gourmet food festival. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.\"\n    },\n    {\n      \"content\": \"Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.\"\n    }\n]\n\nyou should give the result as follows,\n\nProduct Launch Event:\n\nSummary: An exciting product launch event is happening, featuring the latest innovations in technology. Attendees will have the chance to witness cutting-edge technology in action and be a part of the future of technology.\nSentiment: Positive\nEco-Tour:\n\nSummary: Join a guided eco-tour to experience the wonders of the natural world. This tour offers encounters with wildlife and insights into conservation efforts, providing an unforgettable journey filled with awe-inspiring moments and valuable knowledge.\nSentiment: Positive\nGourmet Food Festival:\n\nSummary: Embark on a culinary adventure at a gourmet food festival featuring dishes from around the world and live cooking demonstrations. Food enthusiasts should not miss this event.\nSentiment: Positive\nArt Exhibition:\n\nSummary: An art exhibition is a haven for art lovers and enthusiasts, offering a stunning collection of artworks, interactive art installations, and a chance to create your own masterpiece. It promises a day of artistic inspiration and creative expression.\nSentiment: Positive\n\nsummary and sentiment mandatory \n\nHuman: {{question}}\nBot:",
@@ -259,9 +259,9 @@
       "output": "I'm sorry, but I don't have access to your emails. You can check your email inbox to see the emails you have received today.",
       "metrics": null,
       "error": null,
-      "parent_run_id": "eed822b9-400c-4ed2-8b67-c23892fbc3b6_0",
-      "start_time": "2023-10-22T19:31:02.333213Z",
-      "end_time": "2023-10-22T19:31:05.457808Z",
+      "parent_run_id": "41e79965-e561-42f5-9b5f-41bdbcaf09b8_0",
+      "start_time": "2023-10-23T06:37:28.591818Z",
+      "end_time": "2023-10-23T06:37:31.806026Z",
       "index": 0,
       "api_calls": [
         {
@@ -287,8 +287,8 @@
             "temperature": 0.0
           },
           "output": "I'm sorry, but I don't have access to your emails. You can check your email inbox to see the emails you have received today.",
-          "start_time": 1697983262.333262,
-          "end_time": 1697983265.450204,
+          "start_time": 1698023248.591869,
+          "end_time": 1698023251.802204,
           "error": null,
           "children": [
             {
@@ -315,9 +315,9 @@
                 "user": ""
               },
               "output": {
-                "id": "chatcmpl-8CYS7u2s9EVgL1Ke1kCNeYFpGkc3I",
+                "id": "chatcmpl-8Cir38Y1FMtSHhC1JjmOeZwy1Fqjr",
                 "object": "chat.completion",
-                "created": 1698003063,
+                "created": 1698043049,
                 "model": "gpt-3.5-turbo-0613",
                 "choices": [
                   {
@@ -335,8 +335,8 @@
                   "total_tokens": 2777
                 }
               },
-              "start_time": 1697983262.335181,
-              "end_time": 1697983265.449858,
+              "start_time": 1698023248.593847,
+              "end_time": 1698023251.801944,
               "error": null,
               "children": null,
               "node_name": null
@@ -356,7 +356,7 @@
         "prompt_tokens": 2748,
         "completion_tokens": 29,
         "total_tokens": 2777,
-        "duration": 3.124595
+        "duration": 3.214208
       },
       "result": "I'm sorry, but I don't have access to your emails. You can check your email inbox to see the emails you have received today."
     }
