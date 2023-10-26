@@ -35,3 +35,10 @@ nodes:
     type: code
     path: getEmails.py
   inputs: {}
+- name: download_graph_api_emails
+  type: python
+  source:
+    type: code
+    path: downloadGraphApiEmail.py
+  inputs:
+    input1: ${inputs.question}

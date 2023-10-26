@@ -181,6 +181,18 @@
         }
       },
       "source": "llm_node_6x4o.jinja2"
+    },
+    "downloadGraphApiEmail.py": {
+      "type": "python",
+      "inputs": {
+        "input1": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "downloadGraphApiEmail.py",
+      "function": "my_python_tool"
     }
   }
 }
