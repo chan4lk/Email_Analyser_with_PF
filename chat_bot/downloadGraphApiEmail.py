@@ -1,6 +1,8 @@
 from promptflow import tool
 import requests
 import json
+from datetime import datetime
+import os
 
 # The inputs section will change based on the arguments of the tool function, after you save the code
 # Adding type to arguments and return value will help the system show the types properly
@@ -23,14 +25,14 @@ def my_python_tool(input1: str) -> str:
   authorization_url = config['authorization_url']
 
   # Print the configuration
-  print("Configuration:")
-  print(f"User ID: {user_id}")
-  print(f"Graph API Endpoint: {graph_api_endpoint}")
-  print(f"Client ID: {client_id}")
-  print(f"Client Secret: {client_secret}")
-  print(f"Redirect URI: {redirect_uri}")
-  print(f"Tenant ID: {tenant_id}") 
-  print(f"Autorization URL: {authorization_url}")
+#   print("Configuration:")
+#   print(f"User ID: {user_id}")
+#   print(f"Graph API Endpoint: {graph_api_endpoint}")
+#   print(f"Client ID: {client_id}")
+#   print(f"Client Secret: {client_secret}")
+#   print(f"Redirect URI: {redirect_uri}")
+#   print(f"Tenant ID: {tenant_id}") 
+#   print(f"Autorization URL: {authorization_url}")
 
   access_token = get_graph_api_accessToken(tenant_id, client_id, client_secret, redirect_uri)
 
@@ -39,18 +41,32 @@ def my_python_tool(input1: str) -> str:
   return input1
 
 def get_daily_emails(graph_api_endpoint,client_id, client_secret, redirect_uri, tenant_id, access_token):
+
+    current_directory = os.path.dirname(__file__)
+    config_path = os.path.join(current_directory, 'data.json')
+    print(config_path)
+
     # Set up the headers with the access token
     headers = {
         "Authorization": f"Bearer {access_token}",
         "Content-Type": "application/json",
     }
+
+    # Define the date range for daily emails (change as needed)
+    today = datetime.now()
+    start_date = today.strftime('%Y-%m-%dT00:00:00Z')
+    end_date = today.strftime('%Y-%m-%dT23:59:59Z')
+    params = {
+        '$filter': f'receivedDateTime ge {start_date} and receivedDateTime le {end_date}',
+    }
+
     # Make the request to the Microsoft Graph API to retrieve emails for the specified user
-    response = requests.get(graph_api_endpoint, headers=headers)
+    response = requests.get(graph_api_endpoint, headers=headers, params=params)
     # Check if the request was successful
     if response.status_code == 200:
         emails = response.json()
         # Save the entire response to a JSON file
-        with open('data.json', 'w') as json_file:
+        with open(config_path, 'w') as json_file:
             json.dump(emails, json_file, indent=4)
         # for email in emails.get("value", []):
         #     print("------------------------------------------------------------------------------------------")
@@ -82,7 +98,7 @@ def get_graph_api_accessToken(tenant_id, client_id, client_secret, redirect_uri)
 
     if response.status_code == 200:
         access_token = response.json().get("access_token", "")
-        print("Access token:", access_token)
+        #print("Access token:", access_token)
 
         with open('config.json', 'r') as config_file:
           config = json.load(config_file)
@@ -94,7 +110,7 @@ def get_graph_api_accessToken(tenant_id, client_id, client_secret, redirect_uri)
         with open('config.json', 'w') as config_file:
             json.dump(config, config_file, indent=4)
 
-        print("Access token has been saved to the configuration file.")
+        #print("Access token has been saved to the configuration file.")
 
         return access_token
     else:
