@@ -1,97 +1,33 @@
 {
   "flow_runs": [
     {
-      "run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1_0",
+      "run_id": "01e091ac-6a6a-457b-99a1-074533388358_0",
       "status": "Completed",
       "error": null,
       "inputs": {
         "chat_history": [
           {
             "inputs": {
-              "chat_history": "How is my emails today"
+              "chat_history": "how about my emails today"
             },
             "outputs": {
-              "summaries": [
-                {
-                  "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-                  "Sentiment": "Positive",
-                  "Subjectivity": 0.38181818181818183
-                }
-              ]
-            }
-          },
-          {
-            "inputs": {
-              "chat_history": "How is my emails today"
-            },
-            "outputs": {
-              "summaries": [
-                {
-                  "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-                  "Sentiment": "Positive",
-                  "Subjectivity": 0.38181818181818183
-                }
-              ]
-            }
-          },
-          {
-            "inputs": {
-              "chat_history": "How is my emails today"
-            },
-            "outputs": {
-              "summaries": [
-                {
-                  "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-                  "Sentiment": "Positive",
-                  "Subjectivity": 0.38181818181818183
-                }
-              ]
-            }
-          },
-          {
-            "inputs": {
-              "chat_history": "my emails"
-            },
-            "outputs": {
-              "summaries": [
-                {
-                  "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-                  "Sentiment": "Positive",
-                  "Subjectivity": 0.38181818181818183
-                },
-                {
-                  "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0",
-                  "Sentiment": "Positive",
-                  "Subjectivity": 0.6124999999999999
-                }
-              ]
+              "summaries": "Here are your categorized emails for today:\n\nSubject: Updates from Clean Coders Club at BISTEC Global\nCategory: Low-priority\n\nSubject: Agile Quiz Competition\nCategory: Important\n\nSubject: Hearts Meeting- October 2023\nCategory: Important\n\nSubject: Happy Announcement!\nCategory: Low-priority\n\nSubject: None\nCategory: Low-priority"
             }
           }
         ],
         "question": "how is my emails today"
       },
       "output": {
-        "summaries": [
-          {
-            "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-            "Sentiment": "Positive",
-            "Subjectivity": 0.38181818181818183
-          },
-          {
-            "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0",
-            "Sentiment": "Positive",
-            "Subjectivity": 0.6124999999999999
-          }
-        ]
+        "summaries": "Here are your categorized emails for today:\n\nSubject: Updates from Clean Coders Club at BISTEC Global\nCategory: Low-priority\n\nSubject: Agile Quiz Competition\nCategory: Important\n\nSubject: Hearts Meeting- October 2023\nCategory: Important\n\nSubject: Happy Announcement!\nCategory: Low-priority\n\nSubject: None\nCategory: Low-priority"
       },
       "metrics": null,
       "request": null,
-      "parent_run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1",
-      "root_run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1",
+      "parent_run_id": "01e091ac-6a6a-457b-99a1-074533388358",
+      "root_run_id": "01e091ac-6a6a-457b-99a1-074533388358",
       "source_run_id": null,
       "flow_id": "template_chat_flow",
-      "start_time": "2023-10-27T05:14:53.103130Z",
-      "end_time": "2023-10-27T05:14:55.553434Z",
+      "start_time": "2023-10-27T09:55:03.837412Z",
+      "end_time": "2023-10-27T09:55:05.239450Z",
       "index": 0,
       "api_calls": [
         {
@@ -100,18 +36,28 @@
           "inputs": {},
           "output": [
             {
-              "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-              "Sentiment": "Positive",
-              "Subjectivity": 0.38181818181818183
+              "Subject": "Updates from Clean Coders Club at BISTEC Global",
+              "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
             },
             {
-              "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0",
-              "Sentiment": "Positive",
-              "Subjectivity": 0.6124999999999999
+              "Subject": "Agile Quiz Competition",
+              "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
+            },
+            {
+              "Subject": "Hearts Meeting- October 2023",
+              "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+            },
+            {
+              "Subject": "Happy Announcement!",
+              "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+            },
+            {
+              "Subject": null,
+              "content": ""
             }
           ],
-          "start_time": 1698363893.10313,
-          "end_time": 1698363893.11873,
+          "start_time": 1698380703.838775,
+          "end_time": 1698380703.854396,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -123,8 +69,8 @@
             "input1": "how is my emails today"
           },
           "output": "how is my emails today",
-          "start_time": 1698363893.10313,
-          "end_time": 1698363894.54985,
+          "start_time": 1698380703.838775,
+          "end_time": 1698380705.184689,
           "error": null,
           "children": null,
           "node_name": "download_graph_api_emails"
@@ -133,27 +79,38 @@
           "name": "OpenAI.chat",
           "type": "Tool",
           "inputs": {
-            "prompt": "system:\nyou are assistant to give a summary and also a descriptive sentiment one by one seperately to the context which is belongs to content field in provided json..\n{{json}}\n\nas an examples if the json is like this,\n\n[\n    {\n      \"content\": \"Join us for an exciting product launch event where we can't contain our enthusiasm! We are thrilled to share our latest innovations with you. At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Don't miss this incredible chance to be a part of the future of technology.\"\n    },\n    {\n      \"content\": \"Immerse yourself in the wonders of the natural world with our guided eco-tour. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge.\"\n    },\n    {\n      \"content\": \"Embark on a culinary adventure like no other at our gourmet food festival. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.\"\n    },\n    {\n      \"content\": \"Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.\"\n    }\n]\n\nyou should give the result as follows,\n\nProduct Launch Event:\n\nSummary: An exciting product launch event is happening, featuring the latest innovations in technology. Attendees will have the chance to witness cutting-edge technology in action and be a part of the future of technology.\nSentiment: Positive\nEco-Tour:\n\nSummary: Join a guided eco-tour to experience the wonders of the natural world. This tour offers encounters with wildlife and insights into conservation efforts, providing an unforgettable journey filled with awe-inspiring moments and valuable knowledge.\nSentiment: Positive\nGourmet Food Festival:\n\nSummary: Embark on a culinary adventure at a gourmet food festival featuring dishes from around the world and live cooking demonstrations. Food enthusiasts should not miss this event.\nSentiment: Positive\nArt Exhibition:\n\nSummary: An art exhibition is a haven for art lovers and enthusiasts, offering a stunning collection of artworks, interactive art installations, and a chance to create your own masterpiece. It promises a day of artistic inspiration and creative expression.\nSentiment: Positive\n\nsummary and sentiment mandatory \n\nHuman: {{question}}\nBot:",
+            "prompt": "system:\nYou are an assistant tasked with analyzing a list of emails and categorizing them based on the provided email categories. The Email Categories as given below with description and keywords.\nUrgent- emails are those that require immediate attention and action. They often involve time-sensitive matters that need to be addressed without delay. Examples of urgent emails include critical work-related issues, emergency requests, or messages that impact your immediate schedule or plans.\nImportant- emails are messages that hold significant relevance or value, but they may not be urgently time-bound. These emails require your attention and a timely response, but they don't demand an immediate reaction. Examples of important emails include project updates, important communications from colleagues or clients, or upcoming event notifications.\nLow-priority - emails are messages that are not particularly time-sensitive or essential. They can be addressed when you have some free time but should not take precedence over urgent or important matters. Examples of low-priority emails include newsletters, non-essential notifications, or general updates that don't require immediate action.\nEmails should be categorized based on the provided categories only.\nEach and every email message is separated with curly brackets like this {Email Message}\nPlease categorize all the given emails, list the subject, and categorization. Reason for the categorization is not required, only email subject, categories and sender are necessary.\nReturn the result table format.\n{{json}}\n\nHuman: {{question}}\nBot:",
             "json": [
               {
-                "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-                "Sentiment": "Positive",
-                "Subjectivity": 0.38181818181818183
+                "Subject": "Updates from Clean Coders Club at BISTEC Global",
+                "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
               },
               {
-                "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0",
-                "Sentiment": "Positive",
-                "Subjectivity": 0.6124999999999999
+                "Subject": "Agile Quiz Competition",
+                "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
+              },
+              {
+                "Subject": "Hearts Meeting- October 2023",
+                "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+              },
+              {
+                "Subject": "Happy Announcement!",
+                "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+              },
+              {
+                "Subject": null,
+                "content": ""
               }
             ],
             "max_tokens": 256,
             "model": "gpt-3.5-turbo",
             "question": "how is my emails today",
-            "temperature": 0.0
+            "temperature": 0.0,
+            "stream": true
           },
-          "output": "I'm sorry, but I don't have access to your emails. I can only provide summaries and sentiments for the example content provided.",
-          "start_time": 1698363893.11873,
-          "end_time": 1698363895.538384,
+          "output": [],
+          "start_time": 1698380703.860235,
+          "end_time": 1698380705.220694,
           "error": null,
           "children": [
             {
@@ -165,13 +122,13 @@
                 "messages": [
                   {
                     "role": "system",
-                    "content": "you are assistant to give a summary and also a descriptive sentiment one by one seperately to the context which is belongs to content field in provided json..\n[{'content': '\\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ', 'Sentiment': 'Positive', 'Subjectivity': 0.38181818181818183}, {'content': \"\\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\\xa0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\\xa0Are you ready to put your knowledge to the test and\\xa0win fantastic prizes?\\xa0Today at 5:00 PM, let's determine who takes home the title of champion!\\xa0\\xa0\ud83c\udf1f\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0SEE YOU THERE!\\xa0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\\xa0\\xa0Best Regards,Project Management Initiative\\xa0\\xa0\\xa0\", 'Sentiment': 'Positive', 'Subjectivity': 0.6124999999999999}]\n\nas an examples if the json is like this,\n\n[\n    {\n      \"content\": \"Join us for an exciting product launch event where we can't contain our enthusiasm! We are thrilled to share our latest innovations with you. At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Don't miss this incredible chance to be a part of the future of technology.\"\n    },\n    {\n      \"content\": \"Immerse yourself in the wonders of the natural world with our guided eco-tour. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge.\"\n    },\n    {\n      \"content\": \"Embark on a culinary adventure like no other at our gourmet food festival. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.\"\n    },\n    {\n      \"content\": \"Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.\"\n    }\n]\n\nyou should give the result as follows,\n\nProduct Launch Event:\n\nSummary: An exciting product launch event is happening, featuring the latest innovations in technology. Attendees will have the chance to witness cutting-edge technology in action and be a part of the future of technology.\nSentiment: Positive\nEco-Tour:\n\nSummary: Join a guided eco-tour to experience the wonders of the natural world. This tour offers encounters with wildlife and insights into conservation efforts, providing an unforgettable journey filled with awe-inspiring moments and valuable knowledge.\nSentiment: Positive\nGourmet Food Festival:\n\nSummary: Embark on a culinary adventure at a gourmet food festival featuring dishes from around the world and live cooking demonstrations. Food enthusiasts should not miss this event.\nSentiment: Positive\nArt Exhibition:\n\nSummary: An art exhibition is a haven for art lovers and enthusiasts, offering a stunning collection of artworks, interactive art installations, and a chance to create your own masterpiece. It promises a day of artistic inspiration and creative expression.\nSentiment: Positive\n\nsummary and sentiment mandatory \n\nHuman: how is my emails today\nBot:"
+                    "content": "You are an assistant tasked with analyzing a list of emails and categorizing them based on the provided email categories. The Email Categories as given below with description and keywords.\nUrgent- emails are those that require immediate attention and action. They often involve time-sensitive matters that need to be addressed without delay. Examples of urgent emails include critical work-related issues, emergency requests, or messages that impact your immediate schedule or plans.\nImportant- emails are messages that hold significant relevance or value, but they may not be urgently time-bound. These emails require your attention and a timely response, but they don't demand an immediate reaction. Examples of important emails include project updates, important communications from colleagues or clients, or upcoming event notifications.\nLow-priority - emails are messages that are not particularly time-sensitive or essential. They can be addressed when you have some free time but should not take precedence over urgent or important matters. Examples of low-priority emails include newsletters, non-essential notifications, or general updates that don't require immediate action.\nEmails should be categorized based on the provided categories only.\nEach and every email message is separated with curly brackets like this {Email Message}\nPlease categorize all the given emails, list the subject, and categorization. Reason for the categorization is not required, only email subject, categories and sender are necessary.\nReturn the result table format.\n[{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'content': '\\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   '}, {'Subject': 'Agile Quiz Competition', 'content': \"\\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\\xa0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\\xa0Are you ready to put your knowledge to the test and\\xa0win fantastic prizes?\\xa0Today at 5:00 PM, let's determine who takes home the title of champion!\\xa0\\xa0\ud83c\udf1f\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0SEE YOU THERE!\\xa0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\\xa0\\xa0Best Regards,Project Management Initiative\\xa0\\xa0\\xa0\"}, {'Subject': 'Hearts Meeting- October 2023', 'content': '\\nHello Hearts!\u2764\\xa0Please find the recording link of the October Hearts Meeting.\\xa0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\\xa0Date- 25/10/2023\\xa0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\\xa0\\xa0\\xa0:\\xa0\\xa0thushini@bistecglobal.com M\\xa0:\\xa0\\xa0+94 763 542 231W\\xa0:\\xa0\\xa0\\xa0www.bistecglobal.com \\xa0\\xa0'}, {'Subject': 'Happy Announcement!', 'content': '\\nHi Hearts!\\xa0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\\xa0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\\xa0\\xa0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\\xa0\\xa0\\xa0:\\xa0\\xa0thushini@bistecglobal.com M\\xa0:\\xa0\\xa0+94 763 542 231W\\xa0:\\xa0\\xa0\\xa0www.bistecglobal.com \\xa0\\xa0'}, {'Subject': None, 'content': ''}]\n\nHuman: how is my emails today\nBot:"
                   }
                 ],
                 "temperature": 0.0,
                 "top_p": 1.0,
                 "n": 1,
-                "stream": false,
+                "stream": true,
                 "stop": null,
                 "max_tokens": 256,
                 "presence_penalty": 0.0,
@@ -179,29 +136,9 @@
                 "logit_bias": {},
                 "user": ""
               },
-              "output": {
-                "id": "chatcmpl-8E9TL1ViIcPLDYVAoCv1aAMyWUPN4",
-                "object": "chat.completion",
-                "created": 1698383695,
-                "model": "gpt-3.5-turbo-0613",
-                "choices": [
-                  {
-                    "index": 0,
-                    "message": {
-                      "role": "assistant",
-                      "content": "I'm sorry, but I don't have access to your emails. I can only provide summaries and sentiments for the example content provided."
-                    },
-                    "finish_reason": "stop"
-                  }
-                ],
-                "usage": {
-                  "prompt_tokens": 1028,
-                  "completion_tokens": 27,
-                  "total_tokens": 1055
-                }
-              },
-              "start_time": 1698363893.140356,
-              "end_time": 1698363895.538384,
+              "output": [],
+              "start_time": 1698380703.867426,
+              "end_time": 1698380705.220694,
               "error": null,
               "children": null,
               "node_name": null
@@ -215,22 +152,11 @@
       "description": "",
       "tags": null,
       "system_metrics": {
-        "duration": 2.450304,
-        "total_tokens": 1055
+        "duration": 1.402038,
+        "total_tokens": 0
       },
       "result": {
-        "summaries": [
-          {
-            "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-            "Sentiment": "Positive",
-            "Subjectivity": 0.38181818181818183
-          },
-          {
-            "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0",
-            "Sentiment": "Positive",
-            "Subjectivity": 0.6124999999999999
-          }
-        ]
+        "summaries": "Here are your categorized emails for today:\n\nSubject: Updates from Clean Coders Club at BISTEC Global\nCategory: Low-priority\n\nSubject: Agile Quiz Competition\nCategory: Important\n\nSubject: Hearts Meeting- October 2023\nCategory: Important\n\nSubject: Happy Announcement!\nCategory: Low-priority\n\nSubject: None\nCategory: Low-priority"
       },
       "upload_metrics": false
     }
@@ -238,27 +164,37 @@
   "node_runs": [
     {
       "node": "getEmails",
-      "flow_run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1",
-      "run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1_getEmails_0",
+      "flow_run_id": "01e091ac-6a6a-457b-99a1-074533388358",
+      "run_id": "01e091ac-6a6a-457b-99a1-074533388358_getEmails_0",
       "status": "Completed",
       "inputs": {},
       "output": [
         {
-          "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-          "Sentiment": "Positive",
-          "Subjectivity": 0.38181818181818183
+          "Subject": "Updates from Clean Coders Club at BISTEC Global",
+          "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
         },
         {
-          "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0",
-          "Sentiment": "Positive",
-          "Subjectivity": 0.6124999999999999
+          "Subject": "Agile Quiz Competition",
+          "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
+        },
+        {
+          "Subject": "Hearts Meeting- October 2023",
+          "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+        },
+        {
+          "Subject": "Happy Announcement!",
+          "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+        },
+        {
+          "Subject": null,
+          "content": ""
         }
       ],
       "metrics": null,
       "error": null,
-      "parent_run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1_0",
-      "start_time": "2023-10-27T05:14:53.103130Z",
-      "end_time": "2023-10-27T05:14:53.118730Z",
+      "parent_run_id": "01e091ac-6a6a-457b-99a1-074533388358_0",
+      "start_time": "2023-10-27T09:55:03.838775Z",
+      "end_time": "2023-10-27T09:55:03.859769Z",
       "index": 0,
       "api_calls": [
         {
@@ -267,18 +203,28 @@
           "inputs": {},
           "output": [
             {
-              "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-              "Sentiment": "Positive",
-              "Subjectivity": 0.38181818181818183
+              "Subject": "Updates from Clean Coders Club at BISTEC Global",
+              "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
             },
             {
-              "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0",
-              "Sentiment": "Positive",
-              "Subjectivity": 0.6124999999999999
+              "Subject": "Agile Quiz Competition",
+              "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
+            },
+            {
+              "Subject": "Hearts Meeting- October 2023",
+              "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+            },
+            {
+              "Subject": "Happy Announcement!",
+              "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+            },
+            {
+              "Subject": null,
+              "content": ""
             }
           ],
-          "start_time": 1698363893.10313,
-          "end_time": 1698363893.11873,
+          "start_time": 1698380703.838775,
+          "end_time": 1698380703.854396,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -292,25 +238,35 @@
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 0.0156
+        "duration": 0.020994
       },
       "result": [
         {
-          "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-          "Sentiment": "Positive",
-          "Subjectivity": 0.38181818181818183
+          "Subject": "Updates from Clean Coders Club at BISTEC Global",
+          "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
         },
         {
-          "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0",
-          "Sentiment": "Positive",
-          "Subjectivity": 0.6124999999999999
+          "Subject": "Agile Quiz Competition",
+          "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
+        },
+        {
+          "Subject": "Hearts Meeting- October 2023",
+          "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+        },
+        {
+          "Subject": "Happy Announcement!",
+          "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+        },
+        {
+          "Subject": null,
+          "content": ""
         }
       ]
     },
     {
       "node": "download_graph_api_emails",
-      "flow_run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1",
-      "run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1_download_graph_api_emails_0",
+      "flow_run_id": "01e091ac-6a6a-457b-99a1-074533388358",
+      "run_id": "01e091ac-6a6a-457b-99a1-074533388358_download_graph_api_emails_0",
       "status": "Completed",
       "inputs": {
         "input1": "how is my emails today"
@@ -318,9 +274,9 @@
       "output": "how is my emails today",
       "metrics": null,
       "error": null,
-      "parent_run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1_0",
-      "start_time": "2023-10-27T05:14:53.103130Z",
-      "end_time": "2023-10-27T05:14:54.549850Z",
+      "parent_run_id": "01e091ac-6a6a-457b-99a1-074533388358_0",
+      "start_time": "2023-10-27T09:55:03.838775Z",
+      "end_time": "2023-10-27T09:55:05.187704Z",
       "index": 0,
       "api_calls": [
         {
@@ -330,8 +286,8 @@
             "input1": "how is my emails today"
           },
           "output": "how is my emails today",
-          "start_time": 1698363893.10313,
-          "end_time": 1698363894.54985,
+          "start_time": 1698380703.838775,
+          "end_time": 1698380705.184689,
           "error": null,
           "children": null,
           "node_name": "download_graph_api_emails"
@@ -341,71 +297,93 @@
       "cached_run_id": null,
       "cached_flow_run_id": null,
       "logs": {
-        "stdout": "[2023-10-27T05:14:53+0000] C:\\Users\\DeepakumarGaneshaman\\source\\learning_repos\\email_analyser_with_pdf\\Email_Analyser_with_PF\\chat_bot\\data.json\n",
+        "stdout": "[2023-10-27T09:55:04+0000] C:\\Users\\DeepakumarGaneshaman\\source\\learning_repos\\email_analyser_with_pdf\\Email_Analyser_with_PF\\chat_bot\\data.json\n",
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 1.44672
+        "duration": 1.348929
       },
       "result": "how is my emails today"
     },
     {
       "node": "chat",
-      "flow_run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1",
-      "run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1_chat_0",
+      "flow_run_id": "01e091ac-6a6a-457b-99a1-074533388358",
+      "run_id": "01e091ac-6a6a-457b-99a1-074533388358_chat_0",
       "status": "Completed",
       "inputs": {
-        "prompt": "system:\nyou are assistant to give a summary and also a descriptive sentiment one by one seperately to the context which is belongs to content field in provided json..\n{{json}}\n\nas an examples if the json is like this,\n\n[\n    {\n      \"content\": \"Join us for an exciting product launch event where we can't contain our enthusiasm! We are thrilled to share our latest innovations with you. At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Don't miss this incredible chance to be a part of the future of technology.\"\n    },\n    {\n      \"content\": \"Immerse yourself in the wonders of the natural world with our guided eco-tour. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge.\"\n    },\n    {\n      \"content\": \"Embark on a culinary adventure like no other at our gourmet food festival. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.\"\n    },\n    {\n      \"content\": \"Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.\"\n    }\n]\n\nyou should give the result as follows,\n\nProduct Launch Event:\n\nSummary: An exciting product launch event is happening, featuring the latest innovations in technology. Attendees will have the chance to witness cutting-edge technology in action and be a part of the future of technology.\nSentiment: Positive\nEco-Tour:\n\nSummary: Join a guided eco-tour to experience the wonders of the natural world. This tour offers encounters with wildlife and insights into conservation efforts, providing an unforgettable journey filled with awe-inspiring moments and valuable knowledge.\nSentiment: Positive\nGourmet Food Festival:\n\nSummary: Embark on a culinary adventure at a gourmet food festival featuring dishes from around the world and live cooking demonstrations. Food enthusiasts should not miss this event.\nSentiment: Positive\nArt Exhibition:\n\nSummary: An art exhibition is a haven for art lovers and enthusiasts, offering a stunning collection of artworks, interactive art installations, and a chance to create your own masterpiece. It promises a day of artistic inspiration and creative expression.\nSentiment: Positive\n\nsummary and sentiment mandatory \n\nHuman: {{question}}\nBot:",
+        "prompt": "system:\nYou are an assistant tasked with analyzing a list of emails and categorizing them based on the provided email categories. The Email Categories as given below with description and keywords.\nUrgent- emails are those that require immediate attention and action. They often involve time-sensitive matters that need to be addressed without delay. Examples of urgent emails include critical work-related issues, emergency requests, or messages that impact your immediate schedule or plans.\nImportant- emails are messages that hold significant relevance or value, but they may not be urgently time-bound. These emails require your attention and a timely response, but they don't demand an immediate reaction. Examples of important emails include project updates, important communications from colleagues or clients, or upcoming event notifications.\nLow-priority - emails are messages that are not particularly time-sensitive or essential. They can be addressed when you have some free time but should not take precedence over urgent or important matters. Examples of low-priority emails include newsletters, non-essential notifications, or general updates that don't require immediate action.\nEmails should be categorized based on the provided categories only.\nEach and every email message is separated with curly brackets like this {Email Message}\nPlease categorize all the given emails, list the subject, and categorization. Reason for the categorization is not required, only email subject, categories and sender are necessary.\nReturn the result table format.\n{{json}}\n\nHuman: {{question}}\nBot:",
         "json": [
           {
-            "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-            "Sentiment": "Positive",
-            "Subjectivity": 0.38181818181818183
+            "Subject": "Updates from Clean Coders Club at BISTEC Global",
+            "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
           },
           {
-            "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0",
-            "Sentiment": "Positive",
-            "Subjectivity": 0.6124999999999999
+            "Subject": "Agile Quiz Competition",
+            "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
+          },
+          {
+            "Subject": "Hearts Meeting- October 2023",
+            "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+          },
+          {
+            "Subject": "Happy Announcement!",
+            "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+          },
+          {
+            "Subject": null,
+            "content": ""
           }
         ],
         "max_tokens": 256,
         "model": "gpt-3.5-turbo",
         "question": "how is my emails today",
-        "temperature": 0.0
+        "temperature": 0.0,
+        "stream": true
       },
-      "output": "I'm sorry, but I don't have access to your emails. I can only provide summaries and sentiments for the example content provided.",
+      "output": "<generator object generate_from_proxy at 0x0000022B28192970>",
       "metrics": null,
       "error": null,
-      "parent_run_id": "9b3561a7-4299-49b2-9307-b510692f0ce1_0",
-      "start_time": "2023-10-27T05:14:53.118730Z",
-      "end_time": "2023-10-27T05:14:55.553434Z",
+      "parent_run_id": "01e091ac-6a6a-457b-99a1-074533388358_0",
+      "start_time": "2023-10-27T09:55:03.860235Z",
+      "end_time": "2023-10-27T09:55:05.239450Z",
       "index": 0,
       "api_calls": [
         {
           "name": "OpenAI.chat",
           "type": "Tool",
           "inputs": {
-            "prompt": "system:\nyou are assistant to give a summary and also a descriptive sentiment one by one seperately to the context which is belongs to content field in provided json..\n{{json}}\n\nas an examples if the json is like this,\n\n[\n    {\n      \"content\": \"Join us for an exciting product launch event where we can't contain our enthusiasm! We are thrilled to share our latest innovations with you. At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Don't miss this incredible chance to be a part of the future of technology.\"\n    },\n    {\n      \"content\": \"Immerse yourself in the wonders of the natural world with our guided eco-tour. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge.\"\n    },\n    {\n      \"content\": \"Embark on a culinary adventure like no other at our gourmet food festival. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.\"\n    },\n    {\n      \"content\": \"Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.\"\n    }\n]\n\nyou should give the result as follows,\n\nProduct Launch Event:\n\nSummary: An exciting product launch event is happening, featuring the latest innovations in technology. Attendees will have the chance to witness cutting-edge technology in action and be a part of the future of technology.\nSentiment: Positive\nEco-Tour:\n\nSummary: Join a guided eco-tour to experience the wonders of the natural world. This tour offers encounters with wildlife and insights into conservation efforts, providing an unforgettable journey filled with awe-inspiring moments and valuable knowledge.\nSentiment: Positive\nGourmet Food Festival:\n\nSummary: Embark on a culinary adventure at a gourmet food festival featuring dishes from around the world and live cooking demonstrations. Food enthusiasts should not miss this event.\nSentiment: Positive\nArt Exhibition:\n\nSummary: An art exhibition is a haven for art lovers and enthusiasts, offering a stunning collection of artworks, interactive art installations, and a chance to create your own masterpiece. It promises a day of artistic inspiration and creative expression.\nSentiment: Positive\n\nsummary and sentiment mandatory \n\nHuman: {{question}}\nBot:",
+            "prompt": "system:\nYou are an assistant tasked with analyzing a list of emails and categorizing them based on the provided email categories. The Email Categories as given below with description and keywords.\nUrgent- emails are those that require immediate attention and action. They often involve time-sensitive matters that need to be addressed without delay. Examples of urgent emails include critical work-related issues, emergency requests, or messages that impact your immediate schedule or plans.\nImportant- emails are messages that hold significant relevance or value, but they may not be urgently time-bound. These emails require your attention and a timely response, but they don't demand an immediate reaction. Examples of important emails include project updates, important communications from colleagues or clients, or upcoming event notifications.\nLow-priority - emails are messages that are not particularly time-sensitive or essential. They can be addressed when you have some free time but should not take precedence over urgent or important matters. Examples of low-priority emails include newsletters, non-essential notifications, or general updates that don't require immediate action.\nEmails should be categorized based on the provided categories only.\nEach and every email message is separated with curly brackets like this {Email Message}\nPlease categorize all the given emails, list the subject, and categorization. Reason for the categorization is not required, only email subject, categories and sender are necessary.\nReturn the result table format.\n{{json}}\n\nHuman: {{question}}\nBot:",
             "json": [
               {
-                "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ",
-                "Sentiment": "Positive",
-                "Subjectivity": 0.38181818181818183
+                "Subject": "Updates from Clean Coders Club at BISTEC Global",
+                "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
               },
               {
-                "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0",
-                "Sentiment": "Positive",
-                "Subjectivity": 0.6124999999999999
+                "Subject": "Agile Quiz Competition",
+                "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
+              },
+              {
+                "Subject": "Hearts Meeting- October 2023",
+                "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+              },
+              {
+                "Subject": "Happy Announcement!",
+                "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+              },
+              {
+                "Subject": null,
+                "content": ""
               }
             ],
             "max_tokens": 256,
             "model": "gpt-3.5-turbo",
             "question": "how is my emails today",
-            "temperature": 0.0
+            "temperature": 0.0,
+            "stream": true
           },
-          "output": "I'm sorry, but I don't have access to your emails. I can only provide summaries and sentiments for the example content provided.",
-          "start_time": 1698363893.11873,
-          "end_time": 1698363895.538384,
+          "output": [],
+          "start_time": 1698380703.860235,
+          "end_time": 1698380705.220694,
           "error": null,
           "children": [
             {
@@ -417,13 +395,13 @@
                 "messages": [
                   {
                     "role": "system",
-                    "content": "you are assistant to give a summary and also a descriptive sentiment one by one seperately to the context which is belongs to content field in provided json..\n[{'content': '\\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   ', 'Sentiment': 'Positive', 'Subjectivity': 0.38181818181818183}, {'content': \"\\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\\xa0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\\xa0Are you ready to put your knowledge to the test and\\xa0win fantastic prizes?\\xa0Today at 5:00 PM, let's determine who takes home the title of champion!\\xa0\\xa0\ud83c\udf1f\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0SEE YOU THERE!\\xa0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\\xa0\\xa0Best Regards,Project Management Initiative\\xa0\\xa0\\xa0\", 'Sentiment': 'Positive', 'Subjectivity': 0.6124999999999999}]\n\nas an examples if the json is like this,\n\n[\n    {\n      \"content\": \"Join us for an exciting product launch event where we can't contain our enthusiasm! We are thrilled to share our latest innovations with you. At this exclusive gathering, you'll have the opportunity to witness cutting-edge technology in action. Don't miss this incredible chance to be a part of the future of technology.\"\n    },\n    {\n      \"content\": \"Immerse yourself in the wonders of the natural world with our guided eco-tour. You'll experience the breathtaking beauty of pristine, untouched landscapes, encounter a wide variety of wildlife, and gain insights into vital conservation efforts. Prepare for an unforgettable journey of a lifetime, filled with awe-inspiring moments and valuable knowledge.\"\n    },\n    {\n      \"content\": \"Embark on a culinary adventure like no other at our gourmet food festival. Indulge your taste buds with delectable dishes from around the world, savoring unique and tantalizing flavors. The festival also offers live cooking demonstrations to enhance your culinary appreciation. For all the food enthusiasts out there, this is an event you absolutely cannot afford to miss.\"\n    },\n    {\n      \"content\": \"Let your creativity flourish at our art exhibition, a haven for art lovers and enthusiasts. Explore a stunning collection of works from talented artists, engage with interactive art installations, and even try your hand at creating your own masterpiece. This event promises a day of artistic inspiration, where you can express your creativity and immerse yourself in the world of art.\"\n    }\n]\n\nyou should give the result as follows,\n\nProduct Launch Event:\n\nSummary: An exciting product launch event is happening, featuring the latest innovations in technology. Attendees will have the chance to witness cutting-edge technology in action and be a part of the future of technology.\nSentiment: Positive\nEco-Tour:\n\nSummary: Join a guided eco-tour to experience the wonders of the natural world. This tour offers encounters with wildlife and insights into conservation efforts, providing an unforgettable journey filled with awe-inspiring moments and valuable knowledge.\nSentiment: Positive\nGourmet Food Festival:\n\nSummary: Embark on a culinary adventure at a gourmet food festival featuring dishes from around the world and live cooking demonstrations. Food enthusiasts should not miss this event.\nSentiment: Positive\nArt Exhibition:\n\nSummary: An art exhibition is a haven for art lovers and enthusiasts, offering a stunning collection of artworks, interactive art installations, and a chance to create your own masterpiece. It promises a day of artistic inspiration and creative expression.\nSentiment: Positive\n\nsummary and sentiment mandatory \n\nHuman: how is my emails today\nBot:"
+                    "content": "You are an assistant tasked with analyzing a list of emails and categorizing them based on the provided email categories. The Email Categories as given below with description and keywords.\nUrgent- emails are those that require immediate attention and action. They often involve time-sensitive matters that need to be addressed without delay. Examples of urgent emails include critical work-related issues, emergency requests, or messages that impact your immediate schedule or plans.\nImportant- emails are messages that hold significant relevance or value, but they may not be urgently time-bound. These emails require your attention and a timely response, but they don't demand an immediate reaction. Examples of important emails include project updates, important communications from colleagues or clients, or upcoming event notifications.\nLow-priority - emails are messages that are not particularly time-sensitive or essential. They can be addressed when you have some free time but should not take precedence over urgent or important matters. Examples of low-priority emails include newsletters, non-essential notifications, or general updates that don't require immediate action.\nEmails should be categorized based on the provided categories only.\nEach and every email message is separated with curly brackets like this {Email Message}\nPlease categorize all the given emails, list the subject, and categorization. Reason for the categorization is not required, only email subject, categories and sender are necessary.\nReturn the result table format.\n[{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'content': '\\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   '}, {'Subject': 'Agile Quiz Competition', 'content': \"\\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\\xa0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\\xa0Are you ready to put your knowledge to the test and\\xa0win fantastic prizes?\\xa0Today at 5:00 PM, let's determine who takes home the title of champion!\\xa0\\xa0\ud83c\udf1f\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0SEE YOU THERE!\\xa0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\\xa0\\xa0Best Regards,Project Management Initiative\\xa0\\xa0\\xa0\"}, {'Subject': 'Hearts Meeting- October 2023', 'content': '\\nHello Hearts!\u2764\\xa0Please find the recording link of the October Hearts Meeting.\\xa0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\\xa0Date- 25/10/2023\\xa0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\\xa0\\xa0\\xa0:\\xa0\\xa0thushini@bistecglobal.com M\\xa0:\\xa0\\xa0+94 763 542 231W\\xa0:\\xa0\\xa0\\xa0www.bistecglobal.com \\xa0\\xa0'}, {'Subject': 'Happy Announcement!', 'content': '\\nHi Hearts!\\xa0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\\xa0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\\xa0\\xa0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\\xa0\\xa0\\xa0:\\xa0\\xa0thushini@bistecglobal.com M\\xa0:\\xa0\\xa0+94 763 542 231W\\xa0:\\xa0\\xa0\\xa0www.bistecglobal.com \\xa0\\xa0'}, {'Subject': None, 'content': ''}]\n\nHuman: how is my emails today\nBot:"
                   }
                 ],
                 "temperature": 0.0,
                 "top_p": 1.0,
                 "n": 1,
-                "stream": false,
+                "stream": true,
                 "stop": null,
                 "max_tokens": 256,
                 "presence_penalty": 0.0,
@@ -431,29 +409,9 @@
                 "logit_bias": {},
                 "user": ""
               },
-              "output": {
-                "id": "chatcmpl-8E9TL1ViIcPLDYVAoCv1aAMyWUPN4",
-                "object": "chat.completion",
-                "created": 1698383695,
-                "model": "gpt-3.5-turbo-0613",
-                "choices": [
-                  {
-                    "index": 0,
-                    "message": {
-                      "role": "assistant",
-                      "content": "I'm sorry, but I don't have access to your emails. I can only provide summaries and sentiments for the example content provided."
-                    },
-                    "finish_reason": "stop"
-                  }
-                ],
-                "usage": {
-                  "prompt_tokens": 1028,
-                  "completion_tokens": 27,
-                  "total_tokens": 1055
-                }
-              },
-              "start_time": 1698363893.140356,
-              "end_time": 1698363895.538384,
+              "output": [],
+              "start_time": 1698380703.867426,
+              "end_time": 1698380705.220694,
               "error": null,
               "children": null,
               "node_name": null
@@ -470,12 +428,9 @@
         "stderr": ""
       },
       "system_metrics": {
-        "prompt_tokens": 1028,
-        "completion_tokens": 27,
-        "total_tokens": 1055,
-        "duration": 2.434704
+        "duration": 1.379215
       },
-      "result": "I'm sorry, but I don't have access to your emails. I can only provide summaries and sentiments for the example content provided."
+      "result": "<generator object generate_from_proxy at 0x0000022B28192970>"
     }
   ]
 }

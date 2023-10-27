@@ -56,11 +56,11 @@
             }
         },
         {
-            "@odata.etag": "W/\"CQAAABYAAACtRUmtfGQbT6tMtwJ/4/5AAAOYZuoR\"",
+            "@odata.etag": "W/\"CQAAABYAAACtRUmtfGQbT6tMtwJ/4/5AAAOYZutM\"",
             "id": "AAMkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQBGAAAAAAAgpKUZpyVmS5noesVIpF8ABwCtRUmtfGQbT6tMtwJ-4-5AAAAAAAEMAACtRUmtfGQbT6tMtwJ-4-5AAAOay3qXAAA=",
             "createdDateTime": "2023-10-27T04:50:28Z",
-            "lastModifiedDateTime": "2023-10-27T04:50:31Z",
-            "changeKey": "CQAAABYAAACtRUmtfGQbT6tMtwJ/4/5AAAOYZuoR",
+            "lastModifiedDateTime": "2023-10-27T07:22:44Z",
+            "changeKey": "CQAAABYAAACtRUmtfGQbT6tMtwJ/4/5AAAOYZutM",
             "categories": [],
             "receivedDateTime": "2023-10-27T04:50:29Z",
             "sentDateTime": "2023-10-27T04:50:25Z",
@@ -74,7 +74,7 @@
             "conversationIndex": "AdoIkNkX4mdP7buDTM6sfIWheYyy3w==",
             "isDeliveryReceiptRequested": null,
             "isReadReceiptRequested": false,
-            "isRead": false,
+            "isRead": true,
             "isDraft": false,
             "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQBGAAAAAAAgpKUZpyVmS5noesVIpF8ABwCtRUmtfGQbT6tMtwJ%2F4%2F5AAAAAAAEMAACtRUmtfGQbT6tMtwJ%2F4%2F5AAAOay3qXAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
             "inferenceClassification": "focused",
@@ -102,6 +102,149 @@
                     }
                 }
             ],
+            "ccRecipients": [],
+            "bccRecipients": [],
+            "replyTo": [],
+            "flag": {
+                "flagStatus": "notFlagged"
+            }
+        },
+        {
+            "@odata.etag": "W/\"CQAAABYAAACtRUmtfGQbT6tMtwJ/4/5AAAOYZupf\"",
+            "id": "AAMkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQBGAAAAAAAgpKUZpyVmS5noesVIpF8ABwCtRUmtfGQbT6tMtwJ-4-5AAAAAAAEMAACtRUmtfGQbT6tMtwJ-4-5AAAOay3qYAAA=",
+            "createdDateTime": "2023-10-27T05:40:22Z",
+            "lastModifiedDateTime": "2023-10-27T05:45:39Z",
+            "changeKey": "CQAAABYAAACtRUmtfGQbT6tMtwJ/4/5AAAOYZupf",
+            "categories": [],
+            "receivedDateTime": "2023-10-27T05:40:22Z",
+            "sentDateTime": "2023-10-27T05:40:18Z",
+            "hasAttachments": false,
+            "internetMessageId": "<PUZPR04MB68671F1EE38B16BCE23E0E5CA8DCA@PUZPR04MB6867.apcprd04.prod.outlook.com>",
+            "subject": "Hearts Meeting- October 2023",
+            "bodyPreview": "Hello Hearts!\u2764\r\n\r\nPlease find the recording link of the October Hearts Meeting.\r\n\r\nMeeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\r\n\r\nDate- 25/10/2023\r\n\r\nThanks,\r\nTh",
+            "importance": "normal",
+            "parentFolderId": "AQMkAGU4NjEzODBlLWE4NzcALTQxYzktOTE3NC1iOTBlMTc1YTEwMWEALgAAAyCkpRmnJWZLmeh6xUikXwABAK1FSa18ZBtPq0y3An-j-kAAAAIBDAAAAA==",
+            "conversationId": "AAQkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQAQAMYuF-mdQUwlgAG4X0tL5rA=",
+            "conversationIndex": "AdoIl++Lxi4X+Z1BTCWAAbhfS0vmsA==",
+            "isDeliveryReceiptRequested": null,
+            "isReadReceiptRequested": false,
+            "isRead": true,
+            "isDraft": false,
+            "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQBGAAAAAAAgpKUZpyVmS5noesVIpF8ABwCtRUmtfGQbT6tMtwJ%2F4%2F5AAAAAAAEMAACtRUmtfGQbT6tMtwJ%2F4%2F5AAAOay3qYAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+            "inferenceClassification": "focused",
+            "body": {
+                "contentType": "html",
+                "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\"><style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\n@font-face\r\n\t{font-family:\"Segoe UI Emoji\"}\r\n@font-face\r\n\t{font-family:Times}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\nh2\r\n\t{margin-right:0in;\r\n\tmargin-left:0in;\r\n\tfont-size:18.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\na:link, span.MsoHyperlink\r\n\t{color:#0563C1;\r\n\ttext-decoration:underline}\r\nspan.EmailStyle17\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\nspan.Heading2Char\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tfont-weight:bold}\r\nspan.ui-provider\r\n\t{}\r\n.MsoChpDefault\r\n\t{font-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style></head><body lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\"><div class=\"WordSection1\"><p class=\"MsoNormal\"><span lang=\"EN-AU\">Hello Hearts!</span><span lang=\"EN-AU\" style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\u2764</span><span lang=\"EN-AU\" style=\"\"></span></p><p class=\"MsoNormal\"><span lang=\"EN-AU\">&nbsp;</span></p><p class=\"MsoNormal\"><span lang=\"EN-AU\">Please find the recording link of the October Hearts Meeting.</span></p><p class=\"MsoNormal\"><span lang=\"EN-AU\">&nbsp;</span></p><p class=\"MsoNormal\">Meeting link: <span class=\"ui-provider\"><a href=\"https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\" target=\"_blank\" title=\"https://bistecglobal.sharepoint.com/sites/bistecintranet/sitepages/saff-meetings.aspx?app=portals#hearts-meeting-25-10-2023\">https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023</a></span></p><p class=\"MsoNormal\"><span class=\"ui-provider\">&nbsp;</span></p><h2 style=\"margin-right:0in; margin-bottom:9.0pt; margin-left:0in; line-height:16.8pt; background:white\"><span lang=\"EN-AU\" style=\"font-size:11.0pt; color:black; font-weight:normal\">Date- 25/10/2023</span><span lang=\"EN-AU\" style=\"font-size:11.0pt; font-weight:normal\"></span></h2><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Thanks,</p><table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"680\" style=\"width:510.0pt\"><tbody><tr><td valign=\"top\" style=\"padding:0in 0in 0in 0in\"><p class=\"MsoNormal\" style=\"line-height:105%\"><span style=\"font-size:13.0pt; line-height:105%; color:#006B9C\">Thushini Maheepala</span><span style=\"font-family:&quot;Times&quot;,serif\"><br></span><span style=\"font-size:12.0pt; line-height:105%; color:#006B9C\">People and Culture Executive</span><span style=\"font-family:&quot;Times&quot;,serif\"><br><br></span><a href=\"https://www.linkedin.com/company/bistec-global-services/mycompany/\"><span style=\"font-family:&quot;Times&quot;,serif; color:blue; text-decoration:none\"><img border=\"0\" width=\"25\" height=\"25\" id=\"Picture_x0020_3\" src=\"cid:image001.png@01DA08C6.2939EDA0\" alt=\"Twitter\" style=\"width:.2638in; height:.2638in\"></span></a><span style=\"font-family:&quot;Times&quot;,serif\"><br></span><b><span style=\"color:#006B9C\">E&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</span></b><b><span style=\"font-size:10.0pt; line-height:105%; color:#006B9C\"><a href=\"mailto:thushini@bistecglobal.com\"><span style=\"color:#0563C1\">thushini@bistecglobal.com</span></a></span></b><b><span style=\"color:#006B9C\"> <br>M&nbsp;:&nbsp;&nbsp;</span></b><b><span style=\"font-size:10.0pt; line-height:105%; color:#006B9C\">+94 763 542 231</span></b><b><span style=\"color:#006B9C\"><br>W&nbsp;:&nbsp;&nbsp;</span></b><b><span style=\"font-size:10.0pt; line-height:105%; color:#006B9C\">&nbsp;<a href=\"http://www.bistecglobal.com/\"><span style=\"color:#0563C1\">www.bistecglobal.com</span></a></span></b><span style=\"font-family:&quot;Times&quot;,serif\"> </span></p></td><td valign=\"top\" style=\"padding:0in 15.0pt 0in 0in\"><p class=\"MsoNormal\" style=\"line-height:105%\"><span style=\"font-family:&quot;Times&quot;,serif\"><img border=\"0\" width=\"461\" height=\"150\" id=\"Picture_x0020_4\" src=\"cid:image002.png@01DA08C6.2939EDA0\" alt=\"A picture containing text, screenshot, font, logo\n\nDescription automatically generated\" style=\"width:4.8055in; height:1.5625in\"></span></p></td></tr></tbody></table><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">&nbsp;</p></div></body></html>"
+            },
+            "sender": {
+                "emailAddress": {
+                    "name": "Thushini Maheepala | BISTEC Global",
+                    "address": "thushini@bistecglobal.com"
+                }
+            },
+            "from": {
+                "emailAddress": {
+                    "name": "Thushini Maheepala | BISTEC Global",
+                    "address": "thushini@bistecglobal.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "#All Hearts | BISTEC Global",
+                        "address": "AllHearts@bistecglobal.com"
+                    }
+                }
+            ],
+            "ccRecipients": [],
+            "bccRecipients": [],
+            "replyTo": [],
+            "flag": {
+                "flagStatus": "notFlagged"
+            }
+        },
+        {
+            "@odata.etag": "W/\"CQAAABYAAACtRUmtfGQbT6tMtwJ/4/5AAAOYZuuo\"",
+            "id": "AAMkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQBGAAAAAAAgpKUZpyVmS5noesVIpF8ABwCtRUmtfGQbT6tMtwJ-4-5AAAAAAAEMAACtRUmtfGQbT6tMtwJ-4-5AAAOay3qZAAA=",
+            "createdDateTime": "2023-10-27T07:00:46Z",
+            "lastModifiedDateTime": "2023-10-27T07:34:17Z",
+            "changeKey": "CQAAABYAAACtRUmtfGQbT6tMtwJ/4/5AAAOYZuuo",
+            "categories": [],
+            "receivedDateTime": "2023-10-27T07:00:47Z",
+            "sentDateTime": "2023-10-27T07:00:39Z",
+            "hasAttachments": false,
+            "internetMessageId": "<PUZPR04MB686774B258BA824A8F59630FA8DCA@PUZPR04MB6867.apcprd04.prod.outlook.com>",
+            "subject": "Happy Announcement!",
+            "bodyPreview": "Hi Hearts!\r\n\r\nIt\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\r\n\r\nLet\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\r\n\r\n\r\nThanks,\r\nThushini Maheepala\r\nPeople and Culture Executive\r\n\r\n\r\nE   :  thushini@",
+            "importance": "normal",
+            "parentFolderId": "AQMkAGU4NjEzODBlLWE4NzcALTQxYzktOTE3NC1iOTBlMTc1YTEwMWEALgAAAyCkpRmnJWZLmeh6xUikXwABAK1FSa18ZBtPq0y3An-j-kAAAAIBDAAAAA==",
+            "conversationId": "AAQkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQAQAGYLSvwrJkrlnwvZ6b0eVnw=",
+            "conversationIndex": "AdoIovenZgtK/CsmSuWfC9npvR5WfA==",
+            "isDeliveryReceiptRequested": null,
+            "isReadReceiptRequested": false,
+            "isRead": true,
+            "isDraft": false,
+            "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQBGAAAAAAAgpKUZpyVmS5noesVIpF8ABwCtRUmtfGQbT6tMtwJ%2F4%2F5AAAAAAAEMAACtRUmtfGQbT6tMtwJ%2F4%2F5AAAOay3qZAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+            "inferenceClassification": "focused",
+            "body": {
+                "contentType": "html",
+                "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><meta name=\"Generator\" content=\"Microsoft Word 15 (filtered medium)\"><style>\r\n<!--\r\n@font-face\r\n\t{font-family:\"Cambria Math\"}\r\n@font-face\r\n\t{font-family:Calibri}\r\n@font-face\r\n\t{font-family:\"Segoe UI Emoji\"}\r\n@font-face\r\n\t{font-family:Times}\r\np.MsoNormal, li.MsoNormal, div.MsoNormal\r\n\t{margin:0in;\r\n\tfont-size:11.0pt;\r\n\tfont-family:\"Calibri\",sans-serif}\r\nspan.EmailStyle17\r\n\t{font-family:\"Calibri\",sans-serif;\r\n\tcolor:windowtext}\r\n.MsoChpDefault\r\n\t{font-family:\"Calibri\",sans-serif}\r\n@page WordSection1\r\n\t{margin:1.0in 1.0in 1.0in 1.0in}\r\ndiv.WordSection1\r\n\t{}\r\n-->\r\n</style></head><body lang=\"EN-US\" link=\"#0563C1\" vlink=\"#954F72\" style=\"word-wrap:break-word\"><div class=\"WordSection1\"><p class=\"MsoNormal\">Hi Hearts!<span style=\"\"></span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha<span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\ud83e\udd42</span>.</p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!<span style=\"font-family:&quot;Segoe UI Emoji&quot;,sans-serif\">\u2764</span></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\"><img width=\"324\" height=\"458\" id=\"_x0000_i1027\" src=\"cid:image001.png@01DA08D1.511998B0\" style=\"width:3.375in; height:4.7708in\"></p><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">Thanks,</p><table class=\"MsoNormalTable\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"680\" style=\"width:510.0pt\"><tbody><tr><td valign=\"top\" style=\"padding:0in 0in 0in 0in\"><p class=\"MsoNormal\" style=\"line-height:105%\"><span style=\"font-size:13.0pt; line-height:105%; color:#006B9C\">Thushini Maheepala</span><span style=\"font-family:&quot;Times&quot;,serif\"><br></span><span style=\"font-size:12.0pt; line-height:105%; color:#006B9C\">People and Culture Executive</span><span style=\"font-family:&quot;Times&quot;,serif\"><br><br></span><a href=\"https://www.linkedin.com/company/bistec-global-services/mycompany/\"><span style=\"font-family:&quot;Times&quot;,serif; color:blue; text-decoration:none\"><img border=\"0\" width=\"25\" height=\"25\" id=\"Picture_x0020_3\" src=\"cid:image002.png@01DA08D1.511998B0\" alt=\"Twitter\" style=\"width:.2638in; height:.2638in\"></span></a><span style=\"font-family:&quot;Times&quot;,serif\"><br></span><b><span style=\"color:#006B9C\">E&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;</span></b><b><span style=\"font-size:10.0pt; line-height:105%; color:#006B9C\"><a href=\"mailto:thushini@bistecglobal.com\"><span style=\"color:#0563C1\">thushini@bistecglobal.com</span></a></span></b><b><span style=\"color:#006B9C\"> <br>M&nbsp;:&nbsp;&nbsp;</span></b><b><span style=\"font-size:10.0pt; line-height:105%; color:#006B9C\">+94 763 542 231</span></b><b><span style=\"color:#006B9C\"><br>W&nbsp;:&nbsp;&nbsp;</span></b><b><span style=\"font-size:10.0pt; line-height:105%; color:#006B9C\">&nbsp;<a href=\"http://www.bistecglobal.com/\"><span style=\"color:#0563C1\">www.bistecglobal.com</span></a></span></b><span style=\"font-family:&quot;Times&quot;,serif\"> </span></p></td><td valign=\"top\" style=\"padding:0in 15.0pt 0in 0in\"><p class=\"MsoNormal\" style=\"line-height:105%\"><span style=\"font-family:&quot;Times&quot;,serif\"><img border=\"0\" width=\"461\" height=\"150\" id=\"Picture_x0020_4\" src=\"cid:image003.png@01DA08D1.511998B0\" alt=\"A picture containing text, screenshot, font, logo\n\nDescription automatically generated\" style=\"width:4.8055in; height:1.5625in\"></span></p></td></tr></tbody></table><p class=\"MsoNormal\">&nbsp;</p><p class=\"MsoNormal\">&nbsp;</p></div></body></html>"
+            },
+            "sender": {
+                "emailAddress": {
+                    "name": "Thushini Maheepala | BISTEC Global",
+                    "address": "thushini@bistecglobal.com"
+                }
+            },
+            "from": {
+                "emailAddress": {
+                    "name": "Thushini Maheepala | BISTEC Global",
+                    "address": "thushini@bistecglobal.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "#All Hearts | BISTEC Global",
+                        "address": "AllHearts@bistecglobal.com"
+                    }
+                }
+            ],
+            "ccRecipients": [],
+            "bccRecipients": [],
+            "replyTo": [],
+            "flag": {
+                "flagStatus": "notFlagged"
+            }
+        },
+        {
+            "@odata.etag": "W/\"CQAAABYAAACtRUmtfGQbT6tMtwJ/4/5AAAOYZuxy\"",
+            "id": "AAMkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQBGAAAAAAAgpKUZpyVmS5noesVIpF8ABwCtRUmtfGQbT6tMtwJ-4-5AAANurrlqAACtRUmtfGQbT6tMtwJ-4-5AAAOay1_fAAA=",
+            "createdDateTime": "2023-10-27T09:34:00Z",
+            "lastModifiedDateTime": "2023-10-27T09:34:00Z",
+            "changeKey": "CQAAABYAAACtRUmtfGQbT6tMtwJ/4/5AAAOYZuxy",
+            "categories": [],
+            "receivedDateTime": "2023-10-27T09:34:00Z",
+            "sentDateTime": "2023-10-27T09:34:00Z",
+            "hasAttachments": false,
+            "internetMessageId": "<PSAPR04MB4133A194C3CFAE35B3CA5258A1DCA@PSAPR04MB4133.apcprd04.prod.outlook.com>",
+            "subject": null,
+            "bodyPreview": "",
+            "importance": "normal",
+            "parentFolderId": "AAMkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQAuAAAAAAAgpKUZpyVmS5noesVIpF8AAQCtRUmtfGQbT6tMtwJ-4-5AAANurrlqAAA=",
+            "conversationId": "AAQkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQAQANeksChVq4hPv7jVBMaryKw=",
+            "conversationIndex": "AQHaCLi316SwKFWriE+/uNUExqvIrA==",
+            "isDeliveryReceiptRequested": null,
+            "isReadReceiptRequested": false,
+            "isRead": true,
+            "isDraft": true,
+            "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkAGU4NjEzODBlLWE4NzctNDFjOS05MTc0LWI5MGUxNzVhMTAxYQBGAAAAAAAgpKUZpyVmS5noesVIpF8ABwCtRUmtfGQbT6tMtwJ%2F4%2F5AAANurrlqAACtRUmtfGQbT6tMtwJ%2F4%2F5AAAOay1%2BfAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+            "inferenceClassification": "focused",
+            "body": {
+                "contentType": "text",
+                "content": ""
+            },
+            "toRecipients": [],
             "ccRecipients": [],
             "bccRecipients": [],
             "replyTo": [],

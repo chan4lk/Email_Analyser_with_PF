@@ -13,7 +13,7 @@ inputs:
 outputs:
   summaries:
     type: string
-    reference: ${getEmails.output}
+    reference: ${chat.output}
     is_chat_output: true
 nodes:
 - name: chat

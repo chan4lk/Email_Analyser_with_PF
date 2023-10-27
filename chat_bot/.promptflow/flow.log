@@ -1,8 +1,10 @@
-2023-10-27 10:44:53 +0530   35592 execution          INFO     Start to run 3 nodes with concurrency level 16.
-2023-10-27 10:44:53 +0530   35592 execution.flow     INFO     Executing node getEmails. node run id: 9b3561a7-4299-49b2-9307-b510692f0ce1_getEmails_0
-2023-10-27 10:44:53 +0530   35592 execution.flow     INFO     Executing node download_graph_api_emails. node run id: 9b3561a7-4299-49b2-9307-b510692f0ce1_download_graph_api_emails_0
-2023-10-27 10:44:53 +0530   35592 execution.flow     INFO     Node getEmails completes.
-2023-10-27 10:44:53 +0530   35592 execution.flow     INFO     Executing node chat. node run id: 9b3561a7-4299-49b2-9307-b510692f0ce1_chat_0
-2023-10-27 10:44:53 +0530   35592 execution.flow     INFO     [download_graph_api_emails in line 0 (index starts from 0)] stdout> C:\Users\DeepakumarGaneshaman\source\learning_repos\email_analyser_with_pdf\Email_Analyser_with_PF\chat_bot\data.json
-2023-10-27 10:44:54 +0530   35592 execution.flow     INFO     Node download_graph_api_emails completes.
-2023-10-27 10:44:55 +0530   35592 execution.flow     INFO     Node chat completes.
+2023-10-27 15:25:03 +0530   35864 execution          INFO     Start to run 3 nodes with concurrency level 16.
+2023-10-27 15:25:03 +0530   35864 execution.flow     INFO     Executing node getEmails. node run id: 01e091ac-6a6a-457b-99a1-074533388358_getEmails_0
+2023-10-27 15:25:03 +0530   35864 execution.flow     INFO     Executing node download_graph_api_emails. node run id: 01e091ac-6a6a-457b-99a1-074533388358_download_graph_api_emails_0
+2023-10-27 15:25:03 +0530   35864 execution.flow     INFO     Node getEmails completes.
+2023-10-27 15:25:03 +0530   35864 execution.flow     INFO     Executing node chat. node run id: 01e091ac-6a6a-457b-99a1-074533388358_chat_0
+2023-10-27 15:25:04 +0530   35864 execution.flow     INFO     [download_graph_api_emails in line 0 (index starts from 0)] stdout> C:\Users\DeepakumarGaneshaman\source\learning_repos\email_analyser_with_pdf\Email_Analyser_with_PF\chat_bot\data.json
+2023-10-27 15:25:05 +0530   35864 execution.flow     INFO     Node download_graph_api_emails completes.
+2023-10-27 15:25:05 +0530   35864 execution.flow     WARNING  Failed to calculate metrics due to exception: Cannot calculate metrics for none or empty api_type..
+2023-10-27 15:25:05 +0530   35864 execution.flow     WARNING  Output of chat is not json serializable, use str to store it.
+2023-10-27 15:25:05 +0530   35864 execution.flow     INFO     Node chat completes.

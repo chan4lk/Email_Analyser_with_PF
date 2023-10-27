@@ -170,7 +170,7 @@
         "kind": 2,
         "importPath": "getEmails",
         "description": "getEmails",
-        "peekOfCode": "def process_json_with_sentiment_analysis():\n    with open('data.json', 'r') as file:\n        json_data = json.load(file)\n    contents = [item['body']['content'] for item in json_data['value']]\n    def convert_html_to_text(html):\n        soup = BeautifulSoup(html, 'html.parser')\n        return soup.get_text()\n    plain_texts = [convert_html_to_text(content) if any(tag for tag in BeautifulSoup(content, 'html.parser').find_all()) else content for content in contents]\n    sid = SentimentIntensityAnalyzer()\n    analyses = []",
+        "peekOfCode": "def process_json_with_sentiment_analysis():\n    with open('data.json', 'r') as file:\n        json_data = json.load(file)\n    contents = [item['body']['content'] for item in json_data['value']]\n    subjects = [item['subject'] for item in json_data['value']]\n    def convert_html_to_text(html):\n        soup = BeautifulSoup(html, 'html.parser')\n        return soup.get_text()\n    plain_texts = [convert_html_to_text(content) if any(tag for tag in BeautifulSoup(content, 'html.parser').find_all()) else content for content in contents]\n    analyses = []",
         "detail": "getEmails",
         "documentation": {}
     },
@@ -179,7 +179,7 @@
         "kind": 5,
         "importPath": "getEmails",
         "description": "getEmails",
-        "peekOfCode": "result = process_json_with_sentiment_analysis()\nprint(json.dumps(result, indent=2))",
+        "peekOfCode": "result = process_json_with_sentiment_analysis()\n# print(\"Open API Prompt Input\")\n# print(json.dumps(result, indent=2))",
         "detail": "getEmails",
         "documentation": {}
     },
