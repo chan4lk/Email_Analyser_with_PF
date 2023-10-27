@@ -1,9 +1,7 @@
 # Email_Analyser_with_PF
 Email analyser with AI and prompt flow
 
-### Set up  dev environment
-
-####Create Environment
+## Set up  dev environment
 
 `conda create --name pf python=3.9`
 `conda activate pf`
@@ -14,7 +12,7 @@ Clone the Repo
 install its requirements.
 `pip install -r requirements.txt`
 
-###Set up config.json
+### Set up config.json
 ```json
 {
     "authorization_url": "https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/authorize",
