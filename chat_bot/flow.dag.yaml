@@ -11,9 +11,9 @@ inputs:
     type: list
     is_chat_input: true
 outputs:
-  summaries:
+  "${chat.output}summaries":
     type: string
-    reference: ${getEmails.output}
+    reference: ${extractMessageToPrint.output}
     is_chat_output: true
 nodes:
 - name: chat
@@ -27,7 +27,7 @@ nodes:
     model: gpt-3.5-turbo
     question: ${inputs.question}
     json: ${getEmails.output}
-  connection: con_openAI
+  connection: to_replace_with_connection_name
   api: chat
 - name: getEmails
   type: python
@@ -35,3 +35,17 @@ nodes:
     type: code
     path: getEmails.py
   inputs: {}
+- name: download_graph_api_emails
+  type: python
+  source:
+    type: code
+    path: downloadGraphApiEmail.py
+  inputs:
+    input1: ${inputs.question}
+- name: extractMessageToPrint
+  type: python
+  source:
+    type: code
+    path: extractMessageToPrint.py
+  inputs:
+    input1: ${chat.output}

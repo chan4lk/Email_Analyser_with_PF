@@ -10,6 +10,7 @@ def process_json_with_sentiment_analysis():
         json_data = json.load(file)
 
     contents = [item['body']['content'] for item in json_data['value']]
+    subjects = [item['subject'] for item in json_data['value']]
 
     def convert_html_to_text(html):
         soup = BeautifulSoup(html, 'html.parser')
@@ -17,25 +18,17 @@ def process_json_with_sentiment_analysis():
 
     plain_texts = [convert_html_to_text(content) if any(tag for tag in BeautifulSoup(content, 'html.parser').find_all()) else content for content in contents]
 
-    sid = SentimentIntensityAnalyzer()
-
     analyses = []
 
-    for text in plain_texts:
-        sentiment_scores = sid.polarity_scores(text)
-        sentiment = "Positive" if sentiment_scores['compound'] > 0 else "Negative" if sentiment_scores['compound'] < 0 else "Neutral"
-
-        text_blob = TextBlob(text)
-        subjectivity = text_blob.sentiment.subjectivity
-
+    for index, text in enumerate(plain_texts):
         analysis = {
+            "Subject": subjects[index],	
             "content": text,
-            "Sentiment": sentiment,
-            "Subjectivity": subjectivity
         }
         analyses.append(analysis)
 
     return analyses
 
 result = process_json_with_sentiment_analysis()
-print(json.dumps(result, indent=2))
+# print("Open API Prompt Input")
+# print(json.dumps(result, indent=2))
