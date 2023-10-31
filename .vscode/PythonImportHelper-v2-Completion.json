@@ -24,6 +24,14 @@
         "documentation": {}
     },
     {
+        "label": "tool",
+        "importPath": "promptflow",
+        "description": "promptflow",
+        "isExtraImport": true,
+        "detail": "promptflow",
+        "documentation": {}
+    },
+    {
         "label": "requests",
         "kind": 6,
         "isExtraImport": true,
@@ -56,6 +64,15 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
@@ -166,11 +183,20 @@
         "documentation": {}
     },
     {
+        "label": "my_python_tool",
+        "kind": 2,
+        "importPath": "chat_bot.extractMessageToPrint",
+        "description": "chat_bot.extractMessageToPrint",
+        "peekOfCode": "def my_python_tool(input1: str) -> str:\n  text = \"The emails for today are as follows:\\n\\n1. Subject: Updates from Clean Coders Club at BISTEC Global\\n   Category: Low-priority\\n   Sender: Clean Coders Club BG\\n\\n2. Subject: Agile Quiz Competition\\n   Category: Important\\n   Sender: Project Management Initiative\\n\\n3. Subject: Hearts Meeting- October 2023\\n   Category: Important\\n   Sender: Thushini Maheepala\\n\\n4. Subject: Happy Announcement!\\n   Category: Low-priority\\n   Sender: Thushini Maheepala\\n\\n5. Subject: None\\n   Category: Unknown\\n   Sender: Unknown\"\n# Split the text into separate emails using a regular expression\n  emails = re.split(r'\\d+\\.', text)\n  category_rate_mapping = {\n    \"Low-priority\": 1,\n    \"Important\": 2,\n    \"Urgent\": 3\t\n  }\n  # Initialize variables to store email details",
+        "detail": "chat_bot.extractMessageToPrint",
+        "documentation": {}
+    },
+    {
         "label": "process_json_with_sentiment_analysis",
         "kind": 2,
         "importPath": "chat_bot.getEmails",
         "description": "chat_bot.getEmails",
-        "peekOfCode": "def process_json_with_sentiment_analysis():\n    with open('data.json', 'r') as file:\n        json_data = json.load(file)\n    contents = [item['body']['content'] for item in json_data['value']]\n    def convert_html_to_text(html):\n        soup = BeautifulSoup(html, 'html.parser')\n        return soup.get_text()\n    plain_texts = [convert_html_to_text(content) if any(tag for tag in BeautifulSoup(content, 'html.parser').find_all()) else content for content in contents]\n    sid = SentimentIntensityAnalyzer()\n    analyses = []",
+        "peekOfCode": "def process_json_with_sentiment_analysis():\n    with open('data.json', 'r') as file:\n        json_data = json.load(file)\n    contents = [item['body']['content'] for item in json_data['value']]\n    subjects = [item['subject'] for item in json_data['value']]\n    def convert_html_to_text(html):\n        soup = BeautifulSoup(html, 'html.parser')\n        return soup.get_text()\n    plain_texts = [convert_html_to_text(content) if any(tag for tag in BeautifulSoup(content, 'html.parser').find_all()) else content for content in contents]\n    analyses = []",
         "detail": "chat_bot.getEmails",
         "documentation": {}
     },
@@ -179,7 +205,7 @@
         "kind": 5,
         "importPath": "chat_bot.getEmails",
         "description": "chat_bot.getEmails",
-        "peekOfCode": "result = process_json_with_sentiment_analysis()\nprint(json.dumps(result, indent=2))",
+        "peekOfCode": "result = process_json_with_sentiment_analysis()\n# print(\"Open API Prompt Input\")\n# print(json.dumps(result, indent=2))",
         "detail": "chat_bot.getEmails",
         "documentation": {}
     },

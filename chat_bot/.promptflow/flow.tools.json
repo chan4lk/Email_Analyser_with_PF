@@ -193,6 +193,18 @@
       },
       "source": "downloadGraphApiEmail.py",
       "function": "my_python_tool"
+    },
+    "extractMessageToPrint.py": {
+      "type": "python",
+      "inputs": {
+        "input1": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "extractMessageToPrint.py",
+      "function": "my_python_tool"
     }
   }
 }
