@@ -13,22 +13,17 @@
     "chat": {
       "x": 157.515625,
       "y": -274.28125,
-      "index": 0
+      "index": 1
     },
     "getEmails": {
       "x": -228.96875,
       "y": -230.71875,
-      "index": 1
+      "index": 0
     },
     "download_graph_api_emails": {
       "x": -210.7265625,
       "y": -532.15625,
       "index": 2
-    },
-    "extractMessageToPrint": {
-      "x": 105.921875,
-      "y": -0.15625,
-      "index": 3
     }
   },
   "orientation": "Vertical"

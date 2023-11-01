@@ -1,41 +1,49 @@
 {
   "flow_runs": [
     {
-      "run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1_0",
+      "run_id": "700ae228-766b-45e7-84dc-4722248d635d_0",
       "status": "Completed",
       "error": null,
       "inputs": {
         "chat_history": [
           {
             "inputs": {
-              "chat_history": "how about by mails today"
+              "question": "how is my emails"
             },
             "outputs": {
-              "${chat.output}summaries": "\n The emails for today are as follows: Here  they are the summarized \n \n\r\r\r Mail Category: \"Important, Subject: \"Agile Quiz Competition\", Sender: \"Project Management Initiative\"\n\r\r\r Mail Category: \"Important, Subject: \"Hearts Meeting- October 2023\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Updates from Clean Coders Club at BISTEC Global\", Sender: \"Clean Coders Club BG\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Happy Announcement!\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Unknown, Subject: \"None\", Sender: \"Unknown\"\n\nPlease let me know if you need any further assistance."
+              "${chat.output}summaries": "Based on the provided emails, here is the categorization:\n\n1. Email 1:\n   - Subject: Accepted: AI Movement\n   - Category: Not Provided\n   - Sender: Not Provided\n   - Response/Action: Not Provided\n\n2. Email 2:\n   - Subject: Automatic reply: AI Movement\n   - Category: Important\n   - Sender: Not Provided\n   - Response/Action: This is an automatic reply indicating that the sender is currently traveling and there may be delays in replies. No immediate action is required, but it's important to be aware of the potential delays in communication.\n\n3. Email 3:\n   - Subject: Not Provided\n   - Category: Not Provided\n   - Sender: Not Provided\n   - Response/Action: Not Provided\n\n4. Email 4:\n   - Subject: Sales Report Urgent\n   - Category: Urgent\n   - Sender: Not Provided\n   - Response/Action: Immediate action is required. The email requests the recipient to provide the latest sales report with specific details and metrics by a certain deadline. The report is crucial for critical business decisions and upcoming meetings. The recipient should confirm receipt of the email, provide an estimated time for report delivery, and seek clarification or assistance"
             }
           },
           {
             "inputs": {
-              "chat_history": "show me important only"
+              "question": "any mail is urgent?"
             },
             "outputs": {
-              "${chat.output}summaries": "\n The emails for today are as follows: Here  they are the summarized \n \n\r\r\r Mail Category: \"Important, Subject: \"Agile Quiz Competition\", Sender: \"Project Management Initiative\"\n\r\r\r Mail Category: \"Important, Subject: \"Hearts Meeting- October 2023\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Updates from Clean Coders Club at BISTEC Global\", Sender: \"Clean Coders Club BG\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Happy Announcement!\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Unknown, Subject: \"None\", Sender: \"Unknown\"\n\nPlease let me know if you need any further assistance."
+              "${chat.output}summaries": "Yes, there is one urgent email. The subject is \"Sales Report Urgent\" and it is from Deepakumar."
+            }
+          },
+          {
+            "inputs": {
+              "question": "can you give only that mail"
+            },
+            "outputs": {
+              "${chat.output}summaries": "Sure! Here is the email you requested:\n\nSubject: Sales Report Urgent\nCategory: Urgent\nSender: Deepakumar\n\nContent:\nHi,\nI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.\n\nThe sales report should include the following key metrics:\n- Total Sales Revenue\n- Breakdown of Sales by Product/Service\n- Geographic Sales Distribution\n- Sales Trends (Month-to-Month or Quarter-to-Quarter)\n- Top-Performing Sales Reps or Teams\n- Any Notable Challenges or Opportunities\n\nThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.\n\nOur team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.\n\nKindly confirm receipt of this email and provide an estimated time"
             }
           }
         ],
-        "question": "how is my emails today"
+        "question": "can you give only that mail"
       },
       "output": {
-        "${chat.output}summaries": "\n The emails for today are as follows: Here  they are the summarized \n \n\r\r\r Mail Category: \"Important, Subject: \"Agile Quiz Competition\", Sender: \"Project Management Initiative\"\n\r\r\r Mail Category: \"Important, Subject: \"Hearts Meeting- October 2023\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Updates from Clean Coders Club at BISTEC Global\", Sender: \"Clean Coders Club BG\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Happy Announcement!\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Unknown, Subject: \"None\", Sender: \"Unknown\"\n\nPlease let me know if you need any further assistance."
+        "${chat.output}summaries": "Sure! Here is the email you requested:\n\nSubject: Sales Report Urgent\nCategory: Urgent\nSender: Deepakumar\n\nContent:\nHi,\nI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.\n\nThe sales report should include the following key metrics:\n- Total Sales Revenue\n- Breakdown of Sales by Product/Service\n- Geographic Sales Distribution\n- Sales Trends (Month-to-Month or Quarter-to-Quarter)\n- Top-Performing Sales Reps or Teams\n- Any Notable Challenges or Opportunities\n\nThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.\n\nOur team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.\n\nKindly confirm receipt of this email and provide an estimated time"
       },
       "metrics": null,
       "request": null,
-      "parent_run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1",
-      "root_run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1",
+      "parent_run_id": "700ae228-766b-45e7-84dc-4722248d635d",
+      "root_run_id": "700ae228-766b-45e7-84dc-4722248d635d",
       "source_run_id": null,
       "flow_id": "template_chat_flow",
-      "start_time": "2023-10-31T02:15:49.232543Z",
-      "end_time": "2023-10-31T02:15:53.472024Z",
+      "start_time": "2023-11-01T08:40:50.204747Z",
+      "end_time": "2023-11-01T08:40:51.066255Z",
       "index": 0,
       "api_calls": [
         {
@@ -44,28 +52,24 @@
           "inputs": {},
           "output": [
             {
-              "Subject": "Updates from Clean Coders Club at BISTEC Global",
-              "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
+              "Subject": "Accepted: AI Movement",
+              "content": ""
             },
             {
-              "Subject": "Agile Quiz Competition",
-              "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
-            },
-            {
-              "Subject": "Hearts Meeting- October 2023",
-              "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
-            },
-            {
-              "Subject": "Happy Announcement!",
-              "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+              "Subject": "Automatic reply: AI Movement",
+              "content": "\nI will be traveling till end of this week. Please expect delays in replies."
             },
             {
               "Subject": null,
               "content": ""
+            },
+            {
+              "Subject": "Sales Report Urgent",
+              "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
             }
           ],
-          "start_time": 1698698749.257943,
-          "end_time": 1698698749.309222,
+          "start_time": 1698808250.206179,
+          "end_time": 1698808250.215137,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -74,11 +78,11 @@
           "name": "my_python_tool",
           "type": "Tool",
           "inputs": {
-            "input1": "how is my emails today"
+            "input1": "can you give only that mail"
           },
-          "output": "how is my emails today",
-          "start_time": 1698698749.257943,
-          "end_time": 1698698750.582689,
+          "output": "can you give only that mail",
+          "start_time": 1698808250.206588,
+          "end_time": 1698808251.063361,
           "error": null,
           "children": null,
           "node_name": "download_graph_api_emails"
@@ -87,37 +91,34 @@
           "name": "OpenAI.chat",
           "type": "Tool",
           "inputs": {
-            "prompt": "system:\nYou are an assistant tasked with analyzing a list of emails and categorizing them based on the provided email categories. The Email Categories as given below with description and keywords.\nUrgent- emails are those that require immediate attention and action. They often involve time-sensitive matters that need to be addressed without delay. Examples of urgent emails include critical work-related issues, emergency requests, or messages that impact your immediate schedule or plans.\nImportant- emails are messages that hold significant relevance or value, but they may not be urgently time-bound. These emails require your attention and a timely response, but they don't demand an immediate reaction. Examples of important emails include project updates, important communications from colleagues or clients, or upcoming event notifications.\nLow-priority - emails are messages that are not particularly time-sensitive or essential. They can be addressed when you have some free time but should not take precedence over urgent or important matters. Examples of low-priority emails include newsletters, non-essential notifications, or general updates that don't require immediate action.\nEmails should be categorized based on the provided categories only.\nEach and every email message is separated with curly brackets like this {Email Message}\nif asked about the emails list today or if they assked about all meain then only please categorize all the given emails, and  list the subject  eamil and category. Reason for the categorization is not required, only email subject, categories and sender are required. \nif asked about the emails list on a particular category , sender or subject then please filter them based on the input  Reason for the categorization or filtering is not required, only email subject, categories and sender are required.\n\nReturn the result table format.\n{{json}}\n\nHuman: {{question}}\nBot:",
+            "prompt": "system:\n\"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide a brief response or action for each category:\nIf the content of an email is null or empty, please categorize it as 'Not Provided'\nFor 'urgent' emails, specify the immediate action required.\nFor 'important' emails, describe the significance and the timely response expected.\nFor 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate response based on the content.\"\n \nThese are the emials list. {{json}}\n \nHuman: {{question}}\nBot:",
             "json": [
               {
-                "Subject": "Updates from Clean Coders Club at BISTEC Global",
-                "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
+                "Subject": "Accepted: AI Movement",
+                "content": ""
               },
               {
-                "Subject": "Agile Quiz Competition",
-                "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
-              },
-              {
-                "Subject": "Hearts Meeting- October 2023",
-                "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
-              },
-              {
-                "Subject": "Happy Announcement!",
-                "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+                "Subject": "Automatic reply: AI Movement",
+                "content": "\nI will be traveling till end of this week. Please expect delays in replies."
               },
               {
                 "Subject": null,
                 "content": ""
+              },
+              {
+                "Subject": "Sales Report Urgent",
+                "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
               }
             ],
             "max_tokens": 256,
             "model": "gpt-3.5-turbo",
-            "question": "how is my emails today",
-            "temperature": 0.0
+            "question": "can you give only that mail",
+            "temperature": 0.0,
+            "stream": true
           },
-          "output": "{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'Category': 'Important', 'Sender': 'BISTEC Global'}, {'Subject': 'Agile Quiz Competition', 'Category': 'Urgent', 'Sender': 'Project Management Initiative'}, {'Subject': 'Hearts Meeting- October 2023', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': 'Happy Announcement!', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': None, 'Category': 'Low-priority', 'Sender': None}",
-          "start_time": 1698698749.332357,
-          "end_time": 1698698753.419447,
+          "output": [],
+          "start_time": 1698808250.220815,
+          "end_time": 1698808250.933767,
           "error": null,
           "children": [
             {
@@ -129,13 +130,13 @@
                 "messages": [
                   {
                     "role": "system",
-                    "content": "You are an assistant tasked with analyzing a list of emails and categorizing them based on the provided email categories. The Email Categories as given below with description and keywords.\nUrgent- emails are those that require immediate attention and action. They often involve time-sensitive matters that need to be addressed without delay. Examples of urgent emails include critical work-related issues, emergency requests, or messages that impact your immediate schedule or plans.\nImportant- emails are messages that hold significant relevance or value, but they may not be urgently time-bound. These emails require your attention and a timely response, but they don't demand an immediate reaction. Examples of important emails include project updates, important communications from colleagues or clients, or upcoming event notifications.\nLow-priority - emails are messages that are not particularly time-sensitive or essential. They can be addressed when you have some free time but should not take precedence over urgent or important matters. Examples of low-priority emails include newsletters, non-essential notifications, or general updates that don't require immediate action.\nEmails should be categorized based on the provided categories only.\nEach and every email message is separated with curly brackets like this {Email Message}\nif asked about the emails list today or if they assked about all meain then only please categorize all the given emails, and  list the subject  eamil and category. Reason for the categorization is not required, only email subject, categories and sender are required. \nif asked about the emails list on a particular category , sender or subject then please filter them based on the input  Reason for the categorization or filtering is not required, only email subject, categories and sender are required.\n\nReturn the result table format.\n[{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'content': '\\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   '}, {'Subject': 'Agile Quiz Competition', 'content': \"\\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\\xa0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\\xa0Are you ready to put your knowledge to the test and\\xa0win fantastic prizes?\\xa0Today at 5:00 PM, let's determine who takes home the title of champion!\\xa0\\xa0\ud83c\udf1f\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0SEE YOU THERE!\\xa0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\\xa0\\xa0Best Regards,Project Management Initiative\\xa0\\xa0\\xa0\"}, {'Subject': 'Hearts Meeting- October 2023', 'content': '\\nHello Hearts!\u2764\\xa0Please find the recording link of the October Hearts Meeting.\\xa0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\\xa0Date- 25/10/2023\\xa0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\\xa0\\xa0\\xa0:\\xa0\\xa0thushini@bistecglobal.com M\\xa0:\\xa0\\xa0+94 763 542 231W\\xa0:\\xa0\\xa0\\xa0www.bistecglobal.com \\xa0\\xa0'}, {'Subject': 'Happy Announcement!', 'content': '\\nHi Hearts!\\xa0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\\xa0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\\xa0\\xa0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\\xa0\\xa0\\xa0:\\xa0\\xa0thushini@bistecglobal.com M\\xa0:\\xa0\\xa0+94 763 542 231W\\xa0:\\xa0\\xa0\\xa0www.bistecglobal.com \\xa0\\xa0'}, {'Subject': None, 'content': ''}]\n\nHuman: how is my emails today\nBot:"
+                    "content": "\"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide a brief response or action for each category:\nIf the content of an email is null or empty, please categorize it as 'Not Provided'\nFor 'urgent' emails, specify the immediate action required.\nFor 'important' emails, describe the significance and the timely response expected.\nFor 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate response based on the content.\"\n \nThese are the emials list. [{'Subject': 'Accepted: AI Movement', 'content': ''}, {'Subject': 'Automatic reply: AI Movement', 'content': '\\nI will be traveling till end of this week. Please expect delays in replies.'}, {'Subject': None, 'content': ''}, {'Subject': 'Sales Report Urgent', 'content': \"\\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar\"}]\n \nHuman: can you give only that mail\nBot:"
                   }
                 ],
                 "temperature": 0.0,
                 "top_p": 1.0,
                 "n": 1,
-                "stream": false,
+                "stream": true,
                 "stop": null,
                 "max_tokens": 256,
                 "presence_penalty": 0.0,
@@ -143,48 +144,15 @@
                 "logit_bias": {},
                 "user": ""
               },
-              "output": {
-                "id": "chatcmpl-8FYaEHb8UCtxSfTti2kNQKTR2XQfi",
-                "object": "chat.completion",
-                "created": 1698718550,
-                "model": "gpt-3.5-turbo-0613",
-                "choices": [
-                  {
-                    "index": 0,
-                    "message": {
-                      "role": "assistant",
-                      "content": "{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'Category': 'Important', 'Sender': 'BISTEC Global'}, {'Subject': 'Agile Quiz Competition', 'Category': 'Urgent', 'Sender': 'Project Management Initiative'}, {'Subject': 'Hearts Meeting- October 2023', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': 'Happy Announcement!', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': None, 'Category': 'Low-priority', 'Sender': None}"
-                    },
-                    "finish_reason": "stop"
-                  }
-                ],
-                "usage": {
-                  "prompt_tokens": 1110,
-                  "completion_tokens": 130,
-                  "total_tokens": 1240
-                }
-              },
-              "start_time": 1698698749.357731,
-              "end_time": 1698698753.419447,
+              "output": [],
+              "start_time": 1698808250.224998,
+              "end_time": 1698808250.933666,
               "error": null,
               "children": null,
               "node_name": null
             }
           ],
           "node_name": "chat"
-        },
-        {
-          "name": "my_python_tool",
-          "type": "Tool",
-          "inputs": {
-            "input1": "{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'Category': 'Important', 'Sender': 'BISTEC Global'}, {'Subject': 'Agile Quiz Competition', 'Category': 'Urgent', 'Sender': 'Project Management Initiative'}, {'Subject': 'Hearts Meeting- October 2023', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': 'Happy Announcement!', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': None, 'Category': 'Low-priority', 'Sender': None}"
-          },
-          "output": "\n The emails for today are as follows: Here  they are the summarized \n \n\r\r\r Mail Category: \"Important, Subject: \"Agile Quiz Competition\", Sender: \"Project Management Initiative\"\n\r\r\r Mail Category: \"Important, Subject: \"Hearts Meeting- October 2023\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Updates from Clean Coders Club at BISTEC Global\", Sender: \"Clean Coders Club BG\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Happy Announcement!\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Unknown, Subject: \"None\", Sender: \"Unknown\"\n\nPlease let me know if you need any further assistance.",
-          "start_time": 1698698753.45574,
-          "end_time": 1698698753.463813,
-          "error": null,
-          "children": null,
-          "node_name": "extractMessageToPrint"
         }
       ],
       "variant_id": "",
@@ -192,11 +160,11 @@
       "description": "",
       "tags": null,
       "system_metrics": {
-        "duration": 4.239481,
-        "total_tokens": 1240
+        "duration": 0.861508,
+        "total_tokens": 0
       },
       "result": {
-        "${chat.output}summaries": "\n The emails for today are as follows: Here  they are the summarized \n \n\r\r\r Mail Category: \"Important, Subject: \"Agile Quiz Competition\", Sender: \"Project Management Initiative\"\n\r\r\r Mail Category: \"Important, Subject: \"Hearts Meeting- October 2023\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Updates from Clean Coders Club at BISTEC Global\", Sender: \"Clean Coders Club BG\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Happy Announcement!\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Unknown, Subject: \"None\", Sender: \"Unknown\"\n\nPlease let me know if you need any further assistance."
+        "${chat.output}summaries": "Sure! Here is the email you requested:\n\nSubject: Sales Report Urgent\nCategory: Urgent\nSender: Deepakumar\n\nContent:\nHi,\nI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.\n\nThe sales report should include the following key metrics:\n- Total Sales Revenue\n- Breakdown of Sales by Product/Service\n- Geographic Sales Distribution\n- Sales Trends (Month-to-Month or Quarter-to-Quarter)\n- Top-Performing Sales Reps or Teams\n- Any Notable Challenges or Opportunities\n\nThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.\n\nOur team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.\n\nKindly confirm receipt of this email and provide an estimated time"
       },
       "upload_metrics": false
     }
@@ -204,37 +172,33 @@
   "node_runs": [
     {
       "node": "getEmails",
-      "flow_run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1",
-      "run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1_getEmails_0",
+      "flow_run_id": "700ae228-766b-45e7-84dc-4722248d635d",
+      "run_id": "700ae228-766b-45e7-84dc-4722248d635d_getEmails_0",
       "status": "Completed",
       "inputs": {},
       "output": [
         {
-          "Subject": "Updates from Clean Coders Club at BISTEC Global",
-          "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
+          "Subject": "Accepted: AI Movement",
+          "content": ""
         },
         {
-          "Subject": "Agile Quiz Competition",
-          "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
-        },
-        {
-          "Subject": "Hearts Meeting- October 2023",
-          "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
-        },
-        {
-          "Subject": "Happy Announcement!",
-          "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+          "Subject": "Automatic reply: AI Movement",
+          "content": "\nI will be traveling till end of this week. Please expect delays in replies."
         },
         {
           "Subject": null,
           "content": ""
+        },
+        {
+          "Subject": "Sales Report Urgent",
+          "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
         }
       ],
       "metrics": null,
       "error": null,
-      "parent_run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1_0",
-      "start_time": "2023-10-31T02:15:49.257943Z",
-      "end_time": "2023-10-31T02:15:49.332357Z",
+      "parent_run_id": "700ae228-766b-45e7-84dc-4722248d635d_0",
+      "start_time": "2023-11-01T08:40:50.206079Z",
+      "end_time": "2023-11-01T08:40:50.220041Z",
       "index": 0,
       "api_calls": [
         {
@@ -243,28 +207,24 @@
           "inputs": {},
           "output": [
             {
-              "Subject": "Updates from Clean Coders Club at BISTEC Global",
-              "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
+              "Subject": "Accepted: AI Movement",
+              "content": ""
             },
             {
-              "Subject": "Agile Quiz Competition",
-              "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
-            },
-            {
-              "Subject": "Hearts Meeting- October 2023",
-              "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
-            },
-            {
-              "Subject": "Happy Announcement!",
-              "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+              "Subject": "Automatic reply: AI Movement",
+              "content": "\nI will be traveling till end of this week. Please expect delays in replies."
             },
             {
               "Subject": null,
               "content": ""
+            },
+            {
+              "Subject": "Sales Report Urgent",
+              "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
             }
           ],
-          "start_time": 1698698749.257943,
-          "end_time": 1698698749.309222,
+          "start_time": 1698808250.206179,
+          "end_time": 1698808250.215137,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -278,56 +238,52 @@
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 0.074414
+        "duration": 0.013962
       },
       "result": [
         {
-          "Subject": "Updates from Clean Coders Club at BISTEC Global",
-          "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
+          "Subject": "Accepted: AI Movement",
+          "content": ""
         },
         {
-          "Subject": "Agile Quiz Competition",
-          "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
-        },
-        {
-          "Subject": "Hearts Meeting- October 2023",
-          "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
-        },
-        {
-          "Subject": "Happy Announcement!",
-          "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+          "Subject": "Automatic reply: AI Movement",
+          "content": "\nI will be traveling till end of this week. Please expect delays in replies."
         },
         {
           "Subject": null,
           "content": ""
+        },
+        {
+          "Subject": "Sales Report Urgent",
+          "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
         }
       ]
     },
     {
       "node": "download_graph_api_emails",
-      "flow_run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1",
-      "run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1_download_graph_api_emails_0",
+      "flow_run_id": "700ae228-766b-45e7-84dc-4722248d635d",
+      "run_id": "700ae228-766b-45e7-84dc-4722248d635d_download_graph_api_emails_0",
       "status": "Completed",
       "inputs": {
-        "input1": "how is my emails today"
+        "input1": "can you give only that mail"
       },
-      "output": "how is my emails today",
+      "output": "can you give only that mail",
       "metrics": null,
       "error": null,
-      "parent_run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1_0",
-      "start_time": "2023-10-31T02:15:49.257943Z",
-      "end_time": "2023-10-31T02:15:50.588327Z",
+      "parent_run_id": "700ae228-766b-45e7-84dc-4722248d635d_0",
+      "start_time": "2023-11-01T08:40:50.206513Z",
+      "end_time": "2023-11-01T08:40:51.065657Z",
       "index": 0,
       "api_calls": [
         {
           "name": "my_python_tool",
           "type": "Tool",
           "inputs": {
-            "input1": "how is my emails today"
+            "input1": "can you give only that mail"
           },
-          "output": "how is my emails today",
-          "start_time": 1698698749.257943,
-          "end_time": 1698698750.582689,
+          "output": "can you give only that mail",
+          "start_time": 1698808250.206588,
+          "end_time": 1698808251.063361,
           "error": null,
           "children": null,
           "node_name": "download_graph_api_emails"
@@ -337,91 +293,85 @@
       "cached_run_id": null,
       "cached_flow_run_id": null,
       "logs": {
-        "stdout": "[2023-10-31T02:15:50+0000] Failed to retrieve access token. Status code:[2023-10-31T02:15:50+0000]  [2023-10-31T02:15:50+0000] 404\n[2023-10-31T02:15:50+0000] \n[2023-10-31T02:15:50+0000] C:\\Users\\DeepakumarGaneshaman\\source\\learning_repos\\email_analyser_with_pdf\\Email_Analyser_with_PF\\chat_bot\\data.json\n[2023-10-31T02:15:50+0000] Failed to retrieve emails. Status code:[2023-10-31T02:15:50+0000]  [2023-10-31T02:15:50+0000] 401\n[2023-10-31T02:15:50+0000] {\"error\":{\"code\":\"InvalidAuthenticationToken\",\"message\":\"IDX14100: JWT is not well formed: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', there are no dots (.).\\nThe token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.\",\"innerError\":{\"date\":\"2023-10-31T02:15:50\",\"request-id\":\"20337e7b-b079-483f-b984-45a964d6dd2c\",\"client-request-id\":\"20337e7b-b079-483f-b984-45a964d6dd2c\"}}}\n",
+        "stdout": "[2023-11-01T08:40:50+0000] /Users/bhashitha98/Documents/Bistec/Prompt Flow Project/Email_Analyser_with_PF/chat_bot/data.json\n",
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 1.330384
+        "duration": 0.859144
       },
-      "result": "how is my emails today"
+      "result": "can you give only that mail"
     },
     {
       "node": "chat",
-      "flow_run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1",
-      "run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1_chat_0",
+      "flow_run_id": "700ae228-766b-45e7-84dc-4722248d635d",
+      "run_id": "700ae228-766b-45e7-84dc-4722248d635d_chat_0",
       "status": "Completed",
       "inputs": {
-        "prompt": "system:\nYou are an assistant tasked with analyzing a list of emails and categorizing them based on the provided email categories. The Email Categories as given below with description and keywords.\nUrgent- emails are those that require immediate attention and action. They often involve time-sensitive matters that need to be addressed without delay. Examples of urgent emails include critical work-related issues, emergency requests, or messages that impact your immediate schedule or plans.\nImportant- emails are messages that hold significant relevance or value, but they may not be urgently time-bound. These emails require your attention and a timely response, but they don't demand an immediate reaction. Examples of important emails include project updates, important communications from colleagues or clients, or upcoming event notifications.\nLow-priority - emails are messages that are not particularly time-sensitive or essential. They can be addressed when you have some free time but should not take precedence over urgent or important matters. Examples of low-priority emails include newsletters, non-essential notifications, or general updates that don't require immediate action.\nEmails should be categorized based on the provided categories only.\nEach and every email message is separated with curly brackets like this {Email Message}\nif asked about the emails list today or if they assked about all meain then only please categorize all the given emails, and  list the subject  eamil and category. Reason for the categorization is not required, only email subject, categories and sender are required. \nif asked about the emails list on a particular category , sender or subject then please filter them based on the input  Reason for the categorization or filtering is not required, only email subject, categories and sender are required.\n\nReturn the result table format.\n{{json}}\n\nHuman: {{question}}\nBot:",
+        "prompt": "system:\n\"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide a brief response or action for each category:\nIf the content of an email is null or empty, please categorize it as 'Not Provided'\nFor 'urgent' emails, specify the immediate action required.\nFor 'important' emails, describe the significance and the timely response expected.\nFor 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate response based on the content.\"\n \nThese are the emials list. {{json}}\n \nHuman: {{question}}\nBot:",
         "json": [
           {
-            "Subject": "Updates from Clean Coders Club at BISTEC Global",
-            "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
+            "Subject": "Accepted: AI Movement",
+            "content": ""
           },
           {
-            "Subject": "Agile Quiz Competition",
-            "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
-          },
-          {
-            "Subject": "Hearts Meeting- October 2023",
-            "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
-          },
-          {
-            "Subject": "Happy Announcement!",
-            "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+            "Subject": "Automatic reply: AI Movement",
+            "content": "\nI will be traveling till end of this week. Please expect delays in replies."
           },
           {
             "Subject": null,
             "content": ""
+          },
+          {
+            "Subject": "Sales Report Urgent",
+            "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
           }
         ],
         "max_tokens": 256,
         "model": "gpt-3.5-turbo",
-        "question": "how is my emails today",
-        "temperature": 0.0
+        "question": "can you give only that mail",
+        "temperature": 0.0,
+        "stream": true
       },
-      "output": "{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'Category': 'Important', 'Sender': 'BISTEC Global'}, {'Subject': 'Agile Quiz Competition', 'Category': 'Urgent', 'Sender': 'Project Management Initiative'}, {'Subject': 'Hearts Meeting- October 2023', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': 'Happy Announcement!', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': None, 'Category': 'Low-priority', 'Sender': None}",
+      "output": "<generator object generate_from_proxy at 0x14a1314a0>",
       "metrics": null,
       "error": null,
-      "parent_run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1_0",
-      "start_time": "2023-10-31T02:15:49.332357Z",
-      "end_time": "2023-10-31T02:15:53.455740Z",
+      "parent_run_id": "700ae228-766b-45e7-84dc-4722248d635d_0",
+      "start_time": "2023-11-01T08:40:50.220695Z",
+      "end_time": "2023-11-01T08:40:50.948051Z",
       "index": 0,
       "api_calls": [
         {
           "name": "OpenAI.chat",
           "type": "Tool",
           "inputs": {
-            "prompt": "system:\nYou are an assistant tasked with analyzing a list of emails and categorizing them based on the provided email categories. The Email Categories as given below with description and keywords.\nUrgent- emails are those that require immediate attention and action. They often involve time-sensitive matters that need to be addressed without delay. Examples of urgent emails include critical work-related issues, emergency requests, or messages that impact your immediate schedule or plans.\nImportant- emails are messages that hold significant relevance or value, but they may not be urgently time-bound. These emails require your attention and a timely response, but they don't demand an immediate reaction. Examples of important emails include project updates, important communications from colleagues or clients, or upcoming event notifications.\nLow-priority - emails are messages that are not particularly time-sensitive or essential. They can be addressed when you have some free time but should not take precedence over urgent or important matters. Examples of low-priority emails include newsletters, non-essential notifications, or general updates that don't require immediate action.\nEmails should be categorized based on the provided categories only.\nEach and every email message is separated with curly brackets like this {Email Message}\nif asked about the emails list today or if they assked about all meain then only please categorize all the given emails, and  list the subject  eamil and category. Reason for the categorization is not required, only email subject, categories and sender are required. \nif asked about the emails list on a particular category , sender or subject then please filter them based on the input  Reason for the categorization or filtering is not required, only email subject, categories and sender are required.\n\nReturn the result table format.\n{{json}}\n\nHuman: {{question}}\nBot:",
+            "prompt": "system:\n\"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide a brief response or action for each category:\nIf the content of an email is null or empty, please categorize it as 'Not Provided'\nFor 'urgent' emails, specify the immediate action required.\nFor 'important' emails, describe the significance and the timely response expected.\nFor 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate response based on the content.\"\n \nThese are the emials list. {{json}}\n \nHuman: {{question}}\nBot:",
             "json": [
               {
-                "Subject": "Updates from Clean Coders Club at BISTEC Global",
-                "content": "\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   "
+                "Subject": "Accepted: AI Movement",
+                "content": ""
               },
               {
-                "Subject": "Agile Quiz Competition",
-                "content": "\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\u00a0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\u00a0Are you ready to put your knowledge to the test and\u00a0win fantastic prizes?\u00a0Today at 5:00 PM, let's determine who takes home the title of champion!\u00a0\u00a0\ud83c\udf1f\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0SEE YOU THERE!\u00a0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\u00a0\u00a0Best Regards,Project Management Initiative\u00a0\u00a0\u00a0"
-              },
-              {
-                "Subject": "Hearts Meeting- October 2023",
-                "content": "\nHello Hearts!\u2764\u00a0Please find the recording link of the October Hearts Meeting.\u00a0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\u00a0Date- 25/10/2023\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
-              },
-              {
-                "Subject": "Happy Announcement!",
-                "content": "\nHi Hearts!\u00a0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\u00a0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\u00a0\u00a0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\u00a0\u00a0\u00a0:\u00a0\u00a0thushini@bistecglobal.com M\u00a0:\u00a0\u00a0+94 763 542 231W\u00a0:\u00a0\u00a0\u00a0www.bistecglobal.com \u00a0\u00a0"
+                "Subject": "Automatic reply: AI Movement",
+                "content": "\nI will be traveling till end of this week. Please expect delays in replies."
               },
               {
                 "Subject": null,
                 "content": ""
+              },
+              {
+                "Subject": "Sales Report Urgent",
+                "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
               }
             ],
             "max_tokens": 256,
             "model": "gpt-3.5-turbo",
-            "question": "how is my emails today",
-            "temperature": 0.0
+            "question": "can you give only that mail",
+            "temperature": 0.0,
+            "stream": true
           },
-          "output": "{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'Category': 'Important', 'Sender': 'BISTEC Global'}, {'Subject': 'Agile Quiz Competition', 'Category': 'Urgent', 'Sender': 'Project Management Initiative'}, {'Subject': 'Hearts Meeting- October 2023', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': 'Happy Announcement!', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': None, 'Category': 'Low-priority', 'Sender': None}",
-          "start_time": 1698698749.332357,
-          "end_time": 1698698753.419447,
+          "output": [],
+          "start_time": 1698808250.220815,
+          "end_time": 1698808250.933767,
           "error": null,
           "children": [
             {
@@ -433,13 +383,13 @@
                 "messages": [
                   {
                     "role": "system",
-                    "content": "You are an assistant tasked with analyzing a list of emails and categorizing them based on the provided email categories. The Email Categories as given below with description and keywords.\nUrgent- emails are those that require immediate attention and action. They often involve time-sensitive matters that need to be addressed without delay. Examples of urgent emails include critical work-related issues, emergency requests, or messages that impact your immediate schedule or plans.\nImportant- emails are messages that hold significant relevance or value, but they may not be urgently time-bound. These emails require your attention and a timely response, but they don't demand an immediate reaction. Examples of important emails include project updates, important communications from colleagues or clients, or upcoming event notifications.\nLow-priority - emails are messages that are not particularly time-sensitive or essential. They can be addressed when you have some free time but should not take precedence over urgent or important matters. Examples of low-priority emails include newsletters, non-essential notifications, or general updates that don't require immediate action.\nEmails should be categorized based on the provided categories only.\nEach and every email message is separated with curly brackets like this {Email Message}\nif asked about the emails list today or if they assked about all meain then only please categorize all the given emails, and  list the subject  eamil and category. Reason for the categorization is not required, only email subject, categories and sender are required. \nif asked about the emails list on a particular category , sender or subject then please filter them based on the input  Reason for the categorization or filtering is not required, only email subject, categories and sender are required.\n\nReturn the result table format.\n[{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'content': '\\nCAUTION: This email was sent from outside of BISTEC Global. Please do not click links or open attachments unless you recognize the sender. BISTEC Global   Posted in Clean Coders Club BG Buddhima Wickramasinghe | BISTEC Global Oct 25, 2023 10:55PM This topic may not be directly related to coding, but it holds great importance. Mastering the art of effectively conveying and selling your ideas during discussions can open up a world of\u2026Go to conversation Explore more conversations Go to Viva Engage Unsubscribe | Privacy Statement Microsoft Corporation One Microsoft Way Redmond, WA 98052   '}, {'Subject': 'Agile Quiz Competition', 'content': \"\\nHi Hearts,\ud83d\ude80 \u201cAgile is not your goal\u2014it\u2019s only the best way to achieve your goals.\u201d \ud83d\ude80\\xa0Put your thinking caps on because the Agile Quiz Competition is happening TODAY!\\xa0Are you ready to put your knowledge to the test and\\xa0win fantastic prizes?\\xa0Today at 5:00 PM, let's determine who takes home the title of champion!\\xa0\\xa0\ud83c\udf1f\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0\\xa0SEE YOU THERE!\\xa0https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmRkYTM0YzctMDY5OC00ZWFlLWIyZGQtYzNiMGE1NzA3NzM0%40thread.v2/0?context=%7b%22Tid%22%3a%22d5e769b0-fd19-45e4-a4a8-b73545450234%22%2c%22Oid%22%3a%220b9e5438-5dc2-4530-83bb-8cf3c4400ce3%22%7d\\xa0\\xa0Best Regards,Project Management Initiative\\xa0\\xa0\\xa0\"}, {'Subject': 'Hearts Meeting- October 2023', 'content': '\\nHello Hearts!\u2764\\xa0Please find the recording link of the October Hearts Meeting.\\xa0Meeting link: https://bistecglobal.sharepoint.com/sites/BISTECINTRANET/SitePages/Saff-Meetings.aspx?app=portals#hearts-meeting-25-10-2023\\xa0Date- 25/10/2023\\xa0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\\xa0\\xa0\\xa0:\\xa0\\xa0thushini@bistecglobal.com M\\xa0:\\xa0\\xa0+94 763 542 231W\\xa0:\\xa0\\xa0\\xa0www.bistecglobal.com \\xa0\\xa0'}, {'Subject': 'Happy Announcement!', 'content': '\\nHi Hearts!\\xa0It\u2019s a pleasure to announce the marriage of Our Heart, Bhashitha\ud83e\udd42.\\xa0Let\u2019s wish lifetime full of happiness and love to the happy couple. Congratulations!\u2764\\xa0\\xa0Thanks,Thushini MaheepalaPeople and Culture ExecutiveE\\xa0\\xa0\\xa0:\\xa0\\xa0thushini@bistecglobal.com M\\xa0:\\xa0\\xa0+94 763 542 231W\\xa0:\\xa0\\xa0\\xa0www.bistecglobal.com \\xa0\\xa0'}, {'Subject': None, 'content': ''}]\n\nHuman: how is my emails today\nBot:"
+                    "content": "\"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide a brief response or action for each category:\nIf the content of an email is null or empty, please categorize it as 'Not Provided'\nFor 'urgent' emails, specify the immediate action required.\nFor 'important' emails, describe the significance and the timely response expected.\nFor 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate response based on the content.\"\n \nThese are the emials list. [{'Subject': 'Accepted: AI Movement', 'content': ''}, {'Subject': 'Automatic reply: AI Movement', 'content': '\\nI will be traveling till end of this week. Please expect delays in replies.'}, {'Subject': None, 'content': ''}, {'Subject': 'Sales Report Urgent', 'content': \"\\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar\"}]\n \nHuman: can you give only that mail\nBot:"
                   }
                 ],
                 "temperature": 0.0,
                 "top_p": 1.0,
                 "n": 1,
-                "stream": false,
+                "stream": true,
                 "stop": null,
                 "max_tokens": 256,
                 "presence_penalty": 0.0,
@@ -447,29 +397,9 @@
                 "logit_bias": {},
                 "user": ""
               },
-              "output": {
-                "id": "chatcmpl-8FYaEHb8UCtxSfTti2kNQKTR2XQfi",
-                "object": "chat.completion",
-                "created": 1698718550,
-                "model": "gpt-3.5-turbo-0613",
-                "choices": [
-                  {
-                    "index": 0,
-                    "message": {
-                      "role": "assistant",
-                      "content": "{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'Category': 'Important', 'Sender': 'BISTEC Global'}, {'Subject': 'Agile Quiz Competition', 'Category': 'Urgent', 'Sender': 'Project Management Initiative'}, {'Subject': 'Hearts Meeting- October 2023', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': 'Happy Announcement!', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': None, 'Category': 'Low-priority', 'Sender': None}"
-                    },
-                    "finish_reason": "stop"
-                  }
-                ],
-                "usage": {
-                  "prompt_tokens": 1110,
-                  "completion_tokens": 130,
-                  "total_tokens": 1240
-                }
-              },
-              "start_time": 1698698749.357731,
-              "end_time": 1698698753.419447,
+              "output": [],
+              "start_time": 1698808250.224998,
+              "end_time": 1698808250.933666,
               "error": null,
               "children": null,
               "node_name": null
@@ -486,54 +416,9 @@
         "stderr": ""
       },
       "system_metrics": {
-        "prompt_tokens": 1110,
-        "completion_tokens": 130,
-        "total_tokens": 1240,
-        "duration": 4.123383
+        "duration": 0.727356
       },
-      "result": "{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'Category': 'Important', 'Sender': 'BISTEC Global'}, {'Subject': 'Agile Quiz Competition', 'Category': 'Urgent', 'Sender': 'Project Management Initiative'}, {'Subject': 'Hearts Meeting- October 2023', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': 'Happy Announcement!', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': None, 'Category': 'Low-priority', 'Sender': None}"
-    },
-    {
-      "node": "extractMessageToPrint",
-      "flow_run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1",
-      "run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1_extractMessageToPrint_0",
-      "status": "Completed",
-      "inputs": {
-        "input1": "{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'Category': 'Important', 'Sender': 'BISTEC Global'}, {'Subject': 'Agile Quiz Competition', 'Category': 'Urgent', 'Sender': 'Project Management Initiative'}, {'Subject': 'Hearts Meeting- October 2023', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': 'Happy Announcement!', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': None, 'Category': 'Low-priority', 'Sender': None}"
-      },
-      "output": "\n The emails for today are as follows: Here  they are the summarized \n \n\r\r\r Mail Category: \"Important, Subject: \"Agile Quiz Competition\", Sender: \"Project Management Initiative\"\n\r\r\r Mail Category: \"Important, Subject: \"Hearts Meeting- October 2023\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Updates from Clean Coders Club at BISTEC Global\", Sender: \"Clean Coders Club BG\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Happy Announcement!\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Unknown, Subject: \"None\", Sender: \"Unknown\"\n\nPlease let me know if you need any further assistance.",
-      "metrics": null,
-      "error": null,
-      "parent_run_id": "b9c3ea21-bad9-4a6c-8f29-8e7ef620b2c1_0",
-      "start_time": "2023-10-31T02:15:53.455740Z",
-      "end_time": "2023-10-31T02:15:53.466518Z",
-      "index": 0,
-      "api_calls": [
-        {
-          "name": "my_python_tool",
-          "type": "Tool",
-          "inputs": {
-            "input1": "{'Subject': 'Updates from Clean Coders Club at BISTEC Global', 'Category': 'Important', 'Sender': 'BISTEC Global'}, {'Subject': 'Agile Quiz Competition', 'Category': 'Urgent', 'Sender': 'Project Management Initiative'}, {'Subject': 'Hearts Meeting- October 2023', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': 'Happy Announcement!', 'Category': 'Important', 'Sender': 'Thushini Maheepala'}, {'Subject': None, 'Category': 'Low-priority', 'Sender': None}"
-          },
-          "output": "\n The emails for today are as follows: Here  they are the summarized \n \n\r\r\r Mail Category: \"Important, Subject: \"Agile Quiz Competition\", Sender: \"Project Management Initiative\"\n\r\r\r Mail Category: \"Important, Subject: \"Hearts Meeting- October 2023\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Updates from Clean Coders Club at BISTEC Global\", Sender: \"Clean Coders Club BG\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Happy Announcement!\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Unknown, Subject: \"None\", Sender: \"Unknown\"\n\nPlease let me know if you need any further assistance.",
-          "start_time": 1698698753.45574,
-          "end_time": 1698698753.463813,
-          "error": null,
-          "children": null,
-          "node_name": "extractMessageToPrint"
-        }
-      ],
-      "variant_id": "",
-      "cached_run_id": null,
-      "cached_flow_run_id": null,
-      "logs": {
-        "stdout": "",
-        "stderr": ""
-      },
-      "system_metrics": {
-        "duration": 0.010778
-      },
-      "result": "\n The emails for today are as follows: Here  they are the summarized \n \n\r\r\r Mail Category: \"Important, Subject: \"Agile Quiz Competition\", Sender: \"Project Management Initiative\"\n\r\r\r Mail Category: \"Important, Subject: \"Hearts Meeting- October 2023\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Updates from Clean Coders Club at BISTEC Global\", Sender: \"Clean Coders Club BG\"\n\r\r\r Mail Category: \"Low-priority, Subject: \"Happy Announcement!\", Sender: \"Thushini Maheepala\"\n\r\r\r Mail Category: \"Unknown, Subject: \"None\", Sender: \"Unknown\"\n\nPlease let me know if you need any further assistance."
+      "result": "<generator object generate_from_proxy at 0x14a1314a0>"
     }
   ]
 }
