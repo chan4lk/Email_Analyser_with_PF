@@ -36,7 +36,7 @@ nodes:
     model: gpt-3.5-turbo
     question: ${inputs.question}
     json: ${getEmails.output}
-  connection: AI_Key
+  connection: openai-local
   api: chat
 - name: download_graph_api_emails
   type: python

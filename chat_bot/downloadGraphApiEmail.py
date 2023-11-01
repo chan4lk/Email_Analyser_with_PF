@@ -58,6 +58,7 @@ def get_daily_emails(graph_api_endpoint,client_id, client_secret, redirect_uri, 
     end_date = today.strftime('%Y-%m-%dT23:59:59Z')
     params = {
         '$filter': f'receivedDateTime ge {start_date} and receivedDateTime le {end_date}',
+        '$top': '3'
     }
 
     # Make the request to the Microsoft Graph API to retrieve emails for the specified user
