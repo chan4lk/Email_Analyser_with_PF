@@ -241,6 +241,60 @@
             "flag": {
                 "flagStatus": "notFlagged"
             }
+        },
+        {
+            "@odata.etag": "W/\"CQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ2SBdw\"",
+            "id": "AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6-TQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAJ3vgPdAAA=",
+            "createdDateTime": "2023-11-01T08:44:17Z",
+            "lastModifiedDateTime": "2023-11-01T08:44:18Z",
+            "changeKey": "CQAAABYAAACF3Y3XOG24Q521TfBB7SXNAAJ2SBdw",
+            "categories": [],
+            "receivedDateTime": "2023-11-01T08:44:17Z",
+            "sentDateTime": "2023-11-01T08:44:15Z",
+            "hasAttachments": false,
+            "internetMessageId": "<PSAPR04MB413374D64BA2C23596C9964EA1A7A@PSAPR04MB4133.apcprd04.prod.outlook.com>",
+            "subject": "total Sales Revenue",
+            "bodyPreview": "I trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic pla",
+            "importance": "normal",
+            "parentFolderId": "AQMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MAMTkALgAAA4jasZUXr9NDvKcorboobF4BAIXdjdc4bbhDnbVN8EHtJc0AAAIBDAAAAA==",
+            "conversationId": "AAQkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQAQAPr6nRw6IolIoI7eJgh1C3I=",
+            "conversationIndex": "AQHaDJ+Y+vqdHDoiiUigjt4mCHULcg==",
+            "isDeliveryReceiptRequested": false,
+            "isReadReceiptRequested": false,
+            "isRead": true,
+            "isDraft": false,
+            "webLink": "https://outlook.office365.com/owa/?ItemID=AAMkADU4OTdhYmMzLTYzZDctNDEyMy04MDJiLWYwMjRkYWU2Y2MxOQBGAAAAAACI2rGVF6%2FTQ7ynKK26KGxeBwCF3Y3XOG24Q521TfBB7SXNAAAAAAEMAACF3Y3XOG24Q521TfBB7SXNAAJ3vgPdAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+            "inferenceClassification": "focused",
+            "body": {
+                "contentType": "html",
+                "content": "<html><head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><style type=\"text/css\" style=\"display:none\">\r\n<!--\r\np\r\n\t{margin-top:0;\r\n\tmargin-bottom:0}\r\n-->\r\n</style></head><body dir=\"ltr\"><p class=\"elementToProof\" style=\"margin-top:0px; margin-bottom:0px\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">I trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic planning and decision-making.</span></p><p style=\"text-align:left; margin:1.25em 0px; border-width:0px; border-style:solid; border-color:rgb(217,217,227); background-color:rgb(247,247,248)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">The requested sales report should encompass the following vital elements:</span></p><ol start=\"1\" style=\"text-align:left; margin:1.25em 0px; list-style-position:initial; background-color:rgb(247,247,248)\"><li style=\"margin-top:0px; margin-bottom:0px; letter-spacing:normal; font-size:16px; font-weight:400; display:block; color:rgb(55,65,81)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">Total Sales Revenue</span> <div style=\"margin-top:0px; margin-bottom:0px; letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">Sales Breakdown by Product/Service</span></div><div style=\"margin-top:0px; margin-bottom:0px; letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">Region-Specific Sales Data</span></div><div style=\"margin-top:0px; margin-bottom:0px; letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">Sales Performance Trends (Month-to-Month or Quarter-to-Quarter)</span></div><div style=\"margin-top:0px; margin-bottom:0px; letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">Top-Performing Sales Representatives or Teams</span></div><div style=\"margin-top:0px; margin-bottom:0px; letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">Any Noteworthy Challenges or Opportunities Identified</span></div></li></ol><p style=\"text-align:left; margin:1.25em 0px; border-width:0px; border-style:solid; border-color:rgb(217,217,227); background-color:rgb(247,247,248)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">We require this report no later than [Insert Deadline]. It is essential that the data is both current and accurate. If you foresee any impediments to meeting this deadline or if you require any support, please do not hesitate to reach out to us immediately.</span></p><p style=\"text-align:left; margin:1.25em 0px; border-width:0px; border-style:solid; border-color:rgb(217,217,227); background-color:rgb(247,247,248)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">Our business depends on this information to make critical decisions, and your timely response is of utmost importance. We greatly value your dedication and commitment, and we extend our gratitude in advance for your cooperation.</span></p><p style=\"text-align:left; margin:1.25em 0px; border-width:0px; border-style:solid; border-color:rgb(217,217,227); background-color:rgb(247,247,248)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">Kindly confirm receipt of this email and provide an estimated timeframe for delivering the report. Should you encounter any difficulties or need further clarification, please feel free to contact me directly.</span></p><p style=\"text-align:left; margin:1.25em 0px; border-width:0px; border-style:solid; border-color:rgb(217,217,227); background-color:rgb(247,247,248)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">Thank you for your immediate attention to this matter.</span></p><p class=\"elementToProof\" style=\"text-align:left; margin:1.25em 0px; border-width:0px; border-style:solid; border-color:rgb(217,217,227); background-color:rgb(247,247,248)\"><span style=\"letter-spacing:normal; font-size:16px; font-weight:400; color:rgb(55,65,81)\">Best regards,</span></p></body></html>"
+            },
+            "sender": {
+                "emailAddress": {
+                    "name": "Deepakumar Ganeshamany | BISTEC Global",
+                    "address": "Deepakumar@bistecglobal.com"
+                }
+            },
+            "from": {
+                "emailAddress": {
+                    "name": "Deepakumar Ganeshamany | BISTEC Global",
+                    "address": "Deepakumar@bistecglobal.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Bhashitha Dhananjaya | BISTEC Global",
+                        "address": "bhashitha@bistecglobal.com"
+                    }
+                }
+            ],
+            "ccRecipients": [],
+            "bccRecipients": [],
+            "replyTo": [],
+            "flag": {
+                "flagStatus": "notFlagged"
+            }
         }
     ]
 }

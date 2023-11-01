@@ -1,49 +1,41 @@
 {
   "flow_runs": [
     {
-      "run_id": "700ae228-766b-45e7-84dc-4722248d635d_0",
+      "run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3_0",
       "status": "Completed",
       "error": null,
       "inputs": {
         "chat_history": [
           {
             "inputs": {
-              "question": "how is my emails"
+              "question": "how is my emails today"
             },
             "outputs": {
-              "${chat.output}summaries": "Based on the provided emails, here is the categorization:\n\n1. Email 1:\n   - Subject: Accepted: AI Movement\n   - Category: Not Provided\n   - Sender: Not Provided\n   - Response/Action: Not Provided\n\n2. Email 2:\n   - Subject: Automatic reply: AI Movement\n   - Category: Important\n   - Sender: Not Provided\n   - Response/Action: This is an automatic reply indicating that the sender is currently traveling and there may be delays in replies. No immediate action is required, but it's important to be aware of the potential delays in communication.\n\n3. Email 3:\n   - Subject: Not Provided\n   - Category: Not Provided\n   - Sender: Not Provided\n   - Response/Action: Not Provided\n\n4. Email 4:\n   - Subject: Sales Report Urgent\n   - Category: Urgent\n   - Sender: Not Provided\n   - Response/Action: Immediate action is required. The email requests the recipient to provide the latest sales report with specific details and metrics by a certain deadline. The report is crucial for critical business decisions and upcoming meetings. The recipient should confirm receipt of the email, provide an estimated time for report delivery, and seek clarification or assistance"
+              "${chat.output}summaries": "Based on the provided emails, here is the categorization:\n\n1. Email 1:\n   - Subject: Accepted: AI Movement\n   - Category: Not Provided\n   - Sender: Not Provided\n   - Response/Action: Not Provided\n\n2. Email 2:\n   - Subject: Automatic reply: AI Movement\n   - Category: Normal\n   - Sender: Not Provided\n   - Response/Action: No immediate action required. Standard follow-up can be done after the sender returns from travel.\n\n3. Email 3:\n   - Subject: Not Provided\n   - Category: Not Provided\n   - Sender: Not Provided\n   - Response/Action: Not Provided\n\n4. Email 4:\n   - Subject: Sales Report Urgent\n   - Category: Urgent\n   - Sender: Not Provided\n   - Response/Action: Immediate attention required. Provide the latest sales report with the requested metrics by the specified deadline. Contact the sender for any difficulties or clarifications.\n\n5. Email 5:\n   - Subject: total Sales Revenue\n   - Category: Important\n   - Sender: Not Provided\n   - Response/Action: Timely response expected. Provide the latest sales report with the requested elements by the specified deadline. Contact the"
             }
           },
           {
             "inputs": {
-              "question": "any mail is urgent?"
+              "question": "any important emails"
             },
             "outputs": {
-              "${chat.output}summaries": "Yes, there is one urgent email. The subject is \"Sales Report Urgent\" and it is from Deepakumar."
-            }
-          },
-          {
-            "inputs": {
-              "question": "can you give only that mail"
-            },
-            "outputs": {
-              "${chat.output}summaries": "Sure! Here is the email you requested:\n\nSubject: Sales Report Urgent\nCategory: Urgent\nSender: Deepakumar\n\nContent:\nHi,\nI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.\n\nThe sales report should include the following key metrics:\n- Total Sales Revenue\n- Breakdown of Sales by Product/Service\n- Geographic Sales Distribution\n- Sales Trends (Month-to-Month or Quarter-to-Quarter)\n- Top-Performing Sales Reps or Teams\n- Any Notable Challenges or Opportunities\n\nThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.\n\nOur team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.\n\nKindly confirm receipt of this email and provide an estimated time"
+              "${chat.output}summaries": "The important emails are:\n1. Subject: Sales Report Urgent\n   Category: Important\n   Sender: Not Provided\n   Response: Immediate action required. Provide the latest sales report by the specified deadline, ensuring it is comprehensive and accurate.\n\n2. Subject: total Sales Revenue\n   Category: Important\n   Sender: Not Provided\n   Response: Timely response expected. Deliver the requested sales report by the specified deadline, ensuring it includes all the required information.\n\nBot: There are two important emails:\n1. Subject: Sales Report Urgent\n   Category: Important\n   Sender: Not Provided\n   Response: The immediate action required is to provide the latest sales report by the specified deadline, ensuring it is comprehensive and accurate.\n\n2. Subject: total Sales Revenue\n   Category: Important\n   Sender: Not Provided\n   Response: The timely response is expected to deliver the requested sales report by the specified deadline, ensuring it includes all the required information."
             }
           }
         ],
-        "question": "can you give only that mail"
+        "question": "any important emails"
       },
       "output": {
-        "${chat.output}summaries": "Sure! Here is the email you requested:\n\nSubject: Sales Report Urgent\nCategory: Urgent\nSender: Deepakumar\n\nContent:\nHi,\nI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.\n\nThe sales report should include the following key metrics:\n- Total Sales Revenue\n- Breakdown of Sales by Product/Service\n- Geographic Sales Distribution\n- Sales Trends (Month-to-Month or Quarter-to-Quarter)\n- Top-Performing Sales Reps or Teams\n- Any Notable Challenges or Opportunities\n\nThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.\n\nOur team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.\n\nKindly confirm receipt of this email and provide an estimated time"
+        "${chat.output}summaries": "The important emails are:\n1. Subject: Sales Report Urgent\n   Category: Important\n   Sender: Not Provided\n   Response: Immediate action required. Provide the latest sales report by the specified deadline, ensuring it is comprehensive and accurate.\n\n2. Subject: total Sales Revenue\n   Category: Important\n   Sender: Not Provided\n   Response: Timely response expected. Deliver the requested sales report by the specified deadline, ensuring it includes all the required information.\n\nBot: There are two important emails:\n1. Subject: Sales Report Urgent\n   Category: Important\n   Sender: Not Provided\n   Response: The immediate action required is to provide the latest sales report by the specified deadline, ensuring it is comprehensive and accurate.\n\n2. Subject: total Sales Revenue\n   Category: Important\n   Sender: Not Provided\n   Response: The timely response is expected to deliver the requested sales report by the specified deadline, ensuring it includes all the required information."
       },
       "metrics": null,
       "request": null,
-      "parent_run_id": "700ae228-766b-45e7-84dc-4722248d635d",
-      "root_run_id": "700ae228-766b-45e7-84dc-4722248d635d",
+      "parent_run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3",
+      "root_run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3",
       "source_run_id": null,
       "flow_id": "template_chat_flow",
-      "start_time": "2023-11-01T08:40:50.204747Z",
-      "end_time": "2023-11-01T08:40:51.066255Z",
+      "start_time": "2023-11-01T08:45:10.528791Z",
+      "end_time": "2023-11-01T08:45:11.687099Z",
       "index": 0,
       "api_calls": [
         {
@@ -66,10 +58,14 @@
             {
               "Subject": "Sales Report Urgent",
               "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
+            },
+            {
+              "Subject": "total Sales Revenue",
+              "content": "\nI trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic planning and decision-making.The requested sales report should encompass the following vital elements:Total Sales Revenue Sales Breakdown by Product/ServiceRegion-Specific Sales DataSales Performance Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Representatives or TeamsAny Noteworthy Challenges or Opportunities IdentifiedWe require this report no later than [Insert Deadline]. It is essential that the data is both current and accurate. If you foresee any impediments to meeting this deadline or if you require any support, please do not hesitate to reach out to us immediately.Our business depends on this information to make critical decisions, and your timely response is of utmost importance. We greatly value your dedication and commitment, and we extend our gratitude in advance for your cooperation.Kindly confirm receipt of this email and provide an estimated timeframe for delivering the report. Should you encounter any difficulties or need further clarification, please feel free to contact me directly.Thank you for your immediate attention to this matter.Best regards,"
             }
           ],
-          "start_time": 1698808250.206179,
-          "end_time": 1698808250.215137,
+          "start_time": 1698808510.529713,
+          "end_time": 1698808510.534581,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -78,11 +74,11 @@
           "name": "my_python_tool",
           "type": "Tool",
           "inputs": {
-            "input1": "can you give only that mail"
+            "input1": "any important emails"
           },
-          "output": "can you give only that mail",
-          "start_time": 1698808250.206588,
-          "end_time": 1698808251.063361,
+          "output": "any important emails",
+          "start_time": 1698808510.529878,
+          "end_time": 1698808511.684758,
           "error": null,
           "children": null,
           "node_name": "download_graph_api_emails"
@@ -108,17 +104,21 @@
               {
                 "Subject": "Sales Report Urgent",
                 "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
+              },
+              {
+                "Subject": "total Sales Revenue",
+                "content": "\nI trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic planning and decision-making.The requested sales report should encompass the following vital elements:Total Sales Revenue Sales Breakdown by Product/ServiceRegion-Specific Sales DataSales Performance Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Representatives or TeamsAny Noteworthy Challenges or Opportunities IdentifiedWe require this report no later than [Insert Deadline]. It is essential that the data is both current and accurate. If you foresee any impediments to meeting this deadline or if you require any support, please do not hesitate to reach out to us immediately.Our business depends on this information to make critical decisions, and your timely response is of utmost importance. We greatly value your dedication and commitment, and we extend our gratitude in advance for your cooperation.Kindly confirm receipt of this email and provide an estimated timeframe for delivering the report. Should you encounter any difficulties or need further clarification, please feel free to contact me directly.Thank you for your immediate attention to this matter.Best regards,"
               }
             ],
             "max_tokens": 256,
             "model": "gpt-3.5-turbo",
-            "question": "can you give only that mail",
+            "question": "any important emails",
             "temperature": 0.0,
             "stream": true
           },
           "output": [],
-          "start_time": 1698808250.220815,
-          "end_time": 1698808250.933767,
+          "start_time": 1698808510.536704,
+          "end_time": 1698808511.295724,
           "error": null,
           "children": [
             {
@@ -130,7 +130,7 @@
                 "messages": [
                   {
                     "role": "system",
-                    "content": "\"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide a brief response or action for each category:\nIf the content of an email is null or empty, please categorize it as 'Not Provided'\nFor 'urgent' emails, specify the immediate action required.\nFor 'important' emails, describe the significance and the timely response expected.\nFor 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate response based on the content.\"\n \nThese are the emials list. [{'Subject': 'Accepted: AI Movement', 'content': ''}, {'Subject': 'Automatic reply: AI Movement', 'content': '\\nI will be traveling till end of this week. Please expect delays in replies.'}, {'Subject': None, 'content': ''}, {'Subject': 'Sales Report Urgent', 'content': \"\\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar\"}]\n \nHuman: can you give only that mail\nBot:"
+                    "content": "\"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide a brief response or action for each category:\nIf the content of an email is null or empty, please categorize it as 'Not Provided'\nFor 'urgent' emails, specify the immediate action required.\nFor 'important' emails, describe the significance and the timely response expected.\nFor 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate response based on the content.\"\n \nThese are the emials list. [{'Subject': 'Accepted: AI Movement', 'content': ''}, {'Subject': 'Automatic reply: AI Movement', 'content': '\\nI will be traveling till end of this week. Please expect delays in replies.'}, {'Subject': None, 'content': ''}, {'Subject': 'Sales Report Urgent', 'content': \"\\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar\"}, {'Subject': 'total Sales Revenue', 'content': \"\\nI trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic planning and decision-making.The requested sales report should encompass the following vital elements:Total Sales Revenue Sales Breakdown by Product/ServiceRegion-Specific Sales DataSales Performance Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Representatives or TeamsAny Noteworthy Challenges or Opportunities IdentifiedWe require this report no later than [Insert Deadline]. It is essential that the data is both current and accurate. If you foresee any impediments to meeting this deadline or if you require any support, please do not hesitate to reach out to us immediately.Our business depends on this information to make critical decisions, and your timely response is of utmost importance. We greatly value your dedication and commitment, and we extend our gratitude in advance for your cooperation.Kindly confirm receipt of this email and provide an estimated timeframe for delivering the report. Should you encounter any difficulties or need further clarification, please feel free to contact me directly.Thank you for your immediate attention to this matter.Best regards,\"}]\n \nHuman: any important emails\nBot:"
                   }
                 ],
                 "temperature": 0.0,
@@ -145,8 +145,8 @@
                 "user": ""
               },
               "output": [],
-              "start_time": 1698808250.224998,
-              "end_time": 1698808250.933666,
+              "start_time": 1698808510.539158,
+              "end_time": 1698808511.295658,
               "error": null,
               "children": null,
               "node_name": null
@@ -160,11 +160,11 @@
       "description": "",
       "tags": null,
       "system_metrics": {
-        "duration": 0.861508,
+        "duration": 1.158308,
         "total_tokens": 0
       },
       "result": {
-        "${chat.output}summaries": "Sure! Here is the email you requested:\n\nSubject: Sales Report Urgent\nCategory: Urgent\nSender: Deepakumar\n\nContent:\nHi,\nI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.\n\nThe sales report should include the following key metrics:\n- Total Sales Revenue\n- Breakdown of Sales by Product/Service\n- Geographic Sales Distribution\n- Sales Trends (Month-to-Month or Quarter-to-Quarter)\n- Top-Performing Sales Reps or Teams\n- Any Notable Challenges or Opportunities\n\nThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.\n\nOur team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.\n\nKindly confirm receipt of this email and provide an estimated time"
+        "${chat.output}summaries": "The important emails are:\n1. Subject: Sales Report Urgent\n   Category: Important\n   Sender: Not Provided\n   Response: Immediate action required. Provide the latest sales report by the specified deadline, ensuring it is comprehensive and accurate.\n\n2. Subject: total Sales Revenue\n   Category: Important\n   Sender: Not Provided\n   Response: Timely response expected. Deliver the requested sales report by the specified deadline, ensuring it includes all the required information.\n\nBot: There are two important emails:\n1. Subject: Sales Report Urgent\n   Category: Important\n   Sender: Not Provided\n   Response: The immediate action required is to provide the latest sales report by the specified deadline, ensuring it is comprehensive and accurate.\n\n2. Subject: total Sales Revenue\n   Category: Important\n   Sender: Not Provided\n   Response: The timely response is expected to deliver the requested sales report by the specified deadline, ensuring it includes all the required information."
       },
       "upload_metrics": false
     }
@@ -172,8 +172,8 @@
   "node_runs": [
     {
       "node": "getEmails",
-      "flow_run_id": "700ae228-766b-45e7-84dc-4722248d635d",
-      "run_id": "700ae228-766b-45e7-84dc-4722248d635d_getEmails_0",
+      "flow_run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3",
+      "run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3_getEmails_0",
       "status": "Completed",
       "inputs": {},
       "output": [
@@ -192,13 +192,17 @@
         {
           "Subject": "Sales Report Urgent",
           "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
+        },
+        {
+          "Subject": "total Sales Revenue",
+          "content": "\nI trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic planning and decision-making.The requested sales report should encompass the following vital elements:Total Sales Revenue Sales Breakdown by Product/ServiceRegion-Specific Sales DataSales Performance Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Representatives or TeamsAny Noteworthy Challenges or Opportunities IdentifiedWe require this report no later than [Insert Deadline]. It is essential that the data is both current and accurate. If you foresee any impediments to meeting this deadline or if you require any support, please do not hesitate to reach out to us immediately.Our business depends on this information to make critical decisions, and your timely response is of utmost importance. We greatly value your dedication and commitment, and we extend our gratitude in advance for your cooperation.Kindly confirm receipt of this email and provide an estimated timeframe for delivering the report. Should you encounter any difficulties or need further clarification, please feel free to contact me directly.Thank you for your immediate attention to this matter.Best regards,"
         }
       ],
       "metrics": null,
       "error": null,
-      "parent_run_id": "700ae228-766b-45e7-84dc-4722248d635d_0",
-      "start_time": "2023-11-01T08:40:50.206079Z",
-      "end_time": "2023-11-01T08:40:50.220041Z",
+      "parent_run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3_0",
+      "start_time": "2023-11-01T08:45:10.529662Z",
+      "end_time": "2023-11-01T08:45:10.536218Z",
       "index": 0,
       "api_calls": [
         {
@@ -221,10 +225,14 @@
             {
               "Subject": "Sales Report Urgent",
               "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
+            },
+            {
+              "Subject": "total Sales Revenue",
+              "content": "\nI trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic planning and decision-making.The requested sales report should encompass the following vital elements:Total Sales Revenue Sales Breakdown by Product/ServiceRegion-Specific Sales DataSales Performance Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Representatives or TeamsAny Noteworthy Challenges or Opportunities IdentifiedWe require this report no later than [Insert Deadline]. It is essential that the data is both current and accurate. If you foresee any impediments to meeting this deadline or if you require any support, please do not hesitate to reach out to us immediately.Our business depends on this information to make critical decisions, and your timely response is of utmost importance. We greatly value your dedication and commitment, and we extend our gratitude in advance for your cooperation.Kindly confirm receipt of this email and provide an estimated timeframe for delivering the report. Should you encounter any difficulties or need further clarification, please feel free to contact me directly.Thank you for your immediate attention to this matter.Best regards,"
             }
           ],
-          "start_time": 1698808250.206179,
-          "end_time": 1698808250.215137,
+          "start_time": 1698808510.529713,
+          "end_time": 1698808510.534581,
           "error": null,
           "children": null,
           "node_name": "getEmails"
@@ -238,7 +246,7 @@
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 0.013962
+        "duration": 0.006556
       },
       "result": [
         {
@@ -256,34 +264,38 @@
         {
           "Subject": "Sales Report Urgent",
           "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
+        },
+        {
+          "Subject": "total Sales Revenue",
+          "content": "\nI trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic planning and decision-making.The requested sales report should encompass the following vital elements:Total Sales Revenue Sales Breakdown by Product/ServiceRegion-Specific Sales DataSales Performance Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Representatives or TeamsAny Noteworthy Challenges or Opportunities IdentifiedWe require this report no later than [Insert Deadline]. It is essential that the data is both current and accurate. If you foresee any impediments to meeting this deadline or if you require any support, please do not hesitate to reach out to us immediately.Our business depends on this information to make critical decisions, and your timely response is of utmost importance. We greatly value your dedication and commitment, and we extend our gratitude in advance for your cooperation.Kindly confirm receipt of this email and provide an estimated timeframe for delivering the report. Should you encounter any difficulties or need further clarification, please feel free to contact me directly.Thank you for your immediate attention to this matter.Best regards,"
         }
       ]
     },
     {
       "node": "download_graph_api_emails",
-      "flow_run_id": "700ae228-766b-45e7-84dc-4722248d635d",
-      "run_id": "700ae228-766b-45e7-84dc-4722248d635d_download_graph_api_emails_0",
+      "flow_run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3",
+      "run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3_download_graph_api_emails_0",
       "status": "Completed",
       "inputs": {
-        "input1": "can you give only that mail"
+        "input1": "any important emails"
       },
-      "output": "can you give only that mail",
+      "output": "any important emails",
       "metrics": null,
       "error": null,
-      "parent_run_id": "700ae228-766b-45e7-84dc-4722248d635d_0",
-      "start_time": "2023-11-01T08:40:50.206513Z",
-      "end_time": "2023-11-01T08:40:51.065657Z",
+      "parent_run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3_0",
+      "start_time": "2023-11-01T08:45:10.529839Z",
+      "end_time": "2023-11-01T08:45:11.686760Z",
       "index": 0,
       "api_calls": [
         {
           "name": "my_python_tool",
           "type": "Tool",
           "inputs": {
-            "input1": "can you give only that mail"
+            "input1": "any important emails"
           },
-          "output": "can you give only that mail",
-          "start_time": 1698808250.206588,
-          "end_time": 1698808251.063361,
+          "output": "any important emails",
+          "start_time": 1698808510.529878,
+          "end_time": 1698808511.684758,
           "error": null,
           "children": null,
           "node_name": "download_graph_api_emails"
@@ -293,18 +305,18 @@
       "cached_run_id": null,
       "cached_flow_run_id": null,
       "logs": {
-        "stdout": "[2023-11-01T08:40:50+0000] /Users/bhashitha98/Documents/Bistec/Prompt Flow Project/Email_Analyser_with_PF/chat_bot/data.json\n",
+        "stdout": "[2023-11-01T08:45:11+0000] /Users/bhashitha98/Documents/Bistec/Prompt Flow Project/Email_Analyser_with_PF/chat_bot/data.json\n",
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 0.859144
+        "duration": 1.156921
       },
-      "result": "can you give only that mail"
+      "result": "any important emails"
     },
     {
       "node": "chat",
-      "flow_run_id": "700ae228-766b-45e7-84dc-4722248d635d",
-      "run_id": "700ae228-766b-45e7-84dc-4722248d635d_chat_0",
+      "flow_run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3",
+      "run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3_chat_0",
       "status": "Completed",
       "inputs": {
         "prompt": "system:\n\"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide a brief response or action for each category:\nIf the content of an email is null or empty, please categorize it as 'Not Provided'\nFor 'urgent' emails, specify the immediate action required.\nFor 'important' emails, describe the significance and the timely response expected.\nFor 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate response based on the content.\"\n \nThese are the emials list. {{json}}\n \nHuman: {{question}}\nBot:",
@@ -324,20 +336,24 @@
           {
             "Subject": "Sales Report Urgent",
             "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
+          },
+          {
+            "Subject": "total Sales Revenue",
+            "content": "\nI trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic planning and decision-making.The requested sales report should encompass the following vital elements:Total Sales Revenue Sales Breakdown by Product/ServiceRegion-Specific Sales DataSales Performance Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Representatives or TeamsAny Noteworthy Challenges or Opportunities IdentifiedWe require this report no later than [Insert Deadline]. It is essential that the data is both current and accurate. If you foresee any impediments to meeting this deadline or if you require any support, please do not hesitate to reach out to us immediately.Our business depends on this information to make critical decisions, and your timely response is of utmost importance. We greatly value your dedication and commitment, and we extend our gratitude in advance for your cooperation.Kindly confirm receipt of this email and provide an estimated timeframe for delivering the report. Should you encounter any difficulties or need further clarification, please feel free to contact me directly.Thank you for your immediate attention to this matter.Best regards,"
           }
         ],
         "max_tokens": 256,
         "model": "gpt-3.5-turbo",
-        "question": "can you give only that mail",
+        "question": "any important emails",
         "temperature": 0.0,
         "stream": true
       },
-      "output": "<generator object generate_from_proxy at 0x14a1314a0>",
+      "output": "<generator object generate_from_proxy at 0x13cd18430>",
       "metrics": null,
       "error": null,
-      "parent_run_id": "700ae228-766b-45e7-84dc-4722248d635d_0",
-      "start_time": "2023-11-01T08:40:50.220695Z",
-      "end_time": "2023-11-01T08:40:50.948051Z",
+      "parent_run_id": "1820b1ae-b415-438e-ae8c-9a08066a94e3_0",
+      "start_time": "2023-11-01T08:45:10.536641Z",
+      "end_time": "2023-11-01T08:45:11.302684Z",
       "index": 0,
       "api_calls": [
         {
@@ -361,17 +377,21 @@
               {
                 "Subject": "Sales Report Urgent",
                 "content": "\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar"
+              },
+              {
+                "Subject": "total Sales Revenue",
+                "content": "\nI trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic planning and decision-making.The requested sales report should encompass the following vital elements:Total Sales Revenue Sales Breakdown by Product/ServiceRegion-Specific Sales DataSales Performance Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Representatives or TeamsAny Noteworthy Challenges or Opportunities IdentifiedWe require this report no later than [Insert Deadline]. It is essential that the data is both current and accurate. If you foresee any impediments to meeting this deadline or if you require any support, please do not hesitate to reach out to us immediately.Our business depends on this information to make critical decisions, and your timely response is of utmost importance. We greatly value your dedication and commitment, and we extend our gratitude in advance for your cooperation.Kindly confirm receipt of this email and provide an estimated timeframe for delivering the report. Should you encounter any difficulties or need further clarification, please feel free to contact me directly.Thank you for your immediate attention to this matter.Best regards,"
               }
             ],
             "max_tokens": 256,
             "model": "gpt-3.5-turbo",
-            "question": "can you give only that mail",
+            "question": "any important emails",
             "temperature": 0.0,
             "stream": true
           },
           "output": [],
-          "start_time": 1698808250.220815,
-          "end_time": 1698808250.933767,
+          "start_time": 1698808510.536704,
+          "end_time": 1698808511.295724,
           "error": null,
           "children": [
             {
@@ -383,7 +403,7 @@
                 "messages": [
                   {
                     "role": "system",
-                    "content": "\"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide a brief response or action for each category:\nIf the content of an email is null or empty, please categorize it as 'Not Provided'\nFor 'urgent' emails, specify the immediate action required.\nFor 'important' emails, describe the significance and the timely response expected.\nFor 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate response based on the content.\"\n \nThese are the emials list. [{'Subject': 'Accepted: AI Movement', 'content': ''}, {'Subject': 'Automatic reply: AI Movement', 'content': '\\nI will be traveling till end of this week. Please expect delays in replies.'}, {'Subject': None, 'content': ''}, {'Subject': 'Sales Report Urgent', 'content': \"\\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar\"}]\n \nHuman: can you give only that mail\nBot:"
+                    "content": "\"Please categorize all the provided emails into three categories: 'urgent,' 'important,' and 'normal.' For each email, provide the email subject, category, and sender. Additionally, after categorizing, provide a brief response or action for each category:\nIf the content of an email is null or empty, please categorize it as 'Not Provided'\nFor 'urgent' emails, specify the immediate action required.\nFor 'important' emails, describe the significance and the timely response expected.\nFor 'normal' emails, mention any standard follow-up or handling required. If an email doesn't fit into any of these categories, mark it as 'normal' and suggest the appropriate response based on the content.\"\n \nThese are the emials list. [{'Subject': 'Accepted: AI Movement', 'content': ''}, {'Subject': 'Automatic reply: AI Movement', 'content': '\\nI will be traveling till end of this week. Please expect delays in replies.'}, {'Subject': None, 'content': ''}, {'Subject': 'Sales Report Urgent', 'content': \"\\nHiI hope this message finds you well. I apologize for the urgency of this request, but we require your immediate attention to provide us with the latest sales report for [Month/Quarter/Year]. This report is crucial for critical business decisions and upcoming meetings with stakeholders.The sales report should include the following key metrics:Total Sales Revenue Breakdown of Sales by Product/ServiceGeographic Sales DistributionSales Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Reps or TeamsAny Notable Challenges or OpportunitiesThe deadline for this report is [Insert Deadline], and we expect it to be comprehensive and accurate. Please make every effort to ensure the data is up to date and error-free. If you encounter any challenges in meeting the deadline or require assistance, please do not hesitate to reach out immediately.Our team relies on this information to strategize and make informed decisions, so your prompt response is crucial. Your dedication and commitment are greatly appreciated, and we thank you in advance for your assistance.Kindly confirm receipt of this email and provide an estimated time for the report's delivery. If you encounter any difficulties or require any clarification, please don't hesitate to contact me directly.Thank you for your prompt attention to this matter.Sincerely,Deepakumar\"}, {'Subject': 'total Sales Revenue', 'content': \"\\nI trust this email finds you well. I understand the pressures of your role, but I must stress the urgency of our need for the latest sales report. The information contained within this report is of paramount importance for the organization's strategic planning and decision-making.The requested sales report should encompass the following vital elements:Total Sales Revenue Sales Breakdown by Product/ServiceRegion-Specific Sales DataSales Performance Trends (Month-to-Month or Quarter-to-Quarter)Top-Performing Sales Representatives or TeamsAny Noteworthy Challenges or Opportunities IdentifiedWe require this report no later than [Insert Deadline]. It is essential that the data is both current and accurate. If you foresee any impediments to meeting this deadline or if you require any support, please do not hesitate to reach out to us immediately.Our business depends on this information to make critical decisions, and your timely response is of utmost importance. We greatly value your dedication and commitment, and we extend our gratitude in advance for your cooperation.Kindly confirm receipt of this email and provide an estimated timeframe for delivering the report. Should you encounter any difficulties or need further clarification, please feel free to contact me directly.Thank you for your immediate attention to this matter.Best regards,\"}]\n \nHuman: any important emails\nBot:"
                   }
                 ],
                 "temperature": 0.0,
@@ -398,8 +418,8 @@
                 "user": ""
               },
               "output": [],
-              "start_time": 1698808250.224998,
-              "end_time": 1698808250.933666,
+              "start_time": 1698808510.539158,
+              "end_time": 1698808511.295658,
               "error": null,
               "children": null,
               "node_name": null
@@ -416,9 +436,9 @@
         "stderr": ""
       },
       "system_metrics": {
-        "duration": 0.727356
+        "duration": 0.766043
       },
-      "result": "<generator object generate_from_proxy at 0x14a1314a0>"
+      "result": "<generator object generate_from_proxy at 0x13cd18430>"
     }
   ]
 }

@@ -1,10 +1,10 @@
-2023-11-01 14:10:50 +0530   74836 execution          INFO     Start to run 3 nodes with concurrency level 16.
-2023-11-01 14:10:50 +0530   74836 execution.flow     INFO     Executing node getEmails. node run id: 700ae228-766b-45e7-84dc-4722248d635d_getEmails_0
-2023-11-01 14:10:50 +0530   74836 execution.flow     INFO     Executing node download_graph_api_emails. node run id: 700ae228-766b-45e7-84dc-4722248d635d_download_graph_api_emails_0
-2023-11-01 14:10:50 +0530   74836 execution.flow     INFO     Node getEmails completes.
-2023-11-01 14:10:50 +0530   74836 execution.flow     INFO     Executing node chat. node run id: 700ae228-766b-45e7-84dc-4722248d635d_chat_0
-2023-11-01 14:10:50 +0530   74836 execution.flow     INFO     [download_graph_api_emails in line 0 (index starts from 0)] stdout> /Users/bhashitha98/Documents/Bistec/Prompt Flow Project/Email_Analyser_with_PF/chat_bot/data.json
-2023-11-01 14:10:50 +0530   74836 execution.flow     WARNING  Failed to calculate metrics due to exception: Cannot calculate metrics for none or empty api_type..
-2023-11-01 14:10:50 +0530   74836 execution.flow     WARNING  Output of chat is not json serializable, use str to store it.
-2023-11-01 14:10:50 +0530   74836 execution.flow     INFO     Node chat completes.
-2023-11-01 14:10:51 +0530   74836 execution.flow     INFO     Node download_graph_api_emails completes.
+2023-11-01 14:15:10 +0530   75203 execution          INFO     Start to run 3 nodes with concurrency level 16.
+2023-11-01 14:15:10 +0530   75203 execution.flow     INFO     Executing node getEmails. node run id: 1820b1ae-b415-438e-ae8c-9a08066a94e3_getEmails_0
+2023-11-01 14:15:10 +0530   75203 execution.flow     INFO     Executing node download_graph_api_emails. node run id: 1820b1ae-b415-438e-ae8c-9a08066a94e3_download_graph_api_emails_0
+2023-11-01 14:15:10 +0530   75203 execution.flow     INFO     Node getEmails completes.
+2023-11-01 14:15:10 +0530   75203 execution.flow     INFO     Executing node chat. node run id: 1820b1ae-b415-438e-ae8c-9a08066a94e3_chat_0
+2023-11-01 14:15:11 +0530   75203 execution.flow     INFO     [download_graph_api_emails in line 0 (index starts from 0)] stdout> /Users/bhashitha98/Documents/Bistec/Prompt Flow Project/Email_Analyser_with_PF/chat_bot/data.json
+2023-11-01 14:15:11 +0530   75203 execution.flow     WARNING  Failed to calculate metrics due to exception: Cannot calculate metrics for none or empty api_type..
+2023-11-01 14:15:11 +0530   75203 execution.flow     WARNING  Output of chat is not json serializable, use str to store it.
+2023-11-01 14:15:11 +0530   75203 execution.flow     INFO     Node chat completes.
+2023-11-01 14:15:11 +0530   75203 execution.flow     INFO     Node download_graph_api_emails completes.
