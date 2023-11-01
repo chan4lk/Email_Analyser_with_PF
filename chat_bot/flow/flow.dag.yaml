@@ -16,12 +16,6 @@ outputs:
     reference: ${getEmails.output}
     is_chat_output: true
 nodes:
-- name: getEmails
-  type: python
-  source:
-    type: code
-    path: getEmails.py
-  inputs: {}
 - name: chat
   type: llm
   source:
@@ -35,3 +29,9 @@ nodes:
     json: ${getEmails.output}
   connection: con_openAI
   api: chat
+- name: getEmails
+  type: python
+  source:
+    type: code
+    path: getEmails.py
+  inputs: {}
