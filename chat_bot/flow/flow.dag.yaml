@@ -5,26 +5,17 @@ environment:
 inputs:
   question:
     type: string
-    is_chat_input: true
-    default: ""
-    is_chat_history: false
+    is_chat_input: false
+    default: how is my emails today
   chat_history:
     type: list
-    is_chat_input: false
-    default: []
-    is_chat_history: true
+    is_chat_input: true
 outputs:
-  "${chat.output}summaries":
+  summaries:
     type: string
-    reference: ${chat.output}
+    reference: ${getEmails.output}
     is_chat_output: true
 nodes:
-- name: getEmails
-  type: python
-  source:
-    type: code
-    path: getEmails.py
-  inputs: {}
 - name: chat
   type: llm
   source:
@@ -36,12 +27,11 @@ nodes:
     model: gpt-3.5-turbo
     question: ${inputs.question}
     json: ${getEmails.output}
-  connection: AI_Key
+  connection: con_openAI
   api: chat
-- name: download_graph_api_emails
+- name: getEmails
   type: python
   source:
     type: code
-    path: downloadGraphApiEmail.py
-  inputs:
-    input1: ${inputs.question}
+    path: getEmails.py
+  inputs: {}
