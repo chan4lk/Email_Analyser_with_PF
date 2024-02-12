@@ -1,8 +1,10 @@
 from promptflow import tool
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
+
+path = "/Users/chandima/repos/Email_Analyser_with_PF/chat_bot/config.json"
 
 # The inputs section will change based on the arguments of the tool function, after you save the code
 # Adding type to arguments and return value will help the system show the types properly
@@ -11,7 +13,7 @@ import os
 def my_python_tool(input1: str) -> str:
 
   # Read the configuration file
-  with open('config.json', 'r') as config_file:
+  with open(path, 'r') as config_file:
     config = json.load(config_file)
 
   # Read Grapy API Configuration
@@ -54,7 +56,8 @@ def get_daily_emails(graph_api_endpoint,client_id, client_secret, redirect_uri, 
 
     # Define the date range for daily emails (change as needed)
     today = datetime.now()
-    start_date = today.strftime('%Y-%m-%dT00:00:00Z')
+    start_date = datetime.today() - timedelta(days=1)
+    start_date = start_date.strftime('%Y-%m-%dT00:00:00Z')
     end_date = today.strftime('%Y-%m-%dT23:59:59Z')
     params = {
         '$filter': f'receivedDateTime ge {start_date} and receivedDateTime le {end_date}',
@@ -101,14 +104,14 @@ def get_graph_api_accessToken(tenant_id, client_id, client_secret, redirect_uri)
         access_token = response.json().get("access_token", "")
         #print("Access token:", access_token)
 
-        with open('config.json', 'r') as config_file:
+        with open(path, 'r') as config_file:
           config = json.load(config_file)
 
         # Update the access_token field in the configuration
         config["access_token"] = access_token
 
         # Save the updated configuration back to the file
-        with open('config.json', 'w') as config_file:
+        with open(path, 'w') as config_file:
             json.dump(config, config_file, indent=4)
 
         #print("Access token has been saved to the configuration file.")

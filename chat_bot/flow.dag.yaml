@@ -14,7 +14,7 @@ inputs:
     default: []
     is_chat_history: true
 outputs:
-  "${chat.output}summaries":
+  ${chat.output}summaries:
     type: string
     reference: ${chat.output}
     is_chat_output: true
